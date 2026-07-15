@@ -3,21 +3,21 @@
         "headerInfo": [
             {
                 "id": 1,
-                "icon": "icofont-clock-time",
-                "title": "working hours",
-                "info": "MON - FRI: 9.00 - 21.00"
+                "icon": "icofont-calendar",
+                "title": "Dates",
+                "info": "10 – 12 sept. 2026"
             },
             {
                 "id": 2,
                 "icon": "icofont-ui-call",
-                "title": "hotline 24/7",
-                "info": "+0123-45-67-890"
+                "title": "Téléphone",
+                "info": "(+225) 07 49 800 376"
             },
             {
                 "id": 3,
                 "icon": "icofont-envelope",
-                "title": "email us",
-                "info": "demo@yourmail.com"
+                "title": "Courriel",
+                "info": "infos@gram.ci"
             }
         ]
     },
@@ -25,15 +25,27 @@
         "slider": [
             {
                 "id": 1,
-                "backgroundImage": "./img/slider/slide1.jpg",
-                "subTitle": "feel the difference with us",
-                "title": "Your Health <span>Is</span><span class='d-block'>Our Priority</span>"
+                "backgroundImage": "https://orangered-dunlin-201757.hostingersite.com/wp-content/uploads/2022/01/sinformer.jpg",
+                "subTitle": "4ème édition",
+                "title": "Journées Africaines de <span>Cardiologie</span><span class='d-block'>Interventionnelle</span>",
+                "primaryBtn": { "text": "S'inscrire", "path": "/inscription" },
+                "secondaryBtn": { "text": "Découvrir le programme", "path": "/programme" }
             },
             {
                 "id": 2,
-                "backgroundImage": "./img/slider/slide2.jpg",
-                "subTitle": "feel the difference with us",
-                "title": "Your Health <span>Is</span><span class='d-block'>Our Priority</span>"
+                "backgroundImage": "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "subTitle": "Innovations en cardiologie interventionnelle en Afrique",
+                "title": "10, 11 et 12 septembre 2026<span class='d-block'><span>Noom Hôtel, Abidjan</span></span>",
+                "primaryBtn": { "text": "S'inscrire", "path": "/inscription" },
+                "secondaryBtn": { "text": "Le Congrès", "path": "/congres" }
+            },
+            {
+                "id": 3,
+                "backgroundImage": "https://s.rfi.fr/media/display/0813e68e-ec95-11f0-8045-005056a97e36/w:1024/p:16x9/coeur-maladies-cardiovasculaires-afrique-pr%C3%A9vention.jpg",
+                "subTitle": "Prévention & santé cardiovasculaire",
+                "title": "Ensemble contre les <span>maladies</span><span class='d-block'>cardiovasculaires</span>",
+                "primaryBtn": { "text": "S'inscrire", "path": "/inscription" },
+                "secondaryBtn": { "text": "Voir le programme", "path": "/programme" }
             }
         ]
     },
@@ -41,21 +53,21 @@
         "healthFeature": [
             {
                 "id": 1,
-                "icon": "icon icofont-stethoscope-alt",
-                "title": "Diagnose",
-                "subTitle": "Examination & Diagnosis"
+                "icon": "icon icofont-heart-beat",
+                "title": "Le Congrès",
+                "subTitle": "Comprendre les JAFCI, leur histoire et leur lieu"
             },
             {
                 "id": 2,
-                "icon": "icon icofont-brain-alt",
-                "title": "Treatment",
-                "subTitle": "Treatment of the disease"
+                "icon": "icon icofont-ui-calendar",
+                "title": "Programme",
+                "subTitle": "Trois journées scientifiques et les intervenants"
             },
             {
                 "id": 3,
-                "icon": "icon icofont-paralysis-disability",
-                "title": "Care Healthy",
-                "subTitle": "Care and recuperation"
+                "icon": "icon icofont-checked",
+                "title": "Inscription",
+                "subTitle": "Rejoignez la communauté à Abidjan"
             }
         ]
     },
@@ -63,39 +75,39 @@
         "medicalFeature": [
             {
                 "id": 1,
-                "icon": "icofont-prescription",
-                "title": "Medical Counseling",
-                "excerpt": "Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus"
+                "icon": "icofont-flag-alt-1",
+                "title": "4ème édition",
+                "excerpt": "Rendez-vous scientifique de référence depuis 2018, tous les deux ans à Abidjan."
             },
             {
                 "id": 2,
-                "icon": "icofont-doctor-alt",
-                "title": "Top Level Doctors",
-                "excerpt": "Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus"
+                "icon": "icofont-globe",
+                "title": "17+ pays",
+                "excerpt": "Praticiens, chercheurs et industriels venus de toute l'Afrique et d'ailleurs."
             },
             {
                 "id": 3,
-                "icon": "icofont-microscope",
-                "title": "Medical Facilites",
-                "excerpt": "Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus"
+                "icon": "icofont-users-alt-3",
+                "title": "500+ participants",
+                "excerpt": "Participants attendus pour cette édition 2026 (chiffre provisoire)."
             },
             {
                 "id": 4,
-                "icon": "icofont-ambulance-cross",
-                "title": "24 Hours Services",
-                "excerpt": "Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus"
+                "icon": "icofont-calendar",
+                "title": "3 journées",
+                "excerpt": "Du 10 au 12 septembre 2026 au Noom Hôtel, Plateau, Abidjan."
             },
             {
                 "id": 5,
-                "icon": "icofont-blood",
-                "title": "Personal Services",
-                "excerpt": "Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus"
+                "icon": "icofont-microscope",
+                "title": "Innovations",
+                "excerpt": "Techniques de pointe, transfert de compétences et centres d'excellence."
             },
             {
                 "id": 6,
-                "icon": "icofont-paralysis-disability",
-                "title": "Dedicated Patient Care",
-                "excerpt": "Lorem ipsum dolor sit amet, consect adipisicing elit vero. Donec ultri sollicitudin lacus"
+                "icon": "icofont-heart-beat",
+                "title": "Impact clinique",
+                "excerpt": "Partage d'expériences pour faire progresser la prise en charge cardiovasculaire."
             }
         ]
     },
@@ -104,20 +116,38 @@
             {
                 "id": 1,
                 "image": "./img/team/01.jpg",
-                "name": "Dr. Helen Willmore",
-                "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sapi euismod, auctor orci ut."
+                "name": "Intervenant à confirmer",
+                "excerpt": "Conférencier · Pays à confirmer"
             },
             {
                 "id": 2,
                 "image": "./img/team/02.jpg",
-                "name": "Dr. Robert David",
-                "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sapi euismod, auctor orci ut."
+                "name": "Intervenant à confirmer",
+                "excerpt": "Président de session · Pays à confirmer"
             },
             {
                 "id": 3,
                 "image": "./img/team/03.jpg",
-                "name": "Dr. Kristina Castle",
-                "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sapi euismod, auctor orci ut."
+                "name": "Intervenant à confirmer",
+                "excerpt": "Modérateur · Pays à confirmer"
+            },
+            {
+                "id": 4,
+                "image": "./img/team/01.jpg",
+                "name": "Intervenant à confirmer",
+                "excerpt": "Conférencier · Pays à confirmer"
+            },
+            {
+                "id": 5,
+                "image": "./img/team/02.jpg",
+                "name": "Intervenant à confirmer",
+                "excerpt": "Expert · Pays à confirmer"
+            },
+            {
+                "id": 6,
+                "image": "./img/team/03.jpg",
+                "name": "Intervenant à confirmer",
+                "excerpt": "Paneliste · Pays à confirmer"
             }
         ]
     },
@@ -125,17 +155,17 @@
         "testimonial": [
             {
                 "id": 1,
-                "image": "./img/testimonial/01.jpg",
-                "excerpt": "“It’s been an absolute pleasure to work with hope, <br /> their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.”",
-                "name": "Steven Gerrard",
-                "location": "Golden Lotus Apartment, Brooklyn, USA"
+                "image": "./img/about/president-nguetta.png",
+                "excerpt": "« Les JAFCI incarnent un moment unique de réflexion, d'échanges et de progrès dans notre lutte contre les maladies cardiovasculaires. »",
+                "name": "Professeur Roland N'GUETTA",
+                "location": "Président du GRAM et du Comité d'Organisation"
             },
             {
                 "id": 2,
-                "image": "./img/testimonial/02.jpg",
-                "excerpt": "“It’s been an absolute pleasure to work with hope, <br /> their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.”",
-                "name": "Kristina Castle",
-                "location": "Golden Lotus Apartment, HasThemes, BNA"
+                "image": "./img/about/president-nguetta.png",
+                "excerpt": "« Ensemble, faisons de ces journées un tournant décisif pour la santé cardiovasculaire en Afrique. »",
+                "name": "Professeur Roland N'GUETTA",
+                "location": "Président du Comité d'Organisation — JAFCI 2026"
             }
         ]
     },
@@ -164,65 +194,19 @@
         ]
     },
     {
-        "pricing": [
-            {
-                "id": 1,
-                "classOption": "pricing-item item-one",
-                "title": "Trial",
-                "price": "<h2><sup>$</sup>5</h2><span class='period'>/ month</span>",
-                "excerpt": "Free with 14 days trial, then you can choose plan",
-                "pricingList": ["1 Cleaners", "Floor Cleaning", "2 Rooms"],
-                "btnClassOption": "btn-theme btn-border"
-            },
-            {
-                "id": 2,
-                "classOption": "pricing-item item-two",
-                "title": "Standard",
-                "price": "<h2><sup>$</sup>29</h2><span class='period'>/ month</span>",
-                "excerpt": "Free with 14 days trial, then you can choose plan",
-                "pricingList": ["3 Cleaners", "All House Cleaning", "All Rooms", "Equipment Cleaning"],
-                "btnClassOption": "btn-theme btn-border active"
-            },
-            {
-                "id": 3,
-                "classOption": "pricing-item item-three",
-                "title": "premium",
-                "price": "<h2><sup>$</sup>59</h2><span class='period'>/ month</span>",
-                "excerpt": "Free with 14 days trial, then you can choose plan",
-                "pricingList": ["2 Cleaners", "Normal Clean", "3 Rooms"],
-                "btnClassOption": "btn-theme btn-border"
-            },
-            {
-                "id": 4,
-                "classOption": "pricing-item item-four",
-                "title": "Ultimate",
-                "price": "<h2><sup>$</sup>99</h2><span class='period'>/ month</span>",
-                "excerpt": "Free with 14 days trial, then you can choose plan",
-                "pricingList": ["5 Cleaners", "All Office Cleaning", "All Rooms", "Equipments Cleaning", "Exterior Glasses"],
-                "btnClassOption": "btn-theme btn-border"
-            }
-        ]
+        "pricing": []
     },
     {
-        "cases": [
-            {
-                "id": 1,
-                "image": "img/cases/01.jpg",
-                "name": "Natalie Huston",
-                "department": "Teeth Cleaning, High-tech materials"
-            },
-            {
-                "id": 2,
-                "image": "img/cases/02.jpg",
-                "name": "Angela Mayer",
-                "department": "Teeth Cleaning"
-            },
-            {
-                "id": 3,
-                "image": "img/cases/01.jpg",
-                "name": "Natalie Huston",
-                "department": "Teeth Cleaning, High-tech materials"
-            }
-        ]
+        "cases": []
+    },
+    {
+        "congresBref": {
+            "subTitle": "Le congrès en bref",
+            "title": "<span>JAFCI</span> depuis 2018",
+            "excerpt": [
+                "Les Journées Africaines de Cardiologie Interventionnelle (JAFCI) constituent, depuis 2018, le rendez-vous scientifique de référence de la cardiologie interventionnelle africaine. Tous les deux ans, elles réunissent à Abidjan praticiens, chercheurs, industriels et étudiants venus de toute l'Afrique et d'ailleurs, autour du partage d'expériences et des innovations qui font progresser la prise en charge des maladies cardiovasculaires sur le continent.",
+                "Pour cette quatrième édition, le thème retenu — Innovations en cardiologie interventionnelle en Afrique — place la technologie et le transfert de compétences au cœur des échanges."
+            ]
+        }
     }
 ]

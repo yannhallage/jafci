@@ -2,13 +2,23 @@ import Button from "../button";
 import PropTypes from "prop-types";
 
 const Intro = ({ data }) => {
+    const primary = data.primaryBtn || {
+        text: "S'inscrire",
+        path: "/inscription",
+    };
+    const secondary = data.secondaryBtn || {
+        text: "Découvrir le programme",
+        path: "/programme",
+    };
+    const backgroundImage = /^https?:\/\//i.test(data.backgroundImage)
+        ? data.backgroundImage
+        : process.env.PUBLIC_URL + data.backgroundImage;
+
     return (
         <div
             className="intro-section"
             style={{
-                backgroundImage: `url(${
-                    process.env.PUBLIC_URL + data.backgroundImage
-                })`,
+                backgroundImage: `url(${backgroundImage})`,
             }}
         >
             <div className="container">
@@ -23,14 +33,14 @@ const Intro = ({ data }) => {
                                 dangerouslySetInnerHTML={{ __html: data.title }}
                             />
                             <Button
-                                path={process.env.PUBLIC_URL + "/"}
+                                path={primary.path}
                                 classOption="btn btn-danger me-3 animated delay1"
-                                text="Get a quote"
+                                text={primary.text}
                             />
                             <Button
-                                path={process.env.PUBLIC_URL + "/"}
+                                path={secondary.path}
                                 classOption="btn btn-outline-secondary animated delay2"
-                                text="our services"
+                                text={secondary.text}
                             />
                         </div>
                     </div>

@@ -7,7 +7,7 @@ const Logo = ({ image, classOption }) => {
             <img
                 className="sticky-img"
                 src={process.env.PUBLIC_URL + image}
-                alt="Logo"
+                alt="JAFCI"
             />
         </Link>
     );

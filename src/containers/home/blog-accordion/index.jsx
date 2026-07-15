@@ -10,7 +10,7 @@ const BlogAccordion = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <SectionTitle title="<span>Tips &amp;</span> Tricks" />
+                        <SectionTitle title="<span>Actualités</span> &amp; articles" />
                         <div
                             className="post-items-style1"
                             data-aos="fade-up"
@@ -21,11 +21,17 @@ const BlogAccordion = () => {
                                     return <BlogList key={key} data={single} />;
                                 })}
                         </div>
+                        <Link
+                            className="btn-line"
+                            to={process.env.PUBLIC_URL + "/blog"}
+                        >
+                            Voir le blog
+                        </Link>
                     </div>
                     <div className="col-lg-6">
                         <SectionTitle
                             classOption="mt-md-70"
-                            title="<span>FAQs</span>"
+                            title="<span>Aperçu</span> du programme"
                         />
                         <div
                             className="accordian-content"
@@ -33,8 +39,11 @@ const BlogAccordion = () => {
                             data-aos-duration="1100"
                         >
                             <AccordionWrap />
-                            <Link className="btn-line" to="/">
-                                View All Questions
+                            <Link
+                                className="btn-line"
+                                to={process.env.PUBLIC_URL + "/programme"}
+                            >
+                                Programme complet
                             </Link>
                         </div>
                     </div>

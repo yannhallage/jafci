@@ -8,12 +8,19 @@
             "mediumImage": "./img/blog/m01.jpg",
             "largeImage": "img/blog/post-detail-01.jpg"
         },
-        "title": "Problems About Social Insurance For Truck Drivers",
-        "author": "Admin",
-        "date": "Decmber 14th, 2021",
-        "categories": ["Business"],
-        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
-        "body": ["<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” <br />We know self-censoring by many names. Carl Jung called it our “inner critic.” <br />Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed</p>", "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />", "<h4>Gathered Was Isn’t Fruitful Every</h4>", "<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him.Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>","<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>", "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"]
+        "title": "JAFCI 2026 : ce qui vous attend pour cette quatrième édition",
+        "author": "Comité JAFCI",
+        "date": "15 juin 2026",
+        "categories": ["Actualités JAFCI"],
+        "tags": ["JAFCI", "Abidjan", "Congrès", "2026"],
+        "body": [
+            "<p>Les Journées Africaines de Cardiologie Interventionnelle reviennent à Abidjan du 10 au 12 septembre 2026, au Noom Hôtel. Pour cette quatrième édition, le thème retenu — <strong>Innovations en cardiologie interventionnelle en Afrique</strong> — place la technologie et le transfert de compétences au cœur des échanges.</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='JAFCI 2026' />",
+            "<h4>Trois journées scientifiques</h4>",
+            "<p>Au programme : interventions en salles de cathétérisme avec retransmission live, conférences, symposiums, ateliers, panels d'experts, ainsi qu'une journée dédiée au dépistage et à la prévention grand public.</p>",
+            "<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>«</span> Depuis 2018, les JAFCI incarnent un moment unique de réflexion et de progrès dans la lutte contre les maladies cardiovasculaires.</p></blockquote></div>",
+            "<p>Inscrivez-vous dès maintenant pour rejoindre la communauté de la cardiologie interventionnelle africaine à Abidjan.</p>"
+        ]
     },
     {
         "id": 2,
@@ -24,12 +31,18 @@
             "mediumImage": "./img/blog/m02.jpg",
             "largeImage": "img/blog/post-detail-01.jpg"
         },
-        "title": "5 Secrets To Coaching Your Employees To Greatness",
-        "author": "Torres",
-        "date": "Sep 17th, 2021",
-        "categories": ["News"],
-        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
-        "body": ["<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” <br />We know self-censoring by many names. Carl Jung called it our “inner critic.” <br />Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed</p>", "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />", "<h4>Gathered Was Isn’t Fruitful Every</h4>", "<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him.Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>","<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>", "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"]
+        "title": "Les premières TAVI de Côte d'Ivoire : un tournant historique",
+        "author": "Comité JAFCI",
+        "date": "10 juin 2026",
+        "categories": ["Innovations"],
+        "tags": ["TAVI", "Côte d'Ivoire", "Innovations", "Cardiologie"],
+        "body": [
+            "<p>Les premières procédures TAVI (remplacement valvulaire aortique par voie percutanée) réalisées en Côte d'Ivoire marquent un tournant historique pour la cardiologie interventionnelle nationale et régionale.</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='TAVI Côte dIvoire' />",
+            "<h4>Une innovation accessible</h4>",
+            "<p>Longtemps réservées à quelques centres dans le monde, ces techniques de pointe deviennent progressivement accessibles en Afrique, portées par des équipes locales formées aux standards internationaux.</p>",
+            "<p>Les JAFCI 2026 offrront un espace privilégié pour partager ces avancées et accélérer le transfert de compétences sur le continent.</p>"
+        ]
     },
     {
         "id": 3,
@@ -40,12 +53,17 @@
             "mediumImage": "./img/blog/m03.jpg",
             "largeImage": "img/blog/post-detail-01.jpg"
         },
-        "title": "5 Steps To Build Strategy Planning",
-        "author": "Admin",
-        "date": "May 15th, 2021",
-        "categories": ["Business"],
-        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
-        "body": ["<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” <br />We know self-censoring by many names. Carl Jung called it our “inner critic.” <br />Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed</p>", "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />", "<h4>Gathered Was Isn’t Fruitful Every</h4>", "<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him.Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>","<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>", "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"]
+        "title": "Qu'est-ce que la cardiologie interventionnelle ?",
+        "author": "Comité JAFCI",
+        "date": "1 juin 2026",
+        "categories": ["Prévention"],
+        "tags": ["Pédagogie", "Cardiologie", "Prévention"],
+        "body": [
+            "<p>La cardiologie interventionnelle regroupe les techniques mini-invasives permettant de diagnostiquer et de traiter les affections cardiovasculaires sans chirurgie à cœur ouvert.</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='Cardiologie interventionnelle' />",
+            "<h4>Un levier de santé publique</h4>",
+            "<p>En Afrique subsaharienne, elle constitue un outil indispensable pour réduire la mortalité cardiovasculaire. Les JAFCI se veulent le creuset du partage d'expériences et de l'évaluation de ces techniques sur le continent.</p>"
+        ]
     },
     {
         "id": 4,
@@ -56,12 +74,15 @@
             "mediumImage": "./img/blog/m04.jpg",
             "largeImage": "img/blog/post-detail-01.jpg"
         },
-        "title": "The Desolate Beauty  of Greenland",
-        "author": "Garza",
-        "date": "Feb 21th, 2021",
-        "categories": ["Tips & tricks"],
-        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
-        "body": ["<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” <br />We know self-censoring by many names. Carl Jung called it our “inner critic.” <br />Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed</p>", "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />", "<h4>Gathered Was Isn’t Fruitful Every</h4>", "<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him.Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>","<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>", "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"]
+        "title": "Innovations 2026 : les techniques qui transforment la cardiologie africaine",
+        "author": "Comité JAFCI",
+        "date": "20 mai 2026",
+        "categories": ["Innovations"],
+        "tags": ["Innovations", "Afrique", "Techniques"],
+        "body": [
+            "<p>Nouvelles techniques interventionnelles, structuration de centres régionaux d'excellence, partenariats stratégiques avec les leaders mondiaux du secteur : autant de leviers au cœur du thème JAFCI 2026.</p>",
+            "<p>Cette édition mettra l'accent sur les conditions d'un accès élargi des populations africaines à ces innovations thérapeutiques.</p>"
+        ]
     },
     {
         "id": 5,
@@ -72,11 +93,15 @@
             "mediumImage": "./img/blog/m05.jpg",
             "largeImage": "img/blog/post-detail-01.jpg"
         },
-        "title": "Trend Of Consumer Market 2021",
-        "author": "Karen",
-        "date": "Apr 14th, 2021",
-        "categories": ["News"],
-        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
-        "body": ["<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” <br />We know self-censoring by many names. Carl Jung called it our “inner critic.” <br />Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed</p>", "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />", "<h4>Gathered Was Isn’t Fruitful Every</h4>", "<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him.Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>","<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>", "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"]
+        "title": "Pourquoi participer aux JAFCI ?",
+        "author": "Comité JAFCI",
+        "date": "5 mai 2026",
+        "categories": ["Actualités JAFCI"],
+        "tags": ["Inscription", "JAFCI", "Abidjan"],
+        "body": [
+            "<p>Rejoindre les JAFCI, c'est participer au rendez-vous scientifique de référence de la cardiologie interventionnelle africaine : échanges entre praticiens, chercheurs, industriels et étudiants, live cases, ateliers et prévention grand public.</p>",
+            "<p>L'inscription se fait en ligne en quelques minutes. Après validation, vous recevrez une confirmation par courriel avec les modalités pratiques.</p>",
+            "<p><a href='/inscription'>S'inscrire maintenant →</a></p>"
+        ]
     }
 ]

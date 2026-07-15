@@ -3,6 +3,7 @@ import SwiperCore, { Pagination } from "swiper";
 import HomeData from "../../../data/home.json";
 import Team from "../../../components/team";
 import SectionTitle from "../../../components/section-title";
+import Button from "../../../components/button";
 
 SwiperCore.use([Pagination]);
 const TeamContainer = () => {
@@ -41,8 +42,8 @@ const TeamContainer = () => {
                     <div className="col-lg-12">
                         <SectionTitle
                             classOption="text-center"
-                            subTitle="Meet Our Docots"
-                            title="<span>Professional &amp;</span> Enthusiastic"
+                            subTitle="Intervenants à la une"
+                            title="<span>Experts</span> &amp; conférenciers"
                         />
                     </div>
                 </div>
@@ -65,6 +66,13 @@ const TeamContainer = () => {
                                     );
                                 })}
                         </Swiper>
+                        <div className="text-center mt-4">
+                            <Button
+                                path="/programme"
+                                classOption="btn btn-theme"
+                                text="Tous les intervenants"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

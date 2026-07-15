@@ -43,4 +43,26 @@
       display: none;
     }
   }
+
+  &.feature-section-jafci {
+    padding-bottom: 100px;
+    overflow: hidden;
+
+    .section-title {
+      margin-bottom: 50px;
+    }
+
+    .feature-side-image {
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      @media #{$md-device, $sm-device, $xs-device} {
+        margin-top: 30px;
+      }
+    }
+  }
 }

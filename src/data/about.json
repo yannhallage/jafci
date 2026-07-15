@@ -1,24 +1,32 @@
 [
     {
         "id": 1,
-        "pageTitle": "We make digital products and help organistation big and small connect with their audience."
+        "pageTitle": "Les Journées Africaines de Cardiologie Interventionnelle (JAFCI) — comprendre l'événement, son thème, son histoire et le lieu qui l'accueille."
     },
     {
         "id": 2,
-        "title": "Services",
-        "excerpt": ["<p class='text-block'>It was a big, round room with a high arched roof, and the walls and ceiling and floor were covered with large emeralds set closely together.</p>", "<p>In a word, the whale was seized and sold, and his Grace the Duke of Wellington received the money. Thinking that viewed in some particular lights, the case might by a bare possibility in some small degree be deemed, under the circumstances, a rather hard one, an honest clergyman of the town addressed a note to his Grace.</p>"]
+        "title": "Présentation et résumé du projet",
+        "excerpt": [
+            "<p class='text-block'>La cardiologie interventionnelle est en plein essor en Afrique subsaharienne. Elle constitue un outil indispensable dans la prise en charge des affections cardiovasculaires. Les techniques interventionnelles doivent être évaluées à travers des échanges et un partage d'expérience, afin d'en faire un véritable levier de réduction de la mortalité cardiovasculaire sur le continent. La sensibilisation des populations à la prévention des affections cardiovasculaires est tout aussi primordiale.</p>",
+            "<p>Face aux difficultés de notre sous-région à développer les compétences et le plateau technique nécessaires à un véritable essor de la cardiologie interventionnelle, il est essentiel de mettre en commun l'ensemble des expertises disponibles, afin d'évaluer les opportunités et de les exploiter efficacement. Les Journées Africaines de Cardiologie Interventionnelle (JAFCI) se veulent le creuset de cette initiative.</p>",
+            "<p>Les premières JAFCI se sont tenues les 16 et 17 novembre 2018 à Abidjan, en Côte d'Ivoire, au complexe hôtelier Heden Golf Hôtel. Elles se tiennent régulièrement tous les deux ans depuis lors.</p>"
+        ]
     },
     {
         "id": 3,
-        "title": "Our center",
-        "excerpt": ["<p>It was shaped like a chair and sparkled with gems, as did everything else. In the center of the chair was an enormous Head, without a body to support it or any arms or legs whatever.</p>"]
+        "title": "Le thème 2026",
+        "excerpt": [
+            "<p><strong>Innovations en cardiologie interventionnelle en Afrique</strong></p>",
+            "<p>Cette quatrième édition met à l'honneur les innovations qui transforment la cardiologie interventionnelle sur le continent africain. Des techniques de pointe, longtemps réservées à quelques centres dans le monde, deviennent progressivement accessibles en Afrique, portées par des équipes locales formées aux standards internationaux et par des partenariats stratégiques avec les leaders mondiaux du secteur.</p>",
+            "<p>Au programme des échanges : les nouvelles techniques interventionnelles, le transfert de compétences, la structuration de centres régionaux d'excellence, et les conditions d'un accès élargi de nos populations à ces innovations thérapeutiques.</p>"
+        ]
     },
     {
         "id": 4,
         "gallery": {
-            "imageOne": "img/about/01.jpg",
-            "imageTwo": "img/about/02.jpg",
-            "imageThree": "img/about/03.jpg"
+            "imageOne": "img/photos/stethoscope-tension.png",
+            "imageTwo": "img/photos/moniteur-philips.png",
+            "imageThree": "img/photos/coeur-reseau.png"
         }
     },
     {
@@ -26,14 +34,79 @@
         "address": [
             {
                 "id": 1,
-                "title": "Melbourne",
-                "list": ["258 New Design St, VIC 10000, Austria", "+0900 8618 3725 69", "hello@hope.com"]
+                "title": "Noom Hôtel Abidjan Plateau",
+                "list": [
+                    "Plateau, Abidjan, Côte d'Ivoire",
+                    "(+225) 07 49 800 376",
+                    "infos@gram.ci"
+                ]
             },
             {
                 "id": 2,
-                "title": "Newyork",
-                "list": ["3rd Floor, 692 Orchard St, NY 10000, Newyork", "+04200 4739 6899 6880", "office@hope.com"]
+                "title": "Comité d'Organisation",
+                "list": [
+                    "GRAM — Site : www.gram.ci",
+                    "Courriel : infos@gram.ci",
+                    "Téléphone : (+225) 07 49 800 376"
+                ]
             }
         ]
+    },
+    {
+        "id": 6,
+        "president": {
+            "title": "Le mot du Président",
+            "image": "img/about/president-nguetta.png",
+            "quote": "C'est avec un engagement renouvelé que nous accueillons à Abidjan la quatrième édition des Journées Africaines de Cardiologie Interventionnelle. Depuis leur création en 2018, ces journées incarnent un moment unique de réflexion, d'échanges et de progrès dans notre lutte contre les maladies cardiovasculaires.\n\nLes maladies cardiovasculaires représentent aujourd'hui une menace silencieuse mais majeure en Afrique subsaharienne. Elles frappent sans distinction d'âge ni de condition sociale, et leur impact humain et économique est considérable. Il est de notre devoir, en tant que scientifiques, cliniciens et décideurs, d'agir de manière concertée pour inverser cette tendance.\n\nLa cardiologie interventionnelle, discipline en plein essor dans notre région, offre des perspectives inestimables. À travers des techniques innovantes, elle permet non seulement de sauver des vies, mais aussi d'améliorer significativement la qualité de vie des patients. C'est précisément pour répondre à ces défis que les JAFCI se sont imposées comme une plateforme scientifique incontournable.\n\nEnsemble, faisons de ces journées un tournant décisif dans la lutte contre les maladies cardiovasculaires en Afrique. Chaque échange, chaque innovation et chaque partenariat noués ici porteront les fruits d'un avenir où la santé de nos populations sera un pilier solide de notre développement.\n\nJe vous remercie.",
+            "author": "Professeur Roland N'GUETTA",
+            "role": "Président du GRAM et Président du Comité d'Organisation des JAFCI",
+            "note": "Texte adapté de l'édition 2024 — à valider et actualiser pour 2026."
+        }
+    },
+    {
+        "id": 7,
+        "historique": [
+            {
+                "id": 1,
+                "edition": "1ère édition",
+                "dates": "16-17 novembre 2018",
+                "lieu": "Heden Golf Hôtel, Abidjan",
+                "status": "Confirmé"
+            },
+            {
+                "id": 2,
+                "edition": "2ème édition",
+                "dates": "2020 ou 2022",
+                "lieu": "Lieu à confirmer",
+                "status": "À compléter"
+            },
+            {
+                "id": 3,
+                "edition": "3ème édition",
+                "dates": "28, 29 et 30 novembre 2024",
+                "lieu": "Abidjan",
+                "status": "Confirmé"
+            },
+            {
+                "id": 4,
+                "edition": "4ème édition",
+                "dates": "10, 11 et 12 septembre 2026",
+                "lieu": "Noom Hôtel, Abidjan",
+                "status": "Édition en cours"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "lieu": {
+            "title": "Le lieu : Noom Hôtel Abidjan Plateau",
+            "excerpt": "La quatrième édition des JAFCI se tiendra au Noom Hôtel d'Abidjan, établissement de standing situé au cœur du Plateau, quartier des affaires de la capitale économique ivoirienne. Ses espaces de conférence modernes et sa capacité d'accueil en font un cadre idéal pour un événement scientifique international de cette envergure.",
+            "images": [
+                "img/about/noom-01.png",
+                "img/about/noom-02.png",
+                "img/about/noom-03.png",
+                "img/about/noom-04.png"
+            ]
+        }
     }
 ]

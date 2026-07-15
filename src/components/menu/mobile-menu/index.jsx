@@ -1,37 +1,8 @@
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
-import { getClosest, getSiblings, slideToggle, slideUp } from "../../../utils";
 import SocialIcon from "../../social-icon";
 
 const MobileMenu = ({ show, onClose }) => {
-    const onClickHandler = (e) => {
-        const target = e.currentTarget;
-        const parentEl = target.parentElement;
-        if (
-            parentEl?.classList.contains("menu-expand") ||
-            target.classList.contains("menu-expand")
-        ) {
-            const element = target.classList.contains("icon")
-                ? parentEl
-                : target;
-            const parent = getClosest(element, "li");
-            const childNodes = parent.childNodes;
-            const parentSiblings = getSiblings(parent);
-            parentSiblings.forEach((sibling) => {
-                const sibChildNodes = sibling.childNodes;
-                sibChildNodes.forEach((child) => {
-                    if (child.nodeName === "UL") {
-                        slideUp(child, 1000);
-                    }
-                });
-            });
-            childNodes.forEach((child) => {
-                if (child.nodeName === "UL") {
-                    slideToggle(child, 1000);
-                }
-            });
-        }
-    };
     return (
         <div
             className={`offcanvas offcanvas-mobile-menu ${
@@ -48,101 +19,59 @@ const MobileMenu = ({ show, onClose }) => {
                     <div className="header-top-offcanvas">
                         <p>
                             <i className="icofont-google-map"></i>{" "}
-                            <span>ADDRESS:</span> 568 Elizaberth Str, London, UK
+                            <span>LIEU :</span> Noom Hôtel, Plateau, Abidjan
                         </p>
                     </div>
                 </div>
                 <nav className="offcanvas-menu">
                     <ul>
                         <li>
-                            <NavLink exact to={process.env.PUBLIC_URL + "/"}>
-                                <span className="menu-text">Home</span>
-                            </NavLink>
-                            <span
-                                className="menu-expand"
-                                onClick={onClickHandler}
-                                aria-hidden="true"
-                            ></span>
-                            <ul className="offcanvas-submenu">
-                                <li>
-                                    <NavLink
-                                        exact
-                                        to={process.env.PUBLIC_URL + "/"}
-                                    >
-                                        Home 1
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/service"}>
-                                <span className="menu-text">Services</span>
-                            </NavLink>
-                            <span
-                                className="menu-expand"
-                                onClick={onClickHandler}
-                                aria-hidden="true"
-                            ></span>
-                            <ul className="offcanvas-submenu">
-                                <li>
-                                    <NavLink
-                                        to={process.env.PUBLIC_URL + "/service"}
-                                    >
-                                        Service
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink
-                                        to={
-                                            process.env.PUBLIC_URL +
-                                            "/service-detalis"
-                                        }
-                                    >
-                                        service details
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/blog"}>
-                                <span className="menu-text">blog</span>
-                            </NavLink>
-                            <span
-                                className="menu-expand"
-                                onClick={onClickHandler}
-                                aria-hidden="true"
-                            ></span>
-                            <ul className="offcanvas-submenu">
-                                <li>
-                                    <NavLink
-                                        to={process.env.PUBLIC_URL + "/blog"}
-                                    >
-                                        Blog list
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink
-                                        to={
-                                            process.env.PUBLIC_URL +
-                                            "/blog-details/1"
-                                        }
-                                    >
-                                        Blog details
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/about"}>
-                                about
+                            <NavLink
+                                exact
+                                to={process.env.PUBLIC_URL + "/"}
+                                onClick={onClose}
+                            >
+                                Accueil
                             </NavLink>
                         </li>
-
                         <li>
-                            <NavLink to={process.env.PUBLIC_URL + "/contact"}>
-                                Contact Us
+                            <NavLink
+                                to={process.env.PUBLIC_URL + "/congres"}
+                                onClick={onClose}
+                            >
+                                Le Congrès
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to={process.env.PUBLIC_URL + "/programme"}
+                                onClick={onClose}
+                            >
+                                Programme &amp; Intervenants
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to={process.env.PUBLIC_URL + "/partenaires"}
+                                onClick={onClose}
+                            >
+                                Partenaires &amp; Presse
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to={process.env.PUBLIC_URL + "/blog"}
+                                onClick={onClose}
+                            >
+                                Blog
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to={process.env.PUBLIC_URL + "/inscription"}
+                                onClick={onClose}
+                            >
+                                Inscription &amp; Contacts
                             </NavLink>
                         </li>
                     </ul>
@@ -151,32 +80,20 @@ const MobileMenu = ({ show, onClose }) => {
                     <ul>
                         <li>
                             <SocialIcon
-                                path="https://twitter.com/"
-                                icon="icofont-twitter"
-                            />
-                        </li>
-                        <li>
-                            <SocialIcon
                                 path="https://www.facebook.com/"
                                 icon="icofont-facebook"
                             />
                         </li>
                         <li>
                             <SocialIcon
-                                path="https://www.instagram.com/"
-                                icon="icofont-instagram"
+                                path="https://www.linkedin.com/"
+                                icon="icofont-linkedin"
                             />
                         </li>
                         <li>
                             <SocialIcon
-                                path="https://rss.com/"
-                                icon="icofont-rss-feed"
-                            />
-                        </li>
-                        <li>
-                            <SocialIcon
-                                path="https://www.youtube.com/"
-                                icon="icofont-play-alt-1"
+                                path="https://twitter.com/"
+                                icon="icofont-twitter"
                             />
                         </li>
                     </ul>
@@ -185,14 +102,12 @@ const MobileMenu = ({ show, onClose }) => {
                 <ul className="media-wrap">
                     <li className="media media-list">
                         <span className="media-icon">
-                            <i className="icofont-clock-time"></i>
+                            <i className="icofont-calendar"></i>
                         </span>
                         <div className="media-content">
-                            <span className="media-sub-heading">
-                                working hours
-                            </span>
+                            <span className="media-sub-heading">Dates</span>
                             <span className="media-heading">
-                                MON - FRI: 9.00 - 21.00{" "}
+                                10 – 12 septembre 2026
                             </span>
                         </div>
                     </li>
@@ -202,14 +117,12 @@ const MobileMenu = ({ show, onClose }) => {
                             <i className="icofont-ui-call"></i>
                         </span>
                         <div className="media-content">
-                            <span className="media-sub-heading">
-                                hotline 24/7
-                            </span>
+                            <span className="media-sub-heading">Téléphone</span>
                             <a
                                 className="media-heading"
-                                href="tel:+0962-58-58-258"
+                                href="tel:+2250749800376"
                             >
-                                +0962-58-58-258
+                                (+225) 07 49 800 376
                             </a>
                         </div>
                     </li>
@@ -219,12 +132,12 @@ const MobileMenu = ({ show, onClose }) => {
                             <i className="icofont-envelope"></i>
                         </span>
                         <div className="media-content">
-                            <span className="media-sub-heading">email us</span>
+                            <span className="media-sub-heading">Courriel</span>
                             <a
                                 className="media-heading"
-                                href="mailto:support@clenora.com.uk"
+                                href="mailto:infos@gram.ci"
                             >
-                                support@clenora.com.uk
+                                infos@gram.ci
                             </a>
                         </div>
                     </li>

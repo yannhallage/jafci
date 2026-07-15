@@ -27,7 +27,7 @@ const BlogCategory = ({
             <Layout>
                 <div className="wrapper">
                     <Header />
-                    <SEO title="Hope – Blog Category" />
+                    <SEO title="JAFCI 2026 – Catégorie" />
                     <div className="main-content site-wrapper-reveal">
                         <Breadcrumb
                             prevs={[

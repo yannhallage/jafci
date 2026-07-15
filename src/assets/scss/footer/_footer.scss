@@ -61,6 +61,13 @@
       display: inline-block;
       margin-bottom: 50px;
 
+      img {
+        max-height: 80px;
+        width: auto;
+        max-width: 180px;
+        object-fit: contain;
+      }
+
       @media (max-width: 767px) {
         margin-bottom: 20px;
       }

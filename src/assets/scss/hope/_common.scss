@@ -120,10 +120,52 @@
 }
 
 .bg-img {
-  background: no-repeat center center;
+  background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+
   &.bg-img-top {
     background-position: top center;
+  }
+}
+
+/* Bandeau CTA photo + texte surligné (fond thème) */
+.cta-photo-banner {
+  position: relative;
+  background-color: transparent !important;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    pointer-events: none;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .text-highlight-box {
+    background-color: $theme-color;
+    display: inline-block;
+    max-width: 100%;
+    padding: 22px 28px;
+    box-decoration-break: clone;
+
+    h2,
+    p {
+      color: $white;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
   }
 }
 

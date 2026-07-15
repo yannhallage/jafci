@@ -36,8 +36,8 @@ const Header = () => {
                             <div className="col">
                                 <p>
                                     <i className="icofont-google-map"></i>{" "}
-                                    <span>ADDRESS:</span> 568 Elizaberth Str,
-                                    London, UK
+                                    <span>LIEU :</span> Noom Hôtel, Plateau,
+                                    Abidjan · 10–12 sept. 2026
                                 </p>
                             </div>
                             <div className="col">
@@ -56,14 +56,14 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <SocialIcon
-                                            path="https://www.instagram.com/"
-                                            icon="icofont-instagram"
+                                            path="https://www.linkedin.com/"
+                                            icon="icofont-linkedin"
                                         />
                                     </li>
                                     <li>
                                         <SocialIcon
-                                            path="https://rss.com/"
-                                            icon="icofont-rss-feed"
+                                            path="https://www.instagram.com/"
+                                            icon="icofont-instagram"
                                         />
                                     </li>
                                     <li>
@@ -84,9 +84,7 @@ const Header = () => {
                             <div className="col-12">
                                 <div className="header-middle-content">
                                     <div className="header-logo">
-                                        <Logo
-                                            image={`${process.env.PUBLIC_URL}/img/logo.png`}
-                                        />
+                                        <Logo image="/img/logo.png" />
                                     </div>
                                     <ul className="media-wrap d-none d-lg-flex">
                                         {HomeData[0].headerInfo &&
@@ -102,9 +100,9 @@ const Header = () => {
                                             )}
                                     </ul>
                                     <Button
-                                        path={process.env.PUBLIC_URL + "/"}
+                                        path="/inscription"
                                         classOption="book-now-btn d-none d-sm-inline-block d-lg-none"
-                                        text="book an appointment"
+                                        text="S'inscrire"
                                     />
                                     <div className="mobile-menu-toggle d-lg-none">
                                         <button
@@ -141,9 +139,9 @@ const Header = () => {
                                 <div className="d-flex flex-wrap align-items-center justify-content-between">
                                     <MainMenu />
                                     <Button
-                                        path={process.env.PUBLIC_URL + "/"}
+                                        path="/inscription"
                                         classOption="book-now-btn"
-                                        text="book an appointment"
+                                        text="S'inscrire"
                                     />
                                 </div>
                             </div>
@@ -162,9 +160,9 @@ const Header = () => {
                                 <div className="d-flex flex-wrap align-items-center justify-content-between">
                                     <MainMenu />
                                     <Button
-                                        path={process.env.PUBLIC_URL + "/"}
+                                        path="/inscription"
                                         classOption="book-now-btn"
-                                        text="book an appointment"
+                                        text="S'inscrire"
                                     />
                                 </div>
                             </div>

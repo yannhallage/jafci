@@ -20,7 +20,7 @@ const BlogDetailsPage = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Hope – Blog Details" />
+                <SEO title="JAFCI 2026 – Article" />
                 <div className="wrapper">
                     <Header />
                     <div className="main-content site-wrapper-reveal">

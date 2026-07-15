@@ -6,31 +6,43 @@ const ContactAddress = () => {
         <div className="contact-info-content">
             <div className="info-address">
                 <h2 className="title">
-                    Brooklyn, <span>New York</span>
+                    Une question ? <span>Contactez-nous</span>
                 </h2>
                 <p>
-                    849 Diamond Str, 07th Floor, NY 10012, New York, United
-                    State America
+                    Comité d&apos;Organisation des JAFCI 2026 · Noom Hôtel,
+                    Plateau, Abidjan, Côte d&apos;Ivoire
                 </p>
-                <Link to="/">
-                    <span>Email:</span> infor@hope.com
-                </Link>
+                <a href="mailto:infos@gram.ci">
+                    <span>Courriel :</span> infos@gram.ci
+                </a>
             </div>
             <div className="brand-office">
                 <div className="info-tem style-two">
-                    <h6>Call directly:</h6>
-                    <p>+1 212-226-3126</p>
+                    <h6>Téléphone :</h6>
+                    <p>
+                        <a href="tel:+2250749800376">(+225) 07 49 800 376</a>
+                    </p>
                 </div>
                 <div className="info-tem">
-                    <h6>Brand Offices:</h6>
+                    <h6>Site de l&apos;organisateur :</h6>
                     <p>
-                        Allentown PA | Allanta, GA | Chicago, IL | Dallas, TX,
-                        Edison, NJ | Houston, TX
+                        <a
+                            href="https://www.gram.ci"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            www.gram.ci
+                        </a>
                     </p>
                 </div>
                 <div className="info-tem mb-0">
-                    <h6>Work Hours:</h6>
-                    <p>Mon - Sat: 8.00 - 17.00, Sunday closed</p>
+                    <h6>Lieu de l&apos;événement :</h6>
+                    <p>
+                        Noom Hôtel, Plateau, Abidjan ·{" "}
+                        <Link to={process.env.PUBLIC_URL + "/congres"}>
+                            En savoir plus
+                        </Link>
+                    </p>
                 </div>
             </div>
         </div>

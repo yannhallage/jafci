@@ -10,49 +10,43 @@ const AccordionWrap = () => {
         <Accordion classOption="accordion-style2 no-bg">
             <AccordionItem id="one">
                 <AccordionTitle id="one">
-                    Can I Get A Divorce Without A Consultant?
+                    Jour 1 — Jeudi 10 septembre 2026
                 </AccordionTitle>
                 <AccordionContent id="one">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur consectetur elit lacinia ornare. In volutpat
-                    rutrum molestie. Vivamus efficitur orci, ac gravida eros
-                    bibendum non. Nullam auctor varius fer vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices.
+                    Interventions en salles de cathétérisme cardiaque avec
+                    retransmission live. Horaires et salles détaillés à
+                    confirmer dès réception du pré-programme officiel.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem id="two">
                 <AccordionTitle id="two">
-                    I Have A Technical Problem Or Support Issue I Need Resolved,
-                    Who Do I Email?
+                    Jour 2 — Vendredi 11 septembre 2026
                 </AccordionTitle>
                 <AccordionContent id="two">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur consectetur elit lacinia ornare. In volutpat
-                    rutrum molestie. Vivamus efficitur orci, ac gravida eros
-                    bibendum non. Nullam auctor varius fer vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices.
+                    Conférences, symposium, ateliers, panels d&apos;experts et
+                    retransmission live. Programme scientifique provisoire
+                    repris de 2024, à actualiser pour 2026.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem id="three">
                 <AccordionTitle id="three">
-                    What Other Services Are You Compatible With?
+                    Jour 3 — Samedi 12 septembre 2026
                 </AccordionTitle>
                 <AccordionContent id="three">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur consectetur elit lacinia ornare. In volutpat
-                    rutrum molestie. Vivamus efficitur orci, ac gravida eros
-                    bibendum non. Nullam auctor varius fer vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices.
+                    Dépistage grand public, prévention des AVC et des crises
+                    cardiaques. Une journée tournée vers la sensibilisation des
+                    populations.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem id="four">
-                <AccordionTitle id="four">Are You Hiring?</AccordionTitle>
+                <AccordionTitle id="four">
+                    Comment s&apos;inscrire ?
+                </AccordionTitle>
                 <AccordionContent id="four">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur consectetur elit lacinia ornare. In volutpat
-                    rutrum molestie. Vivamus efficitur orci, ac gravida eros
-                    bibendum non. Nullam auctor varius fer vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices.
+                    L&apos;inscription se fait en ligne sur la page Inscription
+                    &amp; Contacts, en tant que particulier ou
+                    entreprise/institution. Après validation, vous recevez une
+                    confirmation par courriel.
                 </AccordionContent>
             </AccordionItem>
         </Accordion>

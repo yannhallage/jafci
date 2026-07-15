@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const CallToAction = () => {
     return (
         <div
-            className="divider-area bgcolor-theme bg-img"
+            className="divider-area bg-img cta-photo-banner"
             style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/img/shape/01.jpg)`,
+                backgroundImage: `url(${process.env.PUBLIC_URL}/img/photos/stethoscope-tension.png)`,
             }}
         >
             <div className="container">
@@ -17,17 +17,21 @@ const CallToAction = () => {
                             data-aos="fade-up"
                             data-aos-duration="1200"
                         >
-                            <div className="content-inner">
+                            <div className="content-inner text-highlight-box">
                                 <h2>
-                                    Book An <span>Appointment</span>
+                                    S&apos;inscrire aux <span>JAFCI 2026</span>
                                 </h2>
                                 <p>
-                                    We prodive a dedicated support 24/7 for any
-                                    your question
+                                    10, 11 et 12 septembre 2026 · Noom Hôtel,
+                                    Abidjan — inscription en ligne en quelques
+                                    minutes.
                                 </p>
                             </div>
-                            <Link to="/" className="btn btn-theme btn-white">
-                                Reservation
+                            <Link
+                                to={process.env.PUBLIC_URL + "/inscription"}
+                                className="btn btn-theme btn-white"
+                            >
+                                S&apos;inscrire maintenant
                             </Link>
                         </div>
                     </div>

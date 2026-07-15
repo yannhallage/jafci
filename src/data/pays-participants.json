@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Bénin",
+        "iso2": "bj",
+        "flag": "https://flagcdn.com/w160/bj.png"
+    },
+    {
+        "name": "Burkina Faso",
+        "iso2": "bf",
+        "flag": "https://flagcdn.com/w160/bf.png"
+    },
+    {
+        "name": "Burundi",
+        "iso2": "bi",
+        "flag": "https://flagcdn.com/w160/bi.png"
+    },
+    {
+        "name": "Cameroun",
+        "iso2": "cm",
+        "flag": "https://flagcdn.com/w160/cm.png"
+    },
+    {
+        "name": "Congo Brazzaville",
+        "iso2": "cg",
+        "flag": "https://flagcdn.com/w160/cg.png"
+    },
+    {
+        "name": "France",
+        "iso2": "fr",
+        "flag": "https://flagcdn.com/w160/fr.png"
+    },
+    {
+        "name": "Gabon",
+        "iso2": "ga",
+        "flag": "https://flagcdn.com/w160/ga.png"
+    },
+    {
+        "name": "Guinée",
+        "iso2": "gn",
+        "flag": "https://flagcdn.com/w160/gn.png"
+    },
+    {
+        "name": "Mali",
+        "iso2": "ml",
+        "flag": "https://flagcdn.com/w160/ml.png"
+    },
+    {
+        "name": "Mauritanie",
+        "iso2": "mr",
+        "flag": "https://flagcdn.com/w160/mr.png"
+    },
+    {
+        "name": "Niger",
+        "iso2": "ne",
+        "flag": "https://flagcdn.com/w160/ne.png"
+    },
+    {
+        "name": "Maroc",
+        "iso2": "ma",
+        "flag": "https://flagcdn.com/w160/ma.png"
+    },
+    {
+        "name": "Sénégal",
+        "iso2": "sn",
+        "flag": "https://flagcdn.com/w160/sn.png"
+    },
+    {
+        "name": "Togo",
+        "iso2": "tg",
+        "flag": "https://flagcdn.com/w160/tg.png"
+    },
+    {
+        "name": "Tchad",
+        "iso2": "td",
+        "flag": "https://flagcdn.com/w160/td.png"
+    },
+    {
+        "name": "Tunisie",
+        "iso2": "tn",
+        "flag": "https://flagcdn.com/w160/tn.png"
+    },
+    {
+        "name": "République Démocratique du Congo",
+        "iso2": "cd",
+        "flag": "https://flagcdn.com/w160/cd.png"
+    }
+]

@@ -10,82 +10,54 @@ const MainMenu = () => {
                         className="main-menu-link"
                         activeClassName="active"
                         exact
-                        to="/"
+                        to={process.env.PUBLIC_URL + "/"}
                     >
-                        Home
+                        Accueil
                     </NavLink>
                 </li>
                 <li>
                     <NavLink
                         className="main-menu-link"
-                        to={process.env.PUBLIC_URL + "/service"}
+                        activeClassName="active"
+                        to={process.env.PUBLIC_URL + "/congres"}
                     >
-                        Services
+                        Le Congrès
                     </NavLink>
-                    <ul className="sub-menu">
-                        <li>
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/service"}
-                            >
-                                Services
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                className="sub-menu-link"
-                                to={
-                                    process.env.PUBLIC_URL +
-                                    "/service-details/1"
-                                }
-                            >
-                                Service Details
-                            </NavLink>
-                        </li>
-                    </ul>
                 </li>
-
                 <li>
                     <NavLink
                         className="main-menu-link"
+                        activeClassName="active"
+                        to={process.env.PUBLIC_URL + "/programme"}
+                    >
+                        Programme &amp; Intervenants
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        className="main-menu-link"
+                        activeClassName="active"
+                        to={process.env.PUBLIC_URL + "/partenaires"}
+                    >
+                        Partenaires &amp; Presse
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        className="main-menu-link"
+                        activeClassName="active"
                         to={process.env.PUBLIC_URL + "/blog"}
                     >
                         Blog
                     </NavLink>
-                    <ul className="sub-menu">
-                        <li>
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog"}
-                            >
-                                Blog list
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog-details/1"}
-                            >
-                                Blog Details
-                            </NavLink>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <NavLink
-                        className="main-menu-link"
-                        to={process.env.PUBLIC_URL + "/about"}
-                    >
-                        About
-                    </NavLink>
                 </li>
                 <li>
                     <NavLink
                         className="main-menu-link"
-                        to={process.env.PUBLIC_URL + "/contact"}
+                        activeClassName="active"
+                        to={process.env.PUBLIC_URL + "/inscription"}
                     >
-                        Contact
+                        Inscription &amp; Contacts
                     </NavLink>
                 </li>
             </ul>

@@ -1,0 +1,3986 @@
+[
+  {
+    "id": "AF",
+    "name": "Afghanistan",
+    "slug": "afghanistan",
+    "iso2": "AF",
+    "iso3": "AFG",
+    "numericCode": "004",
+    "emoji": "🇦🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/af.svg",
+      "png": "https://flagcdn.com/w320/af.png"
+    },
+    "value": "AF",
+    "label": "🇦🇫 Afghanistan",
+    "searchText": "Afghanistan AF AFG 004"
+  },
+  {
+    "id": "AL",
+    "name": "Albania",
+    "slug": "albania",
+    "iso2": "AL",
+    "iso3": "ALB",
+    "numericCode": "008",
+    "emoji": "🇦🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/al.svg",
+      "png": "https://flagcdn.com/w320/al.png"
+    },
+    "value": "AL",
+    "label": "🇦🇱 Albania",
+    "searchText": "Albania AL ALB 008"
+  },
+  {
+    "id": "DZ",
+    "name": "Algeria",
+    "slug": "algeria",
+    "iso2": "DZ",
+    "iso3": "DZA",
+    "numericCode": "012",
+    "emoji": "🇩🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/dz.svg",
+      "png": "https://flagcdn.com/w320/dz.png"
+    },
+    "value": "DZ",
+    "label": "🇩🇿 Algeria",
+    "searchText": "Algeria DZ DZA 012"
+  },
+  {
+    "id": "AS",
+    "name": "American Samoa",
+    "slug": "american-samoa",
+    "iso2": "AS",
+    "iso3": "ASM",
+    "numericCode": "016",
+    "emoji": "🇦🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/as.svg",
+      "png": "https://flagcdn.com/w320/as.png"
+    },
+    "value": "AS",
+    "label": "🇦🇸 American Samoa",
+    "searchText": "American Samoa AS ASM 016"
+  },
+  {
+    "id": "AD",
+    "name": "Andorra",
+    "slug": "andorra",
+    "iso2": "AD",
+    "iso3": "AND",
+    "numericCode": "020",
+    "emoji": "🇦🇩",
+    "flag": {
+      "svg": "https://flagcdn.com/ad.svg",
+      "png": "https://flagcdn.com/w320/ad.png"
+    },
+    "value": "AD",
+    "label": "🇦🇩 Andorra",
+    "searchText": "Andorra AD AND 020"
+  },
+  {
+    "id": "AO",
+    "name": "Angola",
+    "slug": "angola",
+    "iso2": "AO",
+    "iso3": "AGO",
+    "numericCode": "024",
+    "emoji": "🇦🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/ao.svg",
+      "png": "https://flagcdn.com/w320/ao.png"
+    },
+    "value": "AO",
+    "label": "🇦🇴 Angola",
+    "searchText": "Angola AO AGO 024"
+  },
+  {
+    "id": "AI",
+    "name": "Anguilla",
+    "slug": "anguilla",
+    "iso2": "AI",
+    "iso3": "AIA",
+    "numericCode": "660",
+    "emoji": "🇦🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/ai.svg",
+      "png": "https://flagcdn.com/w320/ai.png"
+    },
+    "value": "AI",
+    "label": "🇦🇮 Anguilla",
+    "searchText": "Anguilla AI AIA 660"
+  },
+  {
+    "id": "AQ",
+    "name": "Antarctica",
+    "slug": "antarctica",
+    "iso2": "AQ",
+    "iso3": "ATA",
+    "numericCode": "010",
+    "emoji": "🇦🇶",
+    "flag": {
+      "svg": "https://flagcdn.com/aq.svg",
+      "png": "https://flagcdn.com/w320/aq.png"
+    },
+    "value": "AQ",
+    "label": "🇦🇶 Antarctica",
+    "searchText": "Antarctica AQ ATA 010"
+  },
+  {
+    "id": "AG",
+    "name": "Antigua and Barbuda",
+    "slug": "antigua-and-barbuda",
+    "iso2": "AG",
+    "iso3": "ATG",
+    "numericCode": "028",
+    "emoji": "🇦🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/ag.svg",
+      "png": "https://flagcdn.com/w320/ag.png"
+    },
+    "value": "AG",
+    "label": "🇦🇬 Antigua and Barbuda",
+    "searchText": "Antigua and Barbuda AG ATG 028"
+  },
+  {
+    "id": "AR",
+    "name": "Argentina",
+    "slug": "argentina",
+    "iso2": "AR",
+    "iso3": "ARG",
+    "numericCode": "032",
+    "emoji": "🇦🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/ar.svg",
+      "png": "https://flagcdn.com/w320/ar.png"
+    },
+    "value": "AR",
+    "label": "🇦🇷 Argentina",
+    "searchText": "Argentina AR ARG 032"
+  },
+  {
+    "id": "AM",
+    "name": "Armenia",
+    "slug": "armenia",
+    "iso2": "AM",
+    "iso3": "ARM",
+    "numericCode": "051",
+    "emoji": "🇦🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/am.svg",
+      "png": "https://flagcdn.com/w320/am.png"
+    },
+    "value": "AM",
+    "label": "🇦🇲 Armenia",
+    "searchText": "Armenia AM ARM 051"
+  },
+  {
+    "id": "AW",
+    "name": "Aruba",
+    "slug": "aruba",
+    "iso2": "AW",
+    "iso3": "ABW",
+    "numericCode": "533",
+    "emoji": "🇦🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/aw.svg",
+      "png": "https://flagcdn.com/w320/aw.png"
+    },
+    "value": "AW",
+    "label": "🇦🇼 Aruba",
+    "searchText": "Aruba AW ABW 533"
+  },
+  {
+    "id": "AU",
+    "name": "Australia",
+    "slug": "australia",
+    "iso2": "AU",
+    "iso3": "AUS",
+    "numericCode": "036",
+    "emoji": "🇦🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/au.svg",
+      "png": "https://flagcdn.com/w320/au.png"
+    },
+    "value": "AU",
+    "label": "🇦🇺 Australia",
+    "searchText": "Australia AU AUS 036"
+  },
+  {
+    "id": "AT",
+    "name": "Austria",
+    "slug": "austria",
+    "iso2": "AT",
+    "iso3": "AUT",
+    "numericCode": "040",
+    "emoji": "🇦🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/at.svg",
+      "png": "https://flagcdn.com/w320/at.png"
+    },
+    "value": "AT",
+    "label": "🇦🇹 Austria",
+    "searchText": "Austria AT AUT 040"
+  },
+  {
+    "id": "AZ",
+    "name": "Azerbaijan",
+    "slug": "azerbaijan",
+    "iso2": "AZ",
+    "iso3": "AZE",
+    "numericCode": "031",
+    "emoji": "🇦🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/az.svg",
+      "png": "https://flagcdn.com/w320/az.png"
+    },
+    "value": "AZ",
+    "label": "🇦🇿 Azerbaijan",
+    "searchText": "Azerbaijan AZ AZE 031"
+  },
+  {
+    "id": "BS",
+    "name": "Bahamas (the)",
+    "slug": "bahamas-the",
+    "iso2": "BS",
+    "iso3": "BHS",
+    "numericCode": "044",
+    "emoji": "🇧🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/bs.svg",
+      "png": "https://flagcdn.com/w320/bs.png"
+    },
+    "value": "BS",
+    "label": "🇧🇸 Bahamas (the)",
+    "searchText": "Bahamas (the) BS BHS 044"
+  },
+  {
+    "id": "BH",
+    "name": "Bahrain",
+    "slug": "bahrain",
+    "iso2": "BH",
+    "iso3": "BHR",
+    "numericCode": "048",
+    "emoji": "🇧🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/bh.svg",
+      "png": "https://flagcdn.com/w320/bh.png"
+    },
+    "value": "BH",
+    "label": "🇧🇭 Bahrain",
+    "searchText": "Bahrain BH BHR 048"
+  },
+  {
+    "id": "BD",
+    "name": "Bangladesh",
+    "slug": "bangladesh",
+    "iso2": "BD",
+    "iso3": "BGD",
+    "numericCode": "050",
+    "emoji": "🇧🇩",
+    "flag": {
+      "svg": "https://flagcdn.com/bd.svg",
+      "png": "https://flagcdn.com/w320/bd.png"
+    },
+    "value": "BD",
+    "label": "🇧🇩 Bangladesh",
+    "searchText": "Bangladesh BD BGD 050"
+  },
+  {
+    "id": "BB",
+    "name": "Barbados",
+    "slug": "barbados",
+    "iso2": "BB",
+    "iso3": "BRB",
+    "numericCode": "052",
+    "emoji": "🇧🇧",
+    "flag": {
+      "svg": "https://flagcdn.com/bb.svg",
+      "png": "https://flagcdn.com/w320/bb.png"
+    },
+    "value": "BB",
+    "label": "🇧🇧 Barbados",
+    "searchText": "Barbados BB BRB 052"
+  },
+  {
+    "id": "BY",
+    "name": "Belarus",
+    "slug": "belarus",
+    "iso2": "BY",
+    "iso3": "BLR",
+    "numericCode": "112",
+    "emoji": "🇧🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/by.svg",
+      "png": "https://flagcdn.com/w320/by.png"
+    },
+    "value": "BY",
+    "label": "🇧🇾 Belarus",
+    "searchText": "Belarus BY BLR 112"
+  },
+  {
+    "id": "BE",
+    "name": "Belgium",
+    "slug": "belgium",
+    "iso2": "BE",
+    "iso3": "BEL",
+    "numericCode": "056",
+    "emoji": "🇧🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/be.svg",
+      "png": "https://flagcdn.com/w320/be.png"
+    },
+    "value": "BE",
+    "label": "🇧🇪 Belgium",
+    "searchText": "Belgium BE BEL 056"
+  },
+  {
+    "id": "BZ",
+    "name": "Belize",
+    "slug": "belize",
+    "iso2": "BZ",
+    "iso3": "BLZ",
+    "numericCode": "084",
+    "emoji": "🇧🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/bz.svg",
+      "png": "https://flagcdn.com/w320/bz.png"
+    },
+    "value": "BZ",
+    "label": "🇧🇿 Belize",
+    "searchText": "Belize BZ BLZ 084"
+  },
+  {
+    "id": "BJ",
+    "name": "Benin",
+    "slug": "benin",
+    "iso2": "BJ",
+    "iso3": "BEN",
+    "numericCode": "204",
+    "emoji": "🇧🇯",
+    "flag": {
+      "svg": "https://flagcdn.com/bj.svg",
+      "png": "https://flagcdn.com/w320/bj.png"
+    },
+    "value": "BJ",
+    "label": "🇧🇯 Benin",
+    "searchText": "Benin BJ BEN 204"
+  },
+  {
+    "id": "BM",
+    "name": "Bermuda",
+    "slug": "bermuda",
+    "iso2": "BM",
+    "iso3": "BMU",
+    "numericCode": "060",
+    "emoji": "🇧🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/bm.svg",
+      "png": "https://flagcdn.com/w320/bm.png"
+    },
+    "value": "BM",
+    "label": "🇧🇲 Bermuda",
+    "searchText": "Bermuda BM BMU 060"
+  },
+  {
+    "id": "BT",
+    "name": "Bhutan",
+    "slug": "bhutan",
+    "iso2": "BT",
+    "iso3": "BTN",
+    "numericCode": "064",
+    "emoji": "🇧🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/bt.svg",
+      "png": "https://flagcdn.com/w320/bt.png"
+    },
+    "value": "BT",
+    "label": "🇧🇹 Bhutan",
+    "searchText": "Bhutan BT BTN 064"
+  },
+  {
+    "id": "BO",
+    "name": "Bolivia (Plurinational State of)",
+    "slug": "bolivia-plurinational-state-of",
+    "iso2": "BO",
+    "iso3": "BOL",
+    "numericCode": "068",
+    "emoji": "🇧🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/bo.svg",
+      "png": "https://flagcdn.com/w320/bo.png"
+    },
+    "value": "BO",
+    "label": "🇧🇴 Bolivia (Plurinational State of)",
+    "searchText": "Bolivia (Plurinational State of) BO BOL 068"
+  },
+  {
+    "id": "BQ",
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "slug": "bonaire-sint-eustatius-and-saba",
+    "iso2": "BQ",
+    "iso3": "BES",
+    "numericCode": "535",
+    "emoji": "🇧🇶",
+    "flag": {
+      "svg": "https://flagcdn.com/bq.svg",
+      "png": "https://flagcdn.com/w320/bq.png"
+    },
+    "value": "BQ",
+    "label": "🇧🇶 Bonaire, Sint Eustatius and Saba",
+    "searchText": "Bonaire, Sint Eustatius and Saba BQ BES 535"
+  },
+  {
+    "id": "BA",
+    "name": "Bosnia and Herzegovina",
+    "slug": "bosnia-and-herzegovina",
+    "iso2": "BA",
+    "iso3": "BIH",
+    "numericCode": "070",
+    "emoji": "🇧🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/ba.svg",
+      "png": "https://flagcdn.com/w320/ba.png"
+    },
+    "value": "BA",
+    "label": "🇧🇦 Bosnia and Herzegovina",
+    "searchText": "Bosnia and Herzegovina BA BIH 070"
+  },
+  {
+    "id": "BW",
+    "name": "Botswana",
+    "slug": "botswana",
+    "iso2": "BW",
+    "iso3": "BWA",
+    "numericCode": "072",
+    "emoji": "🇧🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/bw.svg",
+      "png": "https://flagcdn.com/w320/bw.png"
+    },
+    "value": "BW",
+    "label": "🇧🇼 Botswana",
+    "searchText": "Botswana BW BWA 072"
+  },
+  {
+    "id": "BV",
+    "name": "Bouvet Island",
+    "slug": "bouvet-island",
+    "iso2": "BV",
+    "iso3": "BVT",
+    "numericCode": "074",
+    "emoji": "🇧🇻",
+    "flag": {
+      "svg": "https://flagcdn.com/bv.svg",
+      "png": "https://flagcdn.com/w320/bv.png"
+    },
+    "value": "BV",
+    "label": "🇧🇻 Bouvet Island",
+    "searchText": "Bouvet Island BV BVT 074"
+  },
+  {
+    "id": "BR",
+    "name": "Brazil",
+    "slug": "brazil",
+    "iso2": "BR",
+    "iso3": "BRA",
+    "numericCode": "076",
+    "emoji": "🇧🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/br.svg",
+      "png": "https://flagcdn.com/w320/br.png"
+    },
+    "value": "BR",
+    "label": "🇧🇷 Brazil",
+    "searchText": "Brazil BR BRA 076"
+  },
+  {
+    "id": "IO",
+    "name": "British Indian Ocean Territory (the)",
+    "slug": "british-indian-ocean-territory-the",
+    "iso2": "IO",
+    "iso3": "IOT",
+    "numericCode": "086",
+    "emoji": "🇮🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/io.svg",
+      "png": "https://flagcdn.com/w320/io.png"
+    },
+    "value": "IO",
+    "label": "🇮🇴 British Indian Ocean Territory (the)",
+    "searchText": "British Indian Ocean Territory (the) IO IOT 086"
+  },
+  {
+    "id": "BN",
+    "name": "Brunei Darussalam",
+    "slug": "brunei-darussalam",
+    "iso2": "BN",
+    "iso3": "BRN",
+    "numericCode": "096",
+    "emoji": "🇧🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/bn.svg",
+      "png": "https://flagcdn.com/w320/bn.png"
+    },
+    "value": "BN",
+    "label": "🇧🇳 Brunei Darussalam",
+    "searchText": "Brunei Darussalam BN BRN 096"
+  },
+  {
+    "id": "BG",
+    "name": "Bulgaria",
+    "slug": "bulgaria",
+    "iso2": "BG",
+    "iso3": "BGR",
+    "numericCode": "100",
+    "emoji": "🇧🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/bg.svg",
+      "png": "https://flagcdn.com/w320/bg.png"
+    },
+    "value": "BG",
+    "label": "🇧🇬 Bulgaria",
+    "searchText": "Bulgaria BG BGR 100"
+  },
+  {
+    "id": "BF",
+    "name": "Burkina Faso",
+    "slug": "burkina-faso",
+    "iso2": "BF",
+    "iso3": "BFA",
+    "numericCode": "854",
+    "emoji": "🇧🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/bf.svg",
+      "png": "https://flagcdn.com/w320/bf.png"
+    },
+    "value": "BF",
+    "label": "🇧🇫 Burkina Faso",
+    "searchText": "Burkina Faso BF BFA 854"
+  },
+  {
+    "id": "BI",
+    "name": "Burundi",
+    "slug": "burundi",
+    "iso2": "BI",
+    "iso3": "BDI",
+    "numericCode": "108",
+    "emoji": "🇧🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/bi.svg",
+      "png": "https://flagcdn.com/w320/bi.png"
+    },
+    "value": "BI",
+    "label": "🇧🇮 Burundi",
+    "searchText": "Burundi BI BDI 108"
+  },
+  {
+    "id": "CV",
+    "name": "Cabo Verde",
+    "slug": "cabo-verde",
+    "iso2": "CV",
+    "iso3": "CPV",
+    "numericCode": "132",
+    "emoji": "🇨🇻",
+    "flag": {
+      "svg": "https://flagcdn.com/cv.svg",
+      "png": "https://flagcdn.com/w320/cv.png"
+    },
+    "value": "CV",
+    "label": "🇨🇻 Cabo Verde",
+    "searchText": "Cabo Verde CV CPV 132"
+  },
+  {
+    "id": "KH",
+    "name": "Cambodia",
+    "slug": "cambodia",
+    "iso2": "KH",
+    "iso3": "KHM",
+    "numericCode": "116",
+    "emoji": "🇰🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/kh.svg",
+      "png": "https://flagcdn.com/w320/kh.png"
+    },
+    "value": "KH",
+    "label": "🇰🇭 Cambodia",
+    "searchText": "Cambodia KH KHM 116"
+  },
+  {
+    "id": "CM",
+    "name": "Cameroon",
+    "slug": "cameroon",
+    "iso2": "CM",
+    "iso3": "CMR",
+    "numericCode": "120",
+    "emoji": "🇨🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/cm.svg",
+      "png": "https://flagcdn.com/w320/cm.png"
+    },
+    "value": "CM",
+    "label": "🇨🇲 Cameroon",
+    "searchText": "Cameroon CM CMR 120"
+  },
+  {
+    "id": "CA",
+    "name": "Canada",
+    "slug": "canada",
+    "iso2": "CA",
+    "iso3": "CAN",
+    "numericCode": "124",
+    "emoji": "🇨🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/ca.svg",
+      "png": "https://flagcdn.com/w320/ca.png"
+    },
+    "value": "CA",
+    "label": "🇨🇦 Canada",
+    "searchText": "Canada CA CAN 124"
+  },
+  {
+    "id": "KY",
+    "name": "Cayman Islands (the)",
+    "slug": "cayman-islands-the",
+    "iso2": "KY",
+    "iso3": "CYM",
+    "numericCode": "136",
+    "emoji": "🇰🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/ky.svg",
+      "png": "https://flagcdn.com/w320/ky.png"
+    },
+    "value": "KY",
+    "label": "🇰🇾 Cayman Islands (the)",
+    "searchText": "Cayman Islands (the) KY CYM 136"
+  },
+  {
+    "id": "CF",
+    "name": "Central African Republic (the)",
+    "slug": "central-african-republic-the",
+    "iso2": "CF",
+    "iso3": "CAF",
+    "numericCode": "140",
+    "emoji": "🇨🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/cf.svg",
+      "png": "https://flagcdn.com/w320/cf.png"
+    },
+    "value": "CF",
+    "label": "🇨🇫 Central African Republic (the)",
+    "searchText": "Central African Republic (the) CF CAF 140"
+  },
+  {
+    "id": "TD",
+    "name": "Chad",
+    "slug": "chad",
+    "iso2": "TD",
+    "iso3": "TCD",
+    "numericCode": "148",
+    "emoji": "🇹🇩",
+    "flag": {
+      "svg": "https://flagcdn.com/td.svg",
+      "png": "https://flagcdn.com/w320/td.png"
+    },
+    "value": "TD",
+    "label": "🇹🇩 Chad",
+    "searchText": "Chad TD TCD 148"
+  },
+  {
+    "id": "CL",
+    "name": "Chile",
+    "slug": "chile",
+    "iso2": "CL",
+    "iso3": "CHL",
+    "numericCode": "152",
+    "emoji": "🇨🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/cl.svg",
+      "png": "https://flagcdn.com/w320/cl.png"
+    },
+    "value": "CL",
+    "label": "🇨🇱 Chile",
+    "searchText": "Chile CL CHL 152"
+  },
+  {
+    "id": "CN",
+    "name": "China",
+    "slug": "china",
+    "iso2": "CN",
+    "iso3": "CHN",
+    "numericCode": "156",
+    "emoji": "🇨🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/cn.svg",
+      "png": "https://flagcdn.com/w320/cn.png"
+    },
+    "value": "CN",
+    "label": "🇨🇳 China",
+    "searchText": "China CN CHN 156"
+  },
+  {
+    "id": "CX",
+    "name": "Christmas Island",
+    "slug": "christmas-island",
+    "iso2": "CX",
+    "iso3": "CXR",
+    "numericCode": "162",
+    "emoji": "🇨🇽",
+    "flag": {
+      "svg": "https://flagcdn.com/cx.svg",
+      "png": "https://flagcdn.com/w320/cx.png"
+    },
+    "value": "CX",
+    "label": "🇨🇽 Christmas Island",
+    "searchText": "Christmas Island CX CXR 162"
+  },
+  {
+    "id": "CC",
+    "name": "Cocos (Keeling) Islands (the)",
+    "slug": "cocos-keeling-islands-the",
+    "iso2": "CC",
+    "iso3": "CCK",
+    "numericCode": "166",
+    "emoji": "🇨🇨",
+    "flag": {
+      "svg": "https://flagcdn.com/cc.svg",
+      "png": "https://flagcdn.com/w320/cc.png"
+    },
+    "value": "CC",
+    "label": "🇨🇨 Cocos (Keeling) Islands (the)",
+    "searchText": "Cocos (Keeling) Islands (the) CC CCK 166"
+  },
+  {
+    "id": "CO",
+    "name": "Colombia",
+    "slug": "colombia",
+    "iso2": "CO",
+    "iso3": "COL",
+    "numericCode": "170",
+    "emoji": "🇨🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/co.svg",
+      "png": "https://flagcdn.com/w320/co.png"
+    },
+    "value": "CO",
+    "label": "🇨🇴 Colombia",
+    "searchText": "Colombia CO COL 170"
+  },
+  {
+    "id": "KM",
+    "name": "Comoros (the)",
+    "slug": "comoros-the",
+    "iso2": "KM",
+    "iso3": "COM",
+    "numericCode": "174",
+    "emoji": "🇰🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/km.svg",
+      "png": "https://flagcdn.com/w320/km.png"
+    },
+    "value": "KM",
+    "label": "🇰🇲 Comoros (the)",
+    "searchText": "Comoros (the) KM COM 174"
+  },
+  {
+    "id": "CD",
+    "name": "Congo (the Democratic Republic of the)",
+    "slug": "congo-the-democratic-republic-of-the",
+    "iso2": "CD",
+    "iso3": "COD",
+    "numericCode": "180",
+    "emoji": "🇨🇩",
+    "flag": {
+      "svg": "https://flagcdn.com/cd.svg",
+      "png": "https://flagcdn.com/w320/cd.png"
+    },
+    "value": "CD",
+    "label": "🇨🇩 Congo (the Democratic Republic of the)",
+    "searchText": "Congo (the Democratic Republic of the) CD COD 180"
+  },
+  {
+    "id": "CG",
+    "name": "Congo (the)",
+    "slug": "congo-the",
+    "iso2": "CG",
+    "iso3": "COG",
+    "numericCode": "178",
+    "emoji": "🇨🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/cg.svg",
+      "png": "https://flagcdn.com/w320/cg.png"
+    },
+    "value": "CG",
+    "label": "🇨🇬 Congo (the)",
+    "searchText": "Congo (the) CG COG 178"
+  },
+  {
+    "id": "CK",
+    "name": "Cook Islands (the)",
+    "slug": "cook-islands-the",
+    "iso2": "CK",
+    "iso3": "COK",
+    "numericCode": "184",
+    "emoji": "🇨🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/ck.svg",
+      "png": "https://flagcdn.com/w320/ck.png"
+    },
+    "value": "CK",
+    "label": "🇨🇰 Cook Islands (the)",
+    "searchText": "Cook Islands (the) CK COK 184"
+  },
+  {
+    "id": "CR",
+    "name": "Costa Rica",
+    "slug": "costa-rica",
+    "iso2": "CR",
+    "iso3": "CRI",
+    "numericCode": "188",
+    "emoji": "🇨🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/cr.svg",
+      "png": "https://flagcdn.com/w320/cr.png"
+    },
+    "value": "CR",
+    "label": "🇨🇷 Costa Rica",
+    "searchText": "Costa Rica CR CRI 188"
+  },
+  {
+    "id": "HR",
+    "name": "Croatia",
+    "slug": "croatia",
+    "iso2": "HR",
+    "iso3": "HRV",
+    "numericCode": "191",
+    "emoji": "🇭🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/hr.svg",
+      "png": "https://flagcdn.com/w320/hr.png"
+    },
+    "value": "HR",
+    "label": "🇭🇷 Croatia",
+    "searchText": "Croatia HR HRV 191"
+  },
+  {
+    "id": "CU",
+    "name": "Cuba",
+    "slug": "cuba",
+    "iso2": "CU",
+    "iso3": "CUB",
+    "numericCode": "192",
+    "emoji": "🇨🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/cu.svg",
+      "png": "https://flagcdn.com/w320/cu.png"
+    },
+    "value": "CU",
+    "label": "🇨🇺 Cuba",
+    "searchText": "Cuba CU CUB 192"
+  },
+  {
+    "id": "CW",
+    "name": "Curaçao",
+    "slug": "curacao",
+    "iso2": "CW",
+    "iso3": "CUW",
+    "numericCode": "531",
+    "emoji": "🇨🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/cw.svg",
+      "png": "https://flagcdn.com/w320/cw.png"
+    },
+    "value": "CW",
+    "label": "🇨🇼 Curaçao",
+    "searchText": "Curaçao CW CUW 531"
+  },
+  {
+    "id": "CY",
+    "name": "Cyprus",
+    "slug": "cyprus",
+    "iso2": "CY",
+    "iso3": "CYP",
+    "numericCode": "196",
+    "emoji": "🇨🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/cy.svg",
+      "png": "https://flagcdn.com/w320/cy.png"
+    },
+    "value": "CY",
+    "label": "🇨🇾 Cyprus",
+    "searchText": "Cyprus CY CYP 196"
+  },
+  {
+    "id": "CZ",
+    "name": "Czechia",
+    "slug": "czechia",
+    "iso2": "CZ",
+    "iso3": "CZE",
+    "numericCode": "203",
+    "emoji": "🇨🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/cz.svg",
+      "png": "https://flagcdn.com/w320/cz.png"
+    },
+    "value": "CZ",
+    "label": "🇨🇿 Czechia",
+    "searchText": "Czechia CZ CZE 203"
+  },
+  {
+    "id": "CI",
+    "name": "Côte d'Ivoire",
+    "slug": "cote-d-ivoire",
+    "iso2": "CI",
+    "iso3": "CIV",
+    "numericCode": "384",
+    "emoji": "🇨🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/ci.svg",
+      "png": "https://flagcdn.com/w320/ci.png"
+    },
+    "value": "CI",
+    "label": "🇨🇮 Côte d'Ivoire",
+    "searchText": "Côte d'Ivoire CI CIV 384"
+  },
+  {
+    "id": "DK",
+    "name": "Denmark",
+    "slug": "denmark",
+    "iso2": "DK",
+    "iso3": "DNK",
+    "numericCode": "208",
+    "emoji": "🇩🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/dk.svg",
+      "png": "https://flagcdn.com/w320/dk.png"
+    },
+    "value": "DK",
+    "label": "🇩🇰 Denmark",
+    "searchText": "Denmark DK DNK 208"
+  },
+  {
+    "id": "DJ",
+    "name": "Djibouti",
+    "slug": "djibouti",
+    "iso2": "DJ",
+    "iso3": "DJI",
+    "numericCode": "262",
+    "emoji": "🇩🇯",
+    "flag": {
+      "svg": "https://flagcdn.com/dj.svg",
+      "png": "https://flagcdn.com/w320/dj.png"
+    },
+    "value": "DJ",
+    "label": "🇩🇯 Djibouti",
+    "searchText": "Djibouti DJ DJI 262"
+  },
+  {
+    "id": "DM",
+    "name": "Dominica",
+    "slug": "dominica",
+    "iso2": "DM",
+    "iso3": "DMA",
+    "numericCode": "212",
+    "emoji": "🇩🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/dm.svg",
+      "png": "https://flagcdn.com/w320/dm.png"
+    },
+    "value": "DM",
+    "label": "🇩🇲 Dominica",
+    "searchText": "Dominica DM DMA 212"
+  },
+  {
+    "id": "DO",
+    "name": "Dominican Republic (the)",
+    "slug": "dominican-republic-the",
+    "iso2": "DO",
+    "iso3": "DOM",
+    "numericCode": "214",
+    "emoji": "🇩🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/do.svg",
+      "png": "https://flagcdn.com/w320/do.png"
+    },
+    "value": "DO",
+    "label": "🇩🇴 Dominican Republic (the)",
+    "searchText": "Dominican Republic (the) DO DOM 214"
+  },
+  {
+    "id": "EC",
+    "name": "Ecuador",
+    "slug": "ecuador",
+    "iso2": "EC",
+    "iso3": "ECU",
+    "numericCode": "218",
+    "emoji": "🇪🇨",
+    "flag": {
+      "svg": "https://flagcdn.com/ec.svg",
+      "png": "https://flagcdn.com/w320/ec.png"
+    },
+    "value": "EC",
+    "label": "🇪🇨 Ecuador",
+    "searchText": "Ecuador EC ECU 218"
+  },
+  {
+    "id": "EG",
+    "name": "Egypt",
+    "slug": "egypt",
+    "iso2": "EG",
+    "iso3": "EGY",
+    "numericCode": "818",
+    "emoji": "🇪🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/eg.svg",
+      "png": "https://flagcdn.com/w320/eg.png"
+    },
+    "value": "EG",
+    "label": "🇪🇬 Egypt",
+    "searchText": "Egypt EG EGY 818"
+  },
+  {
+    "id": "SV",
+    "name": "El Salvador",
+    "slug": "el-salvador",
+    "iso2": "SV",
+    "iso3": "SLV",
+    "numericCode": "222",
+    "emoji": "🇸🇻",
+    "flag": {
+      "svg": "https://flagcdn.com/sv.svg",
+      "png": "https://flagcdn.com/w320/sv.png"
+    },
+    "value": "SV",
+    "label": "🇸🇻 El Salvador",
+    "searchText": "El Salvador SV SLV 222"
+  },
+  {
+    "id": "GQ",
+    "name": "Equatorial Guinea",
+    "slug": "equatorial-guinea",
+    "iso2": "GQ",
+    "iso3": "GNQ",
+    "numericCode": "226",
+    "emoji": "🇬🇶",
+    "flag": {
+      "svg": "https://flagcdn.com/gq.svg",
+      "png": "https://flagcdn.com/w320/gq.png"
+    },
+    "value": "GQ",
+    "label": "🇬🇶 Equatorial Guinea",
+    "searchText": "Equatorial Guinea GQ GNQ 226"
+  },
+  {
+    "id": "ER",
+    "name": "Eritrea",
+    "slug": "eritrea",
+    "iso2": "ER",
+    "iso3": "ERI",
+    "numericCode": "232",
+    "emoji": "🇪🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/er.svg",
+      "png": "https://flagcdn.com/w320/er.png"
+    },
+    "value": "ER",
+    "label": "🇪🇷 Eritrea",
+    "searchText": "Eritrea ER ERI 232"
+  },
+  {
+    "id": "EE",
+    "name": "Estonia",
+    "slug": "estonia",
+    "iso2": "EE",
+    "iso3": "EST",
+    "numericCode": "233",
+    "emoji": "🇪🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/ee.svg",
+      "png": "https://flagcdn.com/w320/ee.png"
+    },
+    "value": "EE",
+    "label": "🇪🇪 Estonia",
+    "searchText": "Estonia EE EST 233"
+  },
+  {
+    "id": "SZ",
+    "name": "Eswatini",
+    "slug": "eswatini",
+    "iso2": "SZ",
+    "iso3": "SWZ",
+    "numericCode": "748",
+    "emoji": "🇸🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/sz.svg",
+      "png": "https://flagcdn.com/w320/sz.png"
+    },
+    "value": "SZ",
+    "label": "🇸🇿 Eswatini",
+    "searchText": "Eswatini SZ SWZ 748"
+  },
+  {
+    "id": "ET",
+    "name": "Ethiopia",
+    "slug": "ethiopia",
+    "iso2": "ET",
+    "iso3": "ETH",
+    "numericCode": "231",
+    "emoji": "🇪🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/et.svg",
+      "png": "https://flagcdn.com/w320/et.png"
+    },
+    "value": "ET",
+    "label": "🇪🇹 Ethiopia",
+    "searchText": "Ethiopia ET ETH 231"
+  },
+  {
+    "id": "FK",
+    "name": "Falkland Islands (the) [Malvinas]",
+    "slug": "falkland-islands-the-malvinas",
+    "iso2": "FK",
+    "iso3": "FLK",
+    "numericCode": "238",
+    "emoji": "🇫🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/fk.svg",
+      "png": "https://flagcdn.com/w320/fk.png"
+    },
+    "value": "FK",
+    "label": "🇫🇰 Falkland Islands (the) [Malvinas]",
+    "searchText": "Falkland Islands (the) [Malvinas] FK FLK 238"
+  },
+  {
+    "id": "FO",
+    "name": "Faroe Islands (the)",
+    "slug": "faroe-islands-the",
+    "iso2": "FO",
+    "iso3": "FRO",
+    "numericCode": "234",
+    "emoji": "🇫🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/fo.svg",
+      "png": "https://flagcdn.com/w320/fo.png"
+    },
+    "value": "FO",
+    "label": "🇫🇴 Faroe Islands (the)",
+    "searchText": "Faroe Islands (the) FO FRO 234"
+  },
+  {
+    "id": "FJ",
+    "name": "Fiji",
+    "slug": "fiji",
+    "iso2": "FJ",
+    "iso3": "FJI",
+    "numericCode": "242",
+    "emoji": "🇫🇯",
+    "flag": {
+      "svg": "https://flagcdn.com/fj.svg",
+      "png": "https://flagcdn.com/w320/fj.png"
+    },
+    "value": "FJ",
+    "label": "🇫🇯 Fiji",
+    "searchText": "Fiji FJ FJI 242"
+  },
+  {
+    "id": "FI",
+    "name": "Finland",
+    "slug": "finland",
+    "iso2": "FI",
+    "iso3": "FIN",
+    "numericCode": "246",
+    "emoji": "🇫🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/fi.svg",
+      "png": "https://flagcdn.com/w320/fi.png"
+    },
+    "value": "FI",
+    "label": "🇫🇮 Finland",
+    "searchText": "Finland FI FIN 246"
+  },
+  {
+    "id": "FR",
+    "name": "France",
+    "slug": "france",
+    "iso2": "FR",
+    "iso3": "FRA",
+    "numericCode": "250",
+    "emoji": "🇫🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/fr.svg",
+      "png": "https://flagcdn.com/w320/fr.png"
+    },
+    "value": "FR",
+    "label": "🇫🇷 France",
+    "searchText": "France FR FRA 250"
+  },
+  {
+    "id": "GF",
+    "name": "French Guiana",
+    "slug": "french-guiana",
+    "iso2": "GF",
+    "iso3": "GUF",
+    "numericCode": "254",
+    "emoji": "🇬🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/gf.svg",
+      "png": "https://flagcdn.com/w320/gf.png"
+    },
+    "value": "GF",
+    "label": "🇬🇫 French Guiana",
+    "searchText": "French Guiana GF GUF 254"
+  },
+  {
+    "id": "PF",
+    "name": "French Polynesia",
+    "slug": "french-polynesia",
+    "iso2": "PF",
+    "iso3": "PYF",
+    "numericCode": "258",
+    "emoji": "🇵🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/pf.svg",
+      "png": "https://flagcdn.com/w320/pf.png"
+    },
+    "value": "PF",
+    "label": "🇵🇫 French Polynesia",
+    "searchText": "French Polynesia PF PYF 258"
+  },
+  {
+    "id": "TF",
+    "name": "French Southern Territories (the)",
+    "slug": "french-southern-territories-the",
+    "iso2": "TF",
+    "iso3": "ATF",
+    "numericCode": "260",
+    "emoji": "🇹🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/tf.svg",
+      "png": "https://flagcdn.com/w320/tf.png"
+    },
+    "value": "TF",
+    "label": "🇹🇫 French Southern Territories (the)",
+    "searchText": "French Southern Territories (the) TF ATF 260"
+  },
+  {
+    "id": "GA",
+    "name": "Gabon",
+    "slug": "gabon",
+    "iso2": "GA",
+    "iso3": "GAB",
+    "numericCode": "266",
+    "emoji": "🇬🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/ga.svg",
+      "png": "https://flagcdn.com/w320/ga.png"
+    },
+    "value": "GA",
+    "label": "🇬🇦 Gabon",
+    "searchText": "Gabon GA GAB 266"
+  },
+  {
+    "id": "GM",
+    "name": "Gambia (the)",
+    "slug": "gambia-the",
+    "iso2": "GM",
+    "iso3": "GMB",
+    "numericCode": "270",
+    "emoji": "🇬🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/gm.svg",
+      "png": "https://flagcdn.com/w320/gm.png"
+    },
+    "value": "GM",
+    "label": "🇬🇲 Gambia (the)",
+    "searchText": "Gambia (the) GM GMB 270"
+  },
+  {
+    "id": "GE",
+    "name": "Georgia",
+    "slug": "georgia",
+    "iso2": "GE",
+    "iso3": "GEO",
+    "numericCode": "268",
+    "emoji": "🇬🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/ge.svg",
+      "png": "https://flagcdn.com/w320/ge.png"
+    },
+    "value": "GE",
+    "label": "🇬🇪 Georgia",
+    "searchText": "Georgia GE GEO 268"
+  },
+  {
+    "id": "DE",
+    "name": "Germany",
+    "slug": "germany",
+    "iso2": "DE",
+    "iso3": "DEU",
+    "numericCode": "276",
+    "emoji": "🇩🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/de.svg",
+      "png": "https://flagcdn.com/w320/de.png"
+    },
+    "value": "DE",
+    "label": "🇩🇪 Germany",
+    "searchText": "Germany DE DEU 276"
+  },
+  {
+    "id": "GH",
+    "name": "Ghana",
+    "slug": "ghana",
+    "iso2": "GH",
+    "iso3": "GHA",
+    "numericCode": "288",
+    "emoji": "🇬🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/gh.svg",
+      "png": "https://flagcdn.com/w320/gh.png"
+    },
+    "value": "GH",
+    "label": "🇬🇭 Ghana",
+    "searchText": "Ghana GH GHA 288"
+  },
+  {
+    "id": "GI",
+    "name": "Gibraltar",
+    "slug": "gibraltar",
+    "iso2": "GI",
+    "iso3": "GIB",
+    "numericCode": "292",
+    "emoji": "🇬🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/gi.svg",
+      "png": "https://flagcdn.com/w320/gi.png"
+    },
+    "value": "GI",
+    "label": "🇬🇮 Gibraltar",
+    "searchText": "Gibraltar GI GIB 292"
+  },
+  {
+    "id": "GR",
+    "name": "Greece",
+    "slug": "greece",
+    "iso2": "GR",
+    "iso3": "GRC",
+    "numericCode": "300",
+    "emoji": "🇬🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/gr.svg",
+      "png": "https://flagcdn.com/w320/gr.png"
+    },
+    "value": "GR",
+    "label": "🇬🇷 Greece",
+    "searchText": "Greece GR GRC 300"
+  },
+  {
+    "id": "GL",
+    "name": "Greenland",
+    "slug": "greenland",
+    "iso2": "GL",
+    "iso3": "GRL",
+    "numericCode": "304",
+    "emoji": "🇬🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/gl.svg",
+      "png": "https://flagcdn.com/w320/gl.png"
+    },
+    "value": "GL",
+    "label": "🇬🇱 Greenland",
+    "searchText": "Greenland GL GRL 304"
+  },
+  {
+    "id": "GD",
+    "name": "Grenada",
+    "slug": "grenada",
+    "iso2": "GD",
+    "iso3": "GRD",
+    "numericCode": "308",
+    "emoji": "🇬🇩",
+    "flag": {
+      "svg": "https://flagcdn.com/gd.svg",
+      "png": "https://flagcdn.com/w320/gd.png"
+    },
+    "value": "GD",
+    "label": "🇬🇩 Grenada",
+    "searchText": "Grenada GD GRD 308"
+  },
+  {
+    "id": "GP",
+    "name": "Guadeloupe",
+    "slug": "guadeloupe",
+    "iso2": "GP",
+    "iso3": "GLP",
+    "numericCode": "312",
+    "emoji": "🇬🇵",
+    "flag": {
+      "svg": "https://flagcdn.com/gp.svg",
+      "png": "https://flagcdn.com/w320/gp.png"
+    },
+    "value": "GP",
+    "label": "🇬🇵 Guadeloupe",
+    "searchText": "Guadeloupe GP GLP 312"
+  },
+  {
+    "id": "GU",
+    "name": "Guam",
+    "slug": "guam",
+    "iso2": "GU",
+    "iso3": "GUM",
+    "numericCode": "316",
+    "emoji": "🇬🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/gu.svg",
+      "png": "https://flagcdn.com/w320/gu.png"
+    },
+    "value": "GU",
+    "label": "🇬🇺 Guam",
+    "searchText": "Guam GU GUM 316"
+  },
+  {
+    "id": "GT",
+    "name": "Guatemala",
+    "slug": "guatemala",
+    "iso2": "GT",
+    "iso3": "GTM",
+    "numericCode": "320",
+    "emoji": "🇬🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/gt.svg",
+      "png": "https://flagcdn.com/w320/gt.png"
+    },
+    "value": "GT",
+    "label": "🇬🇹 Guatemala",
+    "searchText": "Guatemala GT GTM 320"
+  },
+  {
+    "id": "GG",
+    "name": "Guernsey",
+    "slug": "guernsey",
+    "iso2": "GG",
+    "iso3": "GGY",
+    "numericCode": "831",
+    "emoji": "🇬🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/gg.svg",
+      "png": "https://flagcdn.com/w320/gg.png"
+    },
+    "value": "GG",
+    "label": "🇬🇬 Guernsey",
+    "searchText": "Guernsey GG GGY 831"
+  },
+  {
+    "id": "GN",
+    "name": "Guinea",
+    "slug": "guinea",
+    "iso2": "GN",
+    "iso3": "GIN",
+    "numericCode": "324",
+    "emoji": "🇬🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/gn.svg",
+      "png": "https://flagcdn.com/w320/gn.png"
+    },
+    "value": "GN",
+    "label": "🇬🇳 Guinea",
+    "searchText": "Guinea GN GIN 324"
+  },
+  {
+    "id": "GW",
+    "name": "Guinea-Bissau",
+    "slug": "guinea-bissau",
+    "iso2": "GW",
+    "iso3": "GNB",
+    "numericCode": "624",
+    "emoji": "🇬🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/gw.svg",
+      "png": "https://flagcdn.com/w320/gw.png"
+    },
+    "value": "GW",
+    "label": "🇬🇼 Guinea-Bissau",
+    "searchText": "Guinea-Bissau GW GNB 624"
+  },
+  {
+    "id": "GY",
+    "name": "Guyana",
+    "slug": "guyana",
+    "iso2": "GY",
+    "iso3": "GUY",
+    "numericCode": "328",
+    "emoji": "🇬🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/gy.svg",
+      "png": "https://flagcdn.com/w320/gy.png"
+    },
+    "value": "GY",
+    "label": "🇬🇾 Guyana",
+    "searchText": "Guyana GY GUY 328"
+  },
+  {
+    "id": "HT",
+    "name": "Haiti",
+    "slug": "haiti",
+    "iso2": "HT",
+    "iso3": "HTI",
+    "numericCode": "332",
+    "emoji": "🇭🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/ht.svg",
+      "png": "https://flagcdn.com/w320/ht.png"
+    },
+    "value": "HT",
+    "label": "🇭🇹 Haiti",
+    "searchText": "Haiti HT HTI 332"
+  },
+  {
+    "id": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "slug": "heard-island-and-mcdonald-islands",
+    "iso2": "HM",
+    "iso3": "HMD",
+    "numericCode": "334",
+    "emoji": "🇭🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/hm.svg",
+      "png": "https://flagcdn.com/w320/hm.png"
+    },
+    "value": "HM",
+    "label": "🇭🇲 Heard Island and McDonald Islands",
+    "searchText": "Heard Island and McDonald Islands HM HMD 334"
+  },
+  {
+    "id": "VA",
+    "name": "Holy See (the)",
+    "slug": "holy-see-the",
+    "iso2": "VA",
+    "iso3": "VAT",
+    "numericCode": "336",
+    "emoji": "🇻🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/va.svg",
+      "png": "https://flagcdn.com/w320/va.png"
+    },
+    "value": "VA",
+    "label": "🇻🇦 Holy See (the)",
+    "searchText": "Holy See (the) VA VAT 336"
+  },
+  {
+    "id": "HN",
+    "name": "Honduras",
+    "slug": "honduras",
+    "iso2": "HN",
+    "iso3": "HND",
+    "numericCode": "340",
+    "emoji": "🇭🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/hn.svg",
+      "png": "https://flagcdn.com/w320/hn.png"
+    },
+    "value": "HN",
+    "label": "🇭🇳 Honduras",
+    "searchText": "Honduras HN HND 340"
+  },
+  {
+    "id": "HK",
+    "name": "Hong Kong",
+    "slug": "hong-kong",
+    "iso2": "HK",
+    "iso3": "HKG",
+    "numericCode": "344",
+    "emoji": "🇭🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/hk.svg",
+      "png": "https://flagcdn.com/w320/hk.png"
+    },
+    "value": "HK",
+    "label": "🇭🇰 Hong Kong",
+    "searchText": "Hong Kong HK HKG 344"
+  },
+  {
+    "id": "HU",
+    "name": "Hungary",
+    "slug": "hungary",
+    "iso2": "HU",
+    "iso3": "HUN",
+    "numericCode": "348",
+    "emoji": "🇭🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/hu.svg",
+      "png": "https://flagcdn.com/w320/hu.png"
+    },
+    "value": "HU",
+    "label": "🇭🇺 Hungary",
+    "searchText": "Hungary HU HUN 348"
+  },
+  {
+    "id": "IS",
+    "name": "Iceland",
+    "slug": "iceland",
+    "iso2": "IS",
+    "iso3": "ISL",
+    "numericCode": "352",
+    "emoji": "🇮🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/is.svg",
+      "png": "https://flagcdn.com/w320/is.png"
+    },
+    "value": "IS",
+    "label": "🇮🇸 Iceland",
+    "searchText": "Iceland IS ISL 352"
+  },
+  {
+    "id": "IN",
+    "name": "India",
+    "slug": "india",
+    "iso2": "IN",
+    "iso3": "IND",
+    "numericCode": "356",
+    "emoji": "🇮🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/in.svg",
+      "png": "https://flagcdn.com/w320/in.png"
+    },
+    "value": "IN",
+    "label": "🇮🇳 India",
+    "searchText": "India IN IND 356"
+  },
+  {
+    "id": "ID",
+    "name": "Indonesia",
+    "slug": "indonesia",
+    "iso2": "ID",
+    "iso3": "IDN",
+    "numericCode": "360",
+    "emoji": "🇮🇩",
+    "flag": {
+      "svg": "https://flagcdn.com/id.svg",
+      "png": "https://flagcdn.com/w320/id.png"
+    },
+    "value": "ID",
+    "label": "🇮🇩 Indonesia",
+    "searchText": "Indonesia ID IDN 360"
+  },
+  {
+    "id": "IR",
+    "name": "Iran (Islamic Republic of)",
+    "slug": "iran-islamic-republic-of",
+    "iso2": "IR",
+    "iso3": "IRN",
+    "numericCode": "364",
+    "emoji": "🇮🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/ir.svg",
+      "png": "https://flagcdn.com/w320/ir.png"
+    },
+    "value": "IR",
+    "label": "🇮🇷 Iran (Islamic Republic of)",
+    "searchText": "Iran (Islamic Republic of) IR IRN 364"
+  },
+  {
+    "id": "IQ",
+    "name": "Iraq",
+    "slug": "iraq",
+    "iso2": "IQ",
+    "iso3": "IRQ",
+    "numericCode": "368",
+    "emoji": "🇮🇶",
+    "flag": {
+      "svg": "https://flagcdn.com/iq.svg",
+      "png": "https://flagcdn.com/w320/iq.png"
+    },
+    "value": "IQ",
+    "label": "🇮🇶 Iraq",
+    "searchText": "Iraq IQ IRQ 368"
+  },
+  {
+    "id": "IE",
+    "name": "Ireland",
+    "slug": "ireland",
+    "iso2": "IE",
+    "iso3": "IRL",
+    "numericCode": "372",
+    "emoji": "🇮🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/ie.svg",
+      "png": "https://flagcdn.com/w320/ie.png"
+    },
+    "value": "IE",
+    "label": "🇮🇪 Ireland",
+    "searchText": "Ireland IE IRL 372"
+  },
+  {
+    "id": "IM",
+    "name": "Isle of Man",
+    "slug": "isle-of-man",
+    "iso2": "IM",
+    "iso3": "IMN",
+    "numericCode": "833",
+    "emoji": "🇮🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/im.svg",
+      "png": "https://flagcdn.com/w320/im.png"
+    },
+    "value": "IM",
+    "label": "🇮🇲 Isle of Man",
+    "searchText": "Isle of Man IM IMN 833"
+  },
+  {
+    "id": "IL",
+    "name": "Israel",
+    "slug": "israel",
+    "iso2": "IL",
+    "iso3": "ISR",
+    "numericCode": "376",
+    "emoji": "🇮🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/il.svg",
+      "png": "https://flagcdn.com/w320/il.png"
+    },
+    "value": "IL",
+    "label": "🇮🇱 Israel",
+    "searchText": "Israel IL ISR 376"
+  },
+  {
+    "id": "IT",
+    "name": "Italy",
+    "slug": "italy",
+    "iso2": "IT",
+    "iso3": "ITA",
+    "numericCode": "380",
+    "emoji": "🇮🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/it.svg",
+      "png": "https://flagcdn.com/w320/it.png"
+    },
+    "value": "IT",
+    "label": "🇮🇹 Italy",
+    "searchText": "Italy IT ITA 380"
+  },
+  {
+    "id": "JM",
+    "name": "Jamaica",
+    "slug": "jamaica",
+    "iso2": "JM",
+    "iso3": "JAM",
+    "numericCode": "388",
+    "emoji": "🇯🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/jm.svg",
+      "png": "https://flagcdn.com/w320/jm.png"
+    },
+    "value": "JM",
+    "label": "🇯🇲 Jamaica",
+    "searchText": "Jamaica JM JAM 388"
+  },
+  {
+    "id": "JP",
+    "name": "Japan",
+    "slug": "japan",
+    "iso2": "JP",
+    "iso3": "JPN",
+    "numericCode": "392",
+    "emoji": "🇯🇵",
+    "flag": {
+      "svg": "https://flagcdn.com/jp.svg",
+      "png": "https://flagcdn.com/w320/jp.png"
+    },
+    "value": "JP",
+    "label": "🇯🇵 Japan",
+    "searchText": "Japan JP JPN 392"
+  },
+  {
+    "id": "JE",
+    "name": "Jersey",
+    "slug": "jersey",
+    "iso2": "JE",
+    "iso3": "JEY",
+    "numericCode": "832",
+    "emoji": "🇯🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/je.svg",
+      "png": "https://flagcdn.com/w320/je.png"
+    },
+    "value": "JE",
+    "label": "🇯🇪 Jersey",
+    "searchText": "Jersey JE JEY 832"
+  },
+  {
+    "id": "JO",
+    "name": "Jordan",
+    "slug": "jordan",
+    "iso2": "JO",
+    "iso3": "JOR",
+    "numericCode": "400",
+    "emoji": "🇯🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/jo.svg",
+      "png": "https://flagcdn.com/w320/jo.png"
+    },
+    "value": "JO",
+    "label": "🇯🇴 Jordan",
+    "searchText": "Jordan JO JOR 400"
+  },
+  {
+    "id": "KZ",
+    "name": "Kazakhstan",
+    "slug": "kazakhstan",
+    "iso2": "KZ",
+    "iso3": "KAZ",
+    "numericCode": "398",
+    "emoji": "🇰🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/kz.svg",
+      "png": "https://flagcdn.com/w320/kz.png"
+    },
+    "value": "KZ",
+    "label": "🇰🇿 Kazakhstan",
+    "searchText": "Kazakhstan KZ KAZ 398"
+  },
+  {
+    "id": "KE",
+    "name": "Kenya",
+    "slug": "kenya",
+    "iso2": "KE",
+    "iso3": "KEN",
+    "numericCode": "404",
+    "emoji": "🇰🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/ke.svg",
+      "png": "https://flagcdn.com/w320/ke.png"
+    },
+    "value": "KE",
+    "label": "🇰🇪 Kenya",
+    "searchText": "Kenya KE KEN 404"
+  },
+  {
+    "id": "KI",
+    "name": "Kiribati",
+    "slug": "kiribati",
+    "iso2": "KI",
+    "iso3": "KIR",
+    "numericCode": "296",
+    "emoji": "🇰🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/ki.svg",
+      "png": "https://flagcdn.com/w320/ki.png"
+    },
+    "value": "KI",
+    "label": "🇰🇮 Kiribati",
+    "searchText": "Kiribati KI KIR 296"
+  },
+  {
+    "id": "KP",
+    "name": "Korea (the Democratic People's Republic of)",
+    "slug": "korea-the-democratic-people-s-republic-of",
+    "iso2": "KP",
+    "iso3": "PRK",
+    "numericCode": "408",
+    "emoji": "🇰🇵",
+    "flag": {
+      "svg": "https://flagcdn.com/kp.svg",
+      "png": "https://flagcdn.com/w320/kp.png"
+    },
+    "value": "KP",
+    "label": "🇰🇵 Korea (the Democratic People's Republic of)",
+    "searchText": "Korea (the Democratic People's Republic of) KP PRK 408"
+  },
+  {
+    "id": "KR",
+    "name": "Korea (the Republic of)",
+    "slug": "korea-the-republic-of",
+    "iso2": "KR",
+    "iso3": "KOR",
+    "numericCode": "410",
+    "emoji": "🇰🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/kr.svg",
+      "png": "https://flagcdn.com/w320/kr.png"
+    },
+    "value": "KR",
+    "label": "🇰🇷 Korea (the Republic of)",
+    "searchText": "Korea (the Republic of) KR KOR 410"
+  },
+  {
+    "id": "KW",
+    "name": "Kuwait",
+    "slug": "kuwait",
+    "iso2": "KW",
+    "iso3": "KWT",
+    "numericCode": "414",
+    "emoji": "🇰🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/kw.svg",
+      "png": "https://flagcdn.com/w320/kw.png"
+    },
+    "value": "KW",
+    "label": "🇰🇼 Kuwait",
+    "searchText": "Kuwait KW KWT 414"
+  },
+  {
+    "id": "KG",
+    "name": "Kyrgyzstan",
+    "slug": "kyrgyzstan",
+    "iso2": "KG",
+    "iso3": "KGZ",
+    "numericCode": "417",
+    "emoji": "🇰🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/kg.svg",
+      "png": "https://flagcdn.com/w320/kg.png"
+    },
+    "value": "KG",
+    "label": "🇰🇬 Kyrgyzstan",
+    "searchText": "Kyrgyzstan KG KGZ 417"
+  },
+  {
+    "id": "LA",
+    "name": "Lao People's Democratic Republic (the)",
+    "slug": "lao-people-s-democratic-republic-the",
+    "iso2": "LA",
+    "iso3": "LAO",
+    "numericCode": "418",
+    "emoji": "🇱🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/la.svg",
+      "png": "https://flagcdn.com/w320/la.png"
+    },
+    "value": "LA",
+    "label": "🇱🇦 Lao People's Democratic Republic (the)",
+    "searchText": "Lao People's Democratic Republic (the) LA LAO 418"
+  },
+  {
+    "id": "LV",
+    "name": "Latvia",
+    "slug": "latvia",
+    "iso2": "LV",
+    "iso3": "LVA",
+    "numericCode": "428",
+    "emoji": "🇱🇻",
+    "flag": {
+      "svg": "https://flagcdn.com/lv.svg",
+      "png": "https://flagcdn.com/w320/lv.png"
+    },
+    "value": "LV",
+    "label": "🇱🇻 Latvia",
+    "searchText": "Latvia LV LVA 428"
+  },
+  {
+    "id": "LB",
+    "name": "Lebanon",
+    "slug": "lebanon",
+    "iso2": "LB",
+    "iso3": "LBN",
+    "numericCode": "422",
+    "emoji": "🇱🇧",
+    "flag": {
+      "svg": "https://flagcdn.com/lb.svg",
+      "png": "https://flagcdn.com/w320/lb.png"
+    },
+    "value": "LB",
+    "label": "🇱🇧 Lebanon",
+    "searchText": "Lebanon LB LBN 422"
+  },
+  {
+    "id": "LS",
+    "name": "Lesotho",
+    "slug": "lesotho",
+    "iso2": "LS",
+    "iso3": "LSO",
+    "numericCode": "426",
+    "emoji": "🇱🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/ls.svg",
+      "png": "https://flagcdn.com/w320/ls.png"
+    },
+    "value": "LS",
+    "label": "🇱🇸 Lesotho",
+    "searchText": "Lesotho LS LSO 426"
+  },
+  {
+    "id": "LR",
+    "name": "Liberia",
+    "slug": "liberia",
+    "iso2": "LR",
+    "iso3": "LBR",
+    "numericCode": "430",
+    "emoji": "🇱🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/lr.svg",
+      "png": "https://flagcdn.com/w320/lr.png"
+    },
+    "value": "LR",
+    "label": "🇱🇷 Liberia",
+    "searchText": "Liberia LR LBR 430"
+  },
+  {
+    "id": "LY",
+    "name": "Libya",
+    "slug": "libya",
+    "iso2": "LY",
+    "iso3": "LBY",
+    "numericCode": "434",
+    "emoji": "🇱🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/ly.svg",
+      "png": "https://flagcdn.com/w320/ly.png"
+    },
+    "value": "LY",
+    "label": "🇱🇾 Libya",
+    "searchText": "Libya LY LBY 434"
+  },
+  {
+    "id": "LI",
+    "name": "Liechtenstein",
+    "slug": "liechtenstein",
+    "iso2": "LI",
+    "iso3": "LIE",
+    "numericCode": "438",
+    "emoji": "🇱🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/li.svg",
+      "png": "https://flagcdn.com/w320/li.png"
+    },
+    "value": "LI",
+    "label": "🇱🇮 Liechtenstein",
+    "searchText": "Liechtenstein LI LIE 438"
+  },
+  {
+    "id": "LT",
+    "name": "Lithuania",
+    "slug": "lithuania",
+    "iso2": "LT",
+    "iso3": "LTU",
+    "numericCode": "440",
+    "emoji": "🇱🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/lt.svg",
+      "png": "https://flagcdn.com/w320/lt.png"
+    },
+    "value": "LT",
+    "label": "🇱🇹 Lithuania",
+    "searchText": "Lithuania LT LTU 440"
+  },
+  {
+    "id": "LU",
+    "name": "Luxembourg",
+    "slug": "luxembourg",
+    "iso2": "LU",
+    "iso3": "LUX",
+    "numericCode": "442",
+    "emoji": "🇱🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/lu.svg",
+      "png": "https://flagcdn.com/w320/lu.png"
+    },
+    "value": "LU",
+    "label": "🇱🇺 Luxembourg",
+    "searchText": "Luxembourg LU LUX 442"
+  },
+  {
+    "id": "MO",
+    "name": "Macao",
+    "slug": "macao",
+    "iso2": "MO",
+    "iso3": "MAC",
+    "numericCode": "446",
+    "emoji": "🇲🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/mo.svg",
+      "png": "https://flagcdn.com/w320/mo.png"
+    },
+    "value": "MO",
+    "label": "🇲🇴 Macao",
+    "searchText": "Macao MO MAC 446"
+  },
+  {
+    "id": "MG",
+    "name": "Madagascar",
+    "slug": "madagascar",
+    "iso2": "MG",
+    "iso3": "MDG",
+    "numericCode": "450",
+    "emoji": "🇲🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/mg.svg",
+      "png": "https://flagcdn.com/w320/mg.png"
+    },
+    "value": "MG",
+    "label": "🇲🇬 Madagascar",
+    "searchText": "Madagascar MG MDG 450"
+  },
+  {
+    "id": "MW",
+    "name": "Malawi",
+    "slug": "malawi",
+    "iso2": "MW",
+    "iso3": "MWI",
+    "numericCode": "454",
+    "emoji": "🇲🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/mw.svg",
+      "png": "https://flagcdn.com/w320/mw.png"
+    },
+    "value": "MW",
+    "label": "🇲🇼 Malawi",
+    "searchText": "Malawi MW MWI 454"
+  },
+  {
+    "id": "MY",
+    "name": "Malaysia",
+    "slug": "malaysia",
+    "iso2": "MY",
+    "iso3": "MYS",
+    "numericCode": "458",
+    "emoji": "🇲🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/my.svg",
+      "png": "https://flagcdn.com/w320/my.png"
+    },
+    "value": "MY",
+    "label": "🇲🇾 Malaysia",
+    "searchText": "Malaysia MY MYS 458"
+  },
+  {
+    "id": "MV",
+    "name": "Maldives",
+    "slug": "maldives",
+    "iso2": "MV",
+    "iso3": "MDV",
+    "numericCode": "462",
+    "emoji": "🇲🇻",
+    "flag": {
+      "svg": "https://flagcdn.com/mv.svg",
+      "png": "https://flagcdn.com/w320/mv.png"
+    },
+    "value": "MV",
+    "label": "🇲🇻 Maldives",
+    "searchText": "Maldives MV MDV 462"
+  },
+  {
+    "id": "ML",
+    "name": "Mali",
+    "slug": "mali",
+    "iso2": "ML",
+    "iso3": "MLI",
+    "numericCode": "466",
+    "emoji": "🇲🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/ml.svg",
+      "png": "https://flagcdn.com/w320/ml.png"
+    },
+    "value": "ML",
+    "label": "🇲🇱 Mali",
+    "searchText": "Mali ML MLI 466"
+  },
+  {
+    "id": "MT",
+    "name": "Malta",
+    "slug": "malta",
+    "iso2": "MT",
+    "iso3": "MLT",
+    "numericCode": "470",
+    "emoji": "🇲🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/mt.svg",
+      "png": "https://flagcdn.com/w320/mt.png"
+    },
+    "value": "MT",
+    "label": "🇲🇹 Malta",
+    "searchText": "Malta MT MLT 470"
+  },
+  {
+    "id": "MH",
+    "name": "Marshall Islands (the)",
+    "slug": "marshall-islands-the",
+    "iso2": "MH",
+    "iso3": "MHL",
+    "numericCode": "584",
+    "emoji": "🇲🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/mh.svg",
+      "png": "https://flagcdn.com/w320/mh.png"
+    },
+    "value": "MH",
+    "label": "🇲🇭 Marshall Islands (the)",
+    "searchText": "Marshall Islands (the) MH MHL 584"
+  },
+  {
+    "id": "MQ",
+    "name": "Martinique",
+    "slug": "martinique",
+    "iso2": "MQ",
+    "iso3": "MTQ",
+    "numericCode": "474",
+    "emoji": "🇲🇶",
+    "flag": {
+      "svg": "https://flagcdn.com/mq.svg",
+      "png": "https://flagcdn.com/w320/mq.png"
+    },
+    "value": "MQ",
+    "label": "🇲🇶 Martinique",
+    "searchText": "Martinique MQ MTQ 474"
+  },
+  {
+    "id": "MR",
+    "name": "Mauritania",
+    "slug": "mauritania",
+    "iso2": "MR",
+    "iso3": "MRT",
+    "numericCode": "478",
+    "emoji": "🇲🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/mr.svg",
+      "png": "https://flagcdn.com/w320/mr.png"
+    },
+    "value": "MR",
+    "label": "🇲🇷 Mauritania",
+    "searchText": "Mauritania MR MRT 478"
+  },
+  {
+    "id": "MU",
+    "name": "Mauritius",
+    "slug": "mauritius",
+    "iso2": "MU",
+    "iso3": "MUS",
+    "numericCode": "480",
+    "emoji": "🇲🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/mu.svg",
+      "png": "https://flagcdn.com/w320/mu.png"
+    },
+    "value": "MU",
+    "label": "🇲🇺 Mauritius",
+    "searchText": "Mauritius MU MUS 480"
+  },
+  {
+    "id": "YT",
+    "name": "Mayotte",
+    "slug": "mayotte",
+    "iso2": "YT",
+    "iso3": "MYT",
+    "numericCode": "175",
+    "emoji": "🇾🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/yt.svg",
+      "png": "https://flagcdn.com/w320/yt.png"
+    },
+    "value": "YT",
+    "label": "🇾🇹 Mayotte",
+    "searchText": "Mayotte YT MYT 175"
+  },
+  {
+    "id": "MX",
+    "name": "Mexico",
+    "slug": "mexico",
+    "iso2": "MX",
+    "iso3": "MEX",
+    "numericCode": "484",
+    "emoji": "🇲🇽",
+    "flag": {
+      "svg": "https://flagcdn.com/mx.svg",
+      "png": "https://flagcdn.com/w320/mx.png"
+    },
+    "value": "MX",
+    "label": "🇲🇽 Mexico",
+    "searchText": "Mexico MX MEX 484"
+  },
+  {
+    "id": "FM",
+    "name": "Micronesia (Federated States of)",
+    "slug": "micronesia-federated-states-of",
+    "iso2": "FM",
+    "iso3": "FSM",
+    "numericCode": "583",
+    "emoji": "🇫🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/fm.svg",
+      "png": "https://flagcdn.com/w320/fm.png"
+    },
+    "value": "FM",
+    "label": "🇫🇲 Micronesia (Federated States of)",
+    "searchText": "Micronesia (Federated States of) FM FSM 583"
+  },
+  {
+    "id": "MD",
+    "name": "Moldova (the Republic of)",
+    "slug": "moldova-the-republic-of",
+    "iso2": "MD",
+    "iso3": "MDA",
+    "numericCode": "498",
+    "emoji": "🇲🇩",
+    "flag": {
+      "svg": "https://flagcdn.com/md.svg",
+      "png": "https://flagcdn.com/w320/md.png"
+    },
+    "value": "MD",
+    "label": "🇲🇩 Moldova (the Republic of)",
+    "searchText": "Moldova (the Republic of) MD MDA 498"
+  },
+  {
+    "id": "MC",
+    "name": "Monaco",
+    "slug": "monaco",
+    "iso2": "MC",
+    "iso3": "MCO",
+    "numericCode": "492",
+    "emoji": "🇲🇨",
+    "flag": {
+      "svg": "https://flagcdn.com/mc.svg",
+      "png": "https://flagcdn.com/w320/mc.png"
+    },
+    "value": "MC",
+    "label": "🇲🇨 Monaco",
+    "searchText": "Monaco MC MCO 492"
+  },
+  {
+    "id": "MN",
+    "name": "Mongolia",
+    "slug": "mongolia",
+    "iso2": "MN",
+    "iso3": "MNG",
+    "numericCode": "496",
+    "emoji": "🇲🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/mn.svg",
+      "png": "https://flagcdn.com/w320/mn.png"
+    },
+    "value": "MN",
+    "label": "🇲🇳 Mongolia",
+    "searchText": "Mongolia MN MNG 496"
+  },
+  {
+    "id": "ME",
+    "name": "Montenegro",
+    "slug": "montenegro",
+    "iso2": "ME",
+    "iso3": "MNE",
+    "numericCode": "499",
+    "emoji": "🇲🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/me.svg",
+      "png": "https://flagcdn.com/w320/me.png"
+    },
+    "value": "ME",
+    "label": "🇲🇪 Montenegro",
+    "searchText": "Montenegro ME MNE 499"
+  },
+  {
+    "id": "MS",
+    "name": "Montserrat",
+    "slug": "montserrat",
+    "iso2": "MS",
+    "iso3": "MSR",
+    "numericCode": "500",
+    "emoji": "🇲🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/ms.svg",
+      "png": "https://flagcdn.com/w320/ms.png"
+    },
+    "value": "MS",
+    "label": "🇲🇸 Montserrat",
+    "searchText": "Montserrat MS MSR 500"
+  },
+  {
+    "id": "MA",
+    "name": "Morocco",
+    "slug": "morocco",
+    "iso2": "MA",
+    "iso3": "MAR",
+    "numericCode": "504",
+    "emoji": "🇲🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/ma.svg",
+      "png": "https://flagcdn.com/w320/ma.png"
+    },
+    "value": "MA",
+    "label": "🇲🇦 Morocco",
+    "searchText": "Morocco MA MAR 504"
+  },
+  {
+    "id": "MZ",
+    "name": "Mozambique",
+    "slug": "mozambique",
+    "iso2": "MZ",
+    "iso3": "MOZ",
+    "numericCode": "508",
+    "emoji": "🇲🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/mz.svg",
+      "png": "https://flagcdn.com/w320/mz.png"
+    },
+    "value": "MZ",
+    "label": "🇲🇿 Mozambique",
+    "searchText": "Mozambique MZ MOZ 508"
+  },
+  {
+    "id": "MM",
+    "name": "Myanmar",
+    "slug": "myanmar",
+    "iso2": "MM",
+    "iso3": "MMR",
+    "numericCode": "104",
+    "emoji": "🇲🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/mm.svg",
+      "png": "https://flagcdn.com/w320/mm.png"
+    },
+    "value": "MM",
+    "label": "🇲🇲 Myanmar",
+    "searchText": "Myanmar MM MMR 104"
+  },
+  {
+    "id": "NA",
+    "name": "Namibia",
+    "slug": "namibia",
+    "iso2": "NA",
+    "iso3": "NAM",
+    "numericCode": "516",
+    "emoji": "🇳🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/na.svg",
+      "png": "https://flagcdn.com/w320/na.png"
+    },
+    "value": "NA",
+    "label": "🇳🇦 Namibia",
+    "searchText": "Namibia NA NAM 516"
+  },
+  {
+    "id": "NR",
+    "name": "Nauru",
+    "slug": "nauru",
+    "iso2": "NR",
+    "iso3": "NRU",
+    "numericCode": "520",
+    "emoji": "🇳🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/nr.svg",
+      "png": "https://flagcdn.com/w320/nr.png"
+    },
+    "value": "NR",
+    "label": "🇳🇷 Nauru",
+    "searchText": "Nauru NR NRU 520"
+  },
+  {
+    "id": "NP",
+    "name": "Nepal",
+    "slug": "nepal",
+    "iso2": "NP",
+    "iso3": "NPL",
+    "numericCode": "524",
+    "emoji": "🇳🇵",
+    "flag": {
+      "svg": "https://flagcdn.com/np.svg",
+      "png": "https://flagcdn.com/w320/np.png"
+    },
+    "value": "NP",
+    "label": "🇳🇵 Nepal",
+    "searchText": "Nepal NP NPL 524"
+  },
+  {
+    "id": "NL",
+    "name": "Netherlands (the)",
+    "slug": "netherlands-the",
+    "iso2": "NL",
+    "iso3": "NLD",
+    "numericCode": "528",
+    "emoji": "🇳🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/nl.svg",
+      "png": "https://flagcdn.com/w320/nl.png"
+    },
+    "value": "NL",
+    "label": "🇳🇱 Netherlands (the)",
+    "searchText": "Netherlands (the) NL NLD 528"
+  },
+  {
+    "id": "NC",
+    "name": "New Caledonia",
+    "slug": "new-caledonia",
+    "iso2": "NC",
+    "iso3": "NCL",
+    "numericCode": "540",
+    "emoji": "🇳🇨",
+    "flag": {
+      "svg": "https://flagcdn.com/nc.svg",
+      "png": "https://flagcdn.com/w320/nc.png"
+    },
+    "value": "NC",
+    "label": "🇳🇨 New Caledonia",
+    "searchText": "New Caledonia NC NCL 540"
+  },
+  {
+    "id": "NZ",
+    "name": "New Zealand",
+    "slug": "new-zealand",
+    "iso2": "NZ",
+    "iso3": "NZL",
+    "numericCode": "554",
+    "emoji": "🇳🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/nz.svg",
+      "png": "https://flagcdn.com/w320/nz.png"
+    },
+    "value": "NZ",
+    "label": "🇳🇿 New Zealand",
+    "searchText": "New Zealand NZ NZL 554"
+  },
+  {
+    "id": "NI",
+    "name": "Nicaragua",
+    "slug": "nicaragua",
+    "iso2": "NI",
+    "iso3": "NIC",
+    "numericCode": "558",
+    "emoji": "🇳🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/ni.svg",
+      "png": "https://flagcdn.com/w320/ni.png"
+    },
+    "value": "NI",
+    "label": "🇳🇮 Nicaragua",
+    "searchText": "Nicaragua NI NIC 558"
+  },
+  {
+    "id": "NE",
+    "name": "Niger (the)",
+    "slug": "niger-the",
+    "iso2": "NE",
+    "iso3": "NER",
+    "numericCode": "562",
+    "emoji": "🇳🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/ne.svg",
+      "png": "https://flagcdn.com/w320/ne.png"
+    },
+    "value": "NE",
+    "label": "🇳🇪 Niger (the)",
+    "searchText": "Niger (the) NE NER 562"
+  },
+  {
+    "id": "NG",
+    "name": "Nigeria",
+    "slug": "nigeria",
+    "iso2": "NG",
+    "iso3": "NGA",
+    "numericCode": "566",
+    "emoji": "🇳🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/ng.svg",
+      "png": "https://flagcdn.com/w320/ng.png"
+    },
+    "value": "NG",
+    "label": "🇳🇬 Nigeria",
+    "searchText": "Nigeria NG NGA 566"
+  },
+  {
+    "id": "NU",
+    "name": "Niue",
+    "slug": "niue",
+    "iso2": "NU",
+    "iso3": "NIU",
+    "numericCode": "570",
+    "emoji": "🇳🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/nu.svg",
+      "png": "https://flagcdn.com/w320/nu.png"
+    },
+    "value": "NU",
+    "label": "🇳🇺 Niue",
+    "searchText": "Niue NU NIU 570"
+  },
+  {
+    "id": "NF",
+    "name": "Norfolk Island",
+    "slug": "norfolk-island",
+    "iso2": "NF",
+    "iso3": "NFK",
+    "numericCode": "574",
+    "emoji": "🇳🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/nf.svg",
+      "png": "https://flagcdn.com/w320/nf.png"
+    },
+    "value": "NF",
+    "label": "🇳🇫 Norfolk Island",
+    "searchText": "Norfolk Island NF NFK 574"
+  },
+  {
+    "id": "MP",
+    "name": "Northern Mariana Islands (the)",
+    "slug": "northern-mariana-islands-the",
+    "iso2": "MP",
+    "iso3": "MNP",
+    "numericCode": "580",
+    "emoji": "🇲🇵",
+    "flag": {
+      "svg": "https://flagcdn.com/mp.svg",
+      "png": "https://flagcdn.com/w320/mp.png"
+    },
+    "value": "MP",
+    "label": "🇲🇵 Northern Mariana Islands (the)",
+    "searchText": "Northern Mariana Islands (the) MP MNP 580"
+  },
+  {
+    "id": "NO",
+    "name": "Norway",
+    "slug": "norway",
+    "iso2": "NO",
+    "iso3": "NOR",
+    "numericCode": "578",
+    "emoji": "🇳🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/no.svg",
+      "png": "https://flagcdn.com/w320/no.png"
+    },
+    "value": "NO",
+    "label": "🇳🇴 Norway",
+    "searchText": "Norway NO NOR 578"
+  },
+  {
+    "id": "OM",
+    "name": "Oman",
+    "slug": "oman",
+    "iso2": "OM",
+    "iso3": "OMN",
+    "numericCode": "512",
+    "emoji": "🇴🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/om.svg",
+      "png": "https://flagcdn.com/w320/om.png"
+    },
+    "value": "OM",
+    "label": "🇴🇲 Oman",
+    "searchText": "Oman OM OMN 512"
+  },
+  {
+    "id": "PK",
+    "name": "Pakistan",
+    "slug": "pakistan",
+    "iso2": "PK",
+    "iso3": "PAK",
+    "numericCode": "586",
+    "emoji": "🇵🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/pk.svg",
+      "png": "https://flagcdn.com/w320/pk.png"
+    },
+    "value": "PK",
+    "label": "🇵🇰 Pakistan",
+    "searchText": "Pakistan PK PAK 586"
+  },
+  {
+    "id": "PW",
+    "name": "Palau",
+    "slug": "palau",
+    "iso2": "PW",
+    "iso3": "PLW",
+    "numericCode": "585",
+    "emoji": "🇵🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/pw.svg",
+      "png": "https://flagcdn.com/w320/pw.png"
+    },
+    "value": "PW",
+    "label": "🇵🇼 Palau",
+    "searchText": "Palau PW PLW 585"
+  },
+  {
+    "id": "PS",
+    "name": "Palestine, State of",
+    "slug": "palestine-state-of",
+    "iso2": "PS",
+    "iso3": "PSE",
+    "numericCode": "275",
+    "emoji": "🇵🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/ps.svg",
+      "png": "https://flagcdn.com/w320/ps.png"
+    },
+    "value": "PS",
+    "label": "🇵🇸 Palestine, State of",
+    "searchText": "Palestine, State of PS PSE 275"
+  },
+  {
+    "id": "PA",
+    "name": "Panama",
+    "slug": "panama",
+    "iso2": "PA",
+    "iso3": "PAN",
+    "numericCode": "591",
+    "emoji": "🇵🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/pa.svg",
+      "png": "https://flagcdn.com/w320/pa.png"
+    },
+    "value": "PA",
+    "label": "🇵🇦 Panama",
+    "searchText": "Panama PA PAN 591"
+  },
+  {
+    "id": "PG",
+    "name": "Papua New Guinea",
+    "slug": "papua-new-guinea",
+    "iso2": "PG",
+    "iso3": "PNG",
+    "numericCode": "598",
+    "emoji": "🇵🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/pg.svg",
+      "png": "https://flagcdn.com/w320/pg.png"
+    },
+    "value": "PG",
+    "label": "🇵🇬 Papua New Guinea",
+    "searchText": "Papua New Guinea PG PNG 598"
+  },
+  {
+    "id": "PY",
+    "name": "Paraguay",
+    "slug": "paraguay",
+    "iso2": "PY",
+    "iso3": "PRY",
+    "numericCode": "600",
+    "emoji": "🇵🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/py.svg",
+      "png": "https://flagcdn.com/w320/py.png"
+    },
+    "value": "PY",
+    "label": "🇵🇾 Paraguay",
+    "searchText": "Paraguay PY PRY 600"
+  },
+  {
+    "id": "PE",
+    "name": "Peru",
+    "slug": "peru",
+    "iso2": "PE",
+    "iso3": "PER",
+    "numericCode": "604",
+    "emoji": "🇵🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/pe.svg",
+      "png": "https://flagcdn.com/w320/pe.png"
+    },
+    "value": "PE",
+    "label": "🇵🇪 Peru",
+    "searchText": "Peru PE PER 604"
+  },
+  {
+    "id": "PH",
+    "name": "Philippines (the)",
+    "slug": "philippines-the",
+    "iso2": "PH",
+    "iso3": "PHL",
+    "numericCode": "608",
+    "emoji": "🇵🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/ph.svg",
+      "png": "https://flagcdn.com/w320/ph.png"
+    },
+    "value": "PH",
+    "label": "🇵🇭 Philippines (the)",
+    "searchText": "Philippines (the) PH PHL 608"
+  },
+  {
+    "id": "PN",
+    "name": "Pitcairn",
+    "slug": "pitcairn",
+    "iso2": "PN",
+    "iso3": "PCN",
+    "numericCode": "612",
+    "emoji": "🇵🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/pn.svg",
+      "png": "https://flagcdn.com/w320/pn.png"
+    },
+    "value": "PN",
+    "label": "🇵🇳 Pitcairn",
+    "searchText": "Pitcairn PN PCN 612"
+  },
+  {
+    "id": "PL",
+    "name": "Poland",
+    "slug": "poland",
+    "iso2": "PL",
+    "iso3": "POL",
+    "numericCode": "616",
+    "emoji": "🇵🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/pl.svg",
+      "png": "https://flagcdn.com/w320/pl.png"
+    },
+    "value": "PL",
+    "label": "🇵🇱 Poland",
+    "searchText": "Poland PL POL 616"
+  },
+  {
+    "id": "PT",
+    "name": "Portugal",
+    "slug": "portugal",
+    "iso2": "PT",
+    "iso3": "PRT",
+    "numericCode": "620",
+    "emoji": "🇵🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/pt.svg",
+      "png": "https://flagcdn.com/w320/pt.png"
+    },
+    "value": "PT",
+    "label": "🇵🇹 Portugal",
+    "searchText": "Portugal PT PRT 620"
+  },
+  {
+    "id": "PR",
+    "name": "Puerto Rico",
+    "slug": "puerto-rico",
+    "iso2": "PR",
+    "iso3": "PRI",
+    "numericCode": "630",
+    "emoji": "🇵🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/pr.svg",
+      "png": "https://flagcdn.com/w320/pr.png"
+    },
+    "value": "PR",
+    "label": "🇵🇷 Puerto Rico",
+    "searchText": "Puerto Rico PR PRI 630"
+  },
+  {
+    "id": "QA",
+    "name": "Qatar",
+    "slug": "qatar",
+    "iso2": "QA",
+    "iso3": "QAT",
+    "numericCode": "634",
+    "emoji": "🇶🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/qa.svg",
+      "png": "https://flagcdn.com/w320/qa.png"
+    },
+    "value": "QA",
+    "label": "🇶🇦 Qatar",
+    "searchText": "Qatar QA QAT 634"
+  },
+  {
+    "id": "MK",
+    "name": "Republic of North Macedonia",
+    "slug": "republic-of-north-macedonia",
+    "iso2": "MK",
+    "iso3": "MKD",
+    "numericCode": "807",
+    "emoji": "🇲🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/mk.svg",
+      "png": "https://flagcdn.com/w320/mk.png"
+    },
+    "value": "MK",
+    "label": "🇲🇰 Republic of North Macedonia",
+    "searchText": "Republic of North Macedonia MK MKD 807"
+  },
+  {
+    "id": "RO",
+    "name": "Romania",
+    "slug": "romania",
+    "iso2": "RO",
+    "iso3": "ROU",
+    "numericCode": "642",
+    "emoji": "🇷🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/ro.svg",
+      "png": "https://flagcdn.com/w320/ro.png"
+    },
+    "value": "RO",
+    "label": "🇷🇴 Romania",
+    "searchText": "Romania RO ROU 642"
+  },
+  {
+    "id": "RU",
+    "name": "Russian Federation (the)",
+    "slug": "russian-federation-the",
+    "iso2": "RU",
+    "iso3": "RUS",
+    "numericCode": "643",
+    "emoji": "🇷🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/ru.svg",
+      "png": "https://flagcdn.com/w320/ru.png"
+    },
+    "value": "RU",
+    "label": "🇷🇺 Russian Federation (the)",
+    "searchText": "Russian Federation (the) RU RUS 643"
+  },
+  {
+    "id": "RW",
+    "name": "Rwanda",
+    "slug": "rwanda",
+    "iso2": "RW",
+    "iso3": "RWA",
+    "numericCode": "646",
+    "emoji": "🇷🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/rw.svg",
+      "png": "https://flagcdn.com/w320/rw.png"
+    },
+    "value": "RW",
+    "label": "🇷🇼 Rwanda",
+    "searchText": "Rwanda RW RWA 646"
+  },
+  {
+    "id": "RE",
+    "name": "Réunion",
+    "slug": "reunion",
+    "iso2": "RE",
+    "iso3": "REU",
+    "numericCode": "638",
+    "emoji": "🇷🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/re.svg",
+      "png": "https://flagcdn.com/w320/re.png"
+    },
+    "value": "RE",
+    "label": "🇷🇪 Réunion",
+    "searchText": "Réunion RE REU 638"
+  },
+  {
+    "id": "BL",
+    "name": "Saint Barthélemy",
+    "slug": "saint-barthelemy",
+    "iso2": "BL",
+    "iso3": "BLM",
+    "numericCode": "652",
+    "emoji": "🇧🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/bl.svg",
+      "png": "https://flagcdn.com/w320/bl.png"
+    },
+    "value": "BL",
+    "label": "🇧🇱 Saint Barthélemy",
+    "searchText": "Saint Barthélemy BL BLM 652"
+  },
+  {
+    "id": "SH",
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "slug": "saint-helena-ascension-and-tristan-da-cunha",
+    "iso2": "SH",
+    "iso3": "SHN",
+    "numericCode": "654",
+    "emoji": "🇸🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/sh.svg",
+      "png": "https://flagcdn.com/w320/sh.png"
+    },
+    "value": "SH",
+    "label": "🇸🇭 Saint Helena, Ascension and Tristan da Cunha",
+    "searchText": "Saint Helena, Ascension and Tristan da Cunha SH SHN 654"
+  },
+  {
+    "id": "KN",
+    "name": "Saint Kitts and Nevis",
+    "slug": "saint-kitts-and-nevis",
+    "iso2": "KN",
+    "iso3": "KNA",
+    "numericCode": "659",
+    "emoji": "🇰🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/kn.svg",
+      "png": "https://flagcdn.com/w320/kn.png"
+    },
+    "value": "KN",
+    "label": "🇰🇳 Saint Kitts and Nevis",
+    "searchText": "Saint Kitts and Nevis KN KNA 659"
+  },
+  {
+    "id": "LC",
+    "name": "Saint Lucia",
+    "slug": "saint-lucia",
+    "iso2": "LC",
+    "iso3": "LCA",
+    "numericCode": "662",
+    "emoji": "🇱🇨",
+    "flag": {
+      "svg": "https://flagcdn.com/lc.svg",
+      "png": "https://flagcdn.com/w320/lc.png"
+    },
+    "value": "LC",
+    "label": "🇱🇨 Saint Lucia",
+    "searchText": "Saint Lucia LC LCA 662"
+  },
+  {
+    "id": "MF",
+    "name": "Saint Martin (French part)",
+    "slug": "saint-martin-french-part",
+    "iso2": "MF",
+    "iso3": "MAF",
+    "numericCode": "663",
+    "emoji": "🇲🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/mf.svg",
+      "png": "https://flagcdn.com/w320/mf.png"
+    },
+    "value": "MF",
+    "label": "🇲🇫 Saint Martin (French part)",
+    "searchText": "Saint Martin (French part) MF MAF 663"
+  },
+  {
+    "id": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "slug": "saint-pierre-and-miquelon",
+    "iso2": "PM",
+    "iso3": "SPM",
+    "numericCode": "666",
+    "emoji": "🇵🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/pm.svg",
+      "png": "https://flagcdn.com/w320/pm.png"
+    },
+    "value": "PM",
+    "label": "🇵🇲 Saint Pierre and Miquelon",
+    "searchText": "Saint Pierre and Miquelon PM SPM 666"
+  },
+  {
+    "id": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "slug": "saint-vincent-and-the-grenadines",
+    "iso2": "VC",
+    "iso3": "VCT",
+    "numericCode": "670",
+    "emoji": "🇻🇨",
+    "flag": {
+      "svg": "https://flagcdn.com/vc.svg",
+      "png": "https://flagcdn.com/w320/vc.png"
+    },
+    "value": "VC",
+    "label": "🇻🇨 Saint Vincent and the Grenadines",
+    "searchText": "Saint Vincent and the Grenadines VC VCT 670"
+  },
+  {
+    "id": "WS",
+    "name": "Samoa",
+    "slug": "samoa",
+    "iso2": "WS",
+    "iso3": "WSM",
+    "numericCode": "882",
+    "emoji": "🇼🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/ws.svg",
+      "png": "https://flagcdn.com/w320/ws.png"
+    },
+    "value": "WS",
+    "label": "🇼🇸 Samoa",
+    "searchText": "Samoa WS WSM 882"
+  },
+  {
+    "id": "SM",
+    "name": "San Marino",
+    "slug": "san-marino",
+    "iso2": "SM",
+    "iso3": "SMR",
+    "numericCode": "674",
+    "emoji": "🇸🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/sm.svg",
+      "png": "https://flagcdn.com/w320/sm.png"
+    },
+    "value": "SM",
+    "label": "🇸🇲 San Marino",
+    "searchText": "San Marino SM SMR 674"
+  },
+  {
+    "id": "ST",
+    "name": "Sao Tome and Principe",
+    "slug": "sao-tome-and-principe",
+    "iso2": "ST",
+    "iso3": "STP",
+    "numericCode": "678",
+    "emoji": "🇸🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/st.svg",
+      "png": "https://flagcdn.com/w320/st.png"
+    },
+    "value": "ST",
+    "label": "🇸🇹 Sao Tome and Principe",
+    "searchText": "Sao Tome and Principe ST STP 678"
+  },
+  {
+    "id": "SA",
+    "name": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "iso2": "SA",
+    "iso3": "SAU",
+    "numericCode": "682",
+    "emoji": "🇸🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/sa.svg",
+      "png": "https://flagcdn.com/w320/sa.png"
+    },
+    "value": "SA",
+    "label": "🇸🇦 Saudi Arabia",
+    "searchText": "Saudi Arabia SA SAU 682"
+  },
+  {
+    "id": "SN",
+    "name": "Senegal",
+    "slug": "senegal",
+    "iso2": "SN",
+    "iso3": "SEN",
+    "numericCode": "686",
+    "emoji": "🇸🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/sn.svg",
+      "png": "https://flagcdn.com/w320/sn.png"
+    },
+    "value": "SN",
+    "label": "🇸🇳 Senegal",
+    "searchText": "Senegal SN SEN 686"
+  },
+  {
+    "id": "RS",
+    "name": "Serbia",
+    "slug": "serbia",
+    "iso2": "RS",
+    "iso3": "SRB",
+    "numericCode": "688",
+    "emoji": "🇷🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/rs.svg",
+      "png": "https://flagcdn.com/w320/rs.png"
+    },
+    "value": "RS",
+    "label": "🇷🇸 Serbia",
+    "searchText": "Serbia RS SRB 688"
+  },
+  {
+    "id": "SC",
+    "name": "Seychelles",
+    "slug": "seychelles",
+    "iso2": "SC",
+    "iso3": "SYC",
+    "numericCode": "690",
+    "emoji": "🇸🇨",
+    "flag": {
+      "svg": "https://flagcdn.com/sc.svg",
+      "png": "https://flagcdn.com/w320/sc.png"
+    },
+    "value": "SC",
+    "label": "🇸🇨 Seychelles",
+    "searchText": "Seychelles SC SYC 690"
+  },
+  {
+    "id": "SL",
+    "name": "Sierra Leone",
+    "slug": "sierra-leone",
+    "iso2": "SL",
+    "iso3": "SLE",
+    "numericCode": "694",
+    "emoji": "🇸🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/sl.svg",
+      "png": "https://flagcdn.com/w320/sl.png"
+    },
+    "value": "SL",
+    "label": "🇸🇱 Sierra Leone",
+    "searchText": "Sierra Leone SL SLE 694"
+  },
+  {
+    "id": "SG",
+    "name": "Singapore",
+    "slug": "singapore",
+    "iso2": "SG",
+    "iso3": "SGP",
+    "numericCode": "702",
+    "emoji": "🇸🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/sg.svg",
+      "png": "https://flagcdn.com/w320/sg.png"
+    },
+    "value": "SG",
+    "label": "🇸🇬 Singapore",
+    "searchText": "Singapore SG SGP 702"
+  },
+  {
+    "id": "SX",
+    "name": "Sint Maarten (Dutch part)",
+    "slug": "sint-maarten-dutch-part",
+    "iso2": "SX",
+    "iso3": "SXM",
+    "numericCode": "534",
+    "emoji": "🇸🇽",
+    "flag": {
+      "svg": "https://flagcdn.com/sx.svg",
+      "png": "https://flagcdn.com/w320/sx.png"
+    },
+    "value": "SX",
+    "label": "🇸🇽 Sint Maarten (Dutch part)",
+    "searchText": "Sint Maarten (Dutch part) SX SXM 534"
+  },
+  {
+    "id": "SK",
+    "name": "Slovakia",
+    "slug": "slovakia",
+    "iso2": "SK",
+    "iso3": "SVK",
+    "numericCode": "703",
+    "emoji": "🇸🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/sk.svg",
+      "png": "https://flagcdn.com/w320/sk.png"
+    },
+    "value": "SK",
+    "label": "🇸🇰 Slovakia",
+    "searchText": "Slovakia SK SVK 703"
+  },
+  {
+    "id": "SI",
+    "name": "Slovenia",
+    "slug": "slovenia",
+    "iso2": "SI",
+    "iso3": "SVN",
+    "numericCode": "705",
+    "emoji": "🇸🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/si.svg",
+      "png": "https://flagcdn.com/w320/si.png"
+    },
+    "value": "SI",
+    "label": "🇸🇮 Slovenia",
+    "searchText": "Slovenia SI SVN 705"
+  },
+  {
+    "id": "SB",
+    "name": "Solomon Islands",
+    "slug": "solomon-islands",
+    "iso2": "SB",
+    "iso3": "SLB",
+    "numericCode": "090",
+    "emoji": "🇸🇧",
+    "flag": {
+      "svg": "https://flagcdn.com/sb.svg",
+      "png": "https://flagcdn.com/w320/sb.png"
+    },
+    "value": "SB",
+    "label": "🇸🇧 Solomon Islands",
+    "searchText": "Solomon Islands SB SLB 090"
+  },
+  {
+    "id": "SO",
+    "name": "Somalia",
+    "slug": "somalia",
+    "iso2": "SO",
+    "iso3": "SOM",
+    "numericCode": "706",
+    "emoji": "🇸🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/so.svg",
+      "png": "https://flagcdn.com/w320/so.png"
+    },
+    "value": "SO",
+    "label": "🇸🇴 Somalia",
+    "searchText": "Somalia SO SOM 706"
+  },
+  {
+    "id": "ZA",
+    "name": "South Africa",
+    "slug": "south-africa",
+    "iso2": "ZA",
+    "iso3": "ZAF",
+    "numericCode": "710",
+    "emoji": "🇿🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/za.svg",
+      "png": "https://flagcdn.com/w320/za.png"
+    },
+    "value": "ZA",
+    "label": "🇿🇦 South Africa",
+    "searchText": "South Africa ZA ZAF 710"
+  },
+  {
+    "id": "GS",
+    "name": "South Georgia and the South Sandwich Islands",
+    "slug": "south-georgia-and-the-south-sandwich-islands",
+    "iso2": "GS",
+    "iso3": "SGS",
+    "numericCode": "239",
+    "emoji": "🇬🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/gs.svg",
+      "png": "https://flagcdn.com/w320/gs.png"
+    },
+    "value": "GS",
+    "label": "🇬🇸 South Georgia and the South Sandwich Islands",
+    "searchText": "South Georgia and the South Sandwich Islands GS SGS 239"
+  },
+  {
+    "id": "SS",
+    "name": "South Sudan",
+    "slug": "south-sudan",
+    "iso2": "SS",
+    "iso3": "SSD",
+    "numericCode": "728",
+    "emoji": "🇸🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/ss.svg",
+      "png": "https://flagcdn.com/w320/ss.png"
+    },
+    "value": "SS",
+    "label": "🇸🇸 South Sudan",
+    "searchText": "South Sudan SS SSD 728"
+  },
+  {
+    "id": "ES",
+    "name": "Spain",
+    "slug": "spain",
+    "iso2": "ES",
+    "iso3": "ESP",
+    "numericCode": "724",
+    "emoji": "🇪🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/es.svg",
+      "png": "https://flagcdn.com/w320/es.png"
+    },
+    "value": "ES",
+    "label": "🇪🇸 Spain",
+    "searchText": "Spain ES ESP 724"
+  },
+  {
+    "id": "LK",
+    "name": "Sri Lanka",
+    "slug": "sri-lanka",
+    "iso2": "LK",
+    "iso3": "LKA",
+    "numericCode": "144",
+    "emoji": "🇱🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/lk.svg",
+      "png": "https://flagcdn.com/w320/lk.png"
+    },
+    "value": "LK",
+    "label": "🇱🇰 Sri Lanka",
+    "searchText": "Sri Lanka LK LKA 144"
+  },
+  {
+    "id": "SD",
+    "name": "Sudan (the)",
+    "slug": "sudan-the",
+    "iso2": "SD",
+    "iso3": "SDN",
+    "numericCode": "729",
+    "emoji": "🇸🇩",
+    "flag": {
+      "svg": "https://flagcdn.com/sd.svg",
+      "png": "https://flagcdn.com/w320/sd.png"
+    },
+    "value": "SD",
+    "label": "🇸🇩 Sudan (the)",
+    "searchText": "Sudan (the) SD SDN 729"
+  },
+  {
+    "id": "SR",
+    "name": "Suriname",
+    "slug": "suriname",
+    "iso2": "SR",
+    "iso3": "SUR",
+    "numericCode": "740",
+    "emoji": "🇸🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/sr.svg",
+      "png": "https://flagcdn.com/w320/sr.png"
+    },
+    "value": "SR",
+    "label": "🇸🇷 Suriname",
+    "searchText": "Suriname SR SUR 740"
+  },
+  {
+    "id": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "slug": "svalbard-and-jan-mayen",
+    "iso2": "SJ",
+    "iso3": "SJM",
+    "numericCode": "744",
+    "emoji": "🇸🇯",
+    "flag": {
+      "svg": "https://flagcdn.com/sj.svg",
+      "png": "https://flagcdn.com/w320/sj.png"
+    },
+    "value": "SJ",
+    "label": "🇸🇯 Svalbard and Jan Mayen",
+    "searchText": "Svalbard and Jan Mayen SJ SJM 744"
+  },
+  {
+    "id": "SE",
+    "name": "Sweden",
+    "slug": "sweden",
+    "iso2": "SE",
+    "iso3": "SWE",
+    "numericCode": "752",
+    "emoji": "🇸🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/se.svg",
+      "png": "https://flagcdn.com/w320/se.png"
+    },
+    "value": "SE",
+    "label": "🇸🇪 Sweden",
+    "searchText": "Sweden SE SWE 752"
+  },
+  {
+    "id": "CH",
+    "name": "Switzerland",
+    "slug": "switzerland",
+    "iso2": "CH",
+    "iso3": "CHE",
+    "numericCode": "756",
+    "emoji": "🇨🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/ch.svg",
+      "png": "https://flagcdn.com/w320/ch.png"
+    },
+    "value": "CH",
+    "label": "🇨🇭 Switzerland",
+    "searchText": "Switzerland CH CHE 756"
+  },
+  {
+    "id": "SY",
+    "name": "Syrian Arab Republic",
+    "slug": "syrian-arab-republic",
+    "iso2": "SY",
+    "iso3": "SYR",
+    "numericCode": "760",
+    "emoji": "🇸🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/sy.svg",
+      "png": "https://flagcdn.com/w320/sy.png"
+    },
+    "value": "SY",
+    "label": "🇸🇾 Syrian Arab Republic",
+    "searchText": "Syrian Arab Republic SY SYR 760"
+  },
+  {
+    "id": "TW",
+    "name": "Taiwan (Province of China)",
+    "slug": "taiwan-province-of-china",
+    "iso2": "TW",
+    "iso3": "TWN",
+    "numericCode": "158",
+    "emoji": "🇹🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/tw.svg",
+      "png": "https://flagcdn.com/w320/tw.png"
+    },
+    "value": "TW",
+    "label": "🇹🇼 Taiwan (Province of China)",
+    "searchText": "Taiwan (Province of China) TW TWN 158"
+  },
+  {
+    "id": "TJ",
+    "name": "Tajikistan",
+    "slug": "tajikistan",
+    "iso2": "TJ",
+    "iso3": "TJK",
+    "numericCode": "762",
+    "emoji": "🇹🇯",
+    "flag": {
+      "svg": "https://flagcdn.com/tj.svg",
+      "png": "https://flagcdn.com/w320/tj.png"
+    },
+    "value": "TJ",
+    "label": "🇹🇯 Tajikistan",
+    "searchText": "Tajikistan TJ TJK 762"
+  },
+  {
+    "id": "TZ",
+    "name": "Tanzania, United Republic of",
+    "slug": "tanzania-united-republic-of",
+    "iso2": "TZ",
+    "iso3": "TZA",
+    "numericCode": "834",
+    "emoji": "🇹🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/tz.svg",
+      "png": "https://flagcdn.com/w320/tz.png"
+    },
+    "value": "TZ",
+    "label": "🇹🇿 Tanzania, United Republic of",
+    "searchText": "Tanzania, United Republic of TZ TZA 834"
+  },
+  {
+    "id": "TH",
+    "name": "Thailand",
+    "slug": "thailand",
+    "iso2": "TH",
+    "iso3": "THA",
+    "numericCode": "764",
+    "emoji": "🇹🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/th.svg",
+      "png": "https://flagcdn.com/w320/th.png"
+    },
+    "value": "TH",
+    "label": "🇹🇭 Thailand",
+    "searchText": "Thailand TH THA 764"
+  },
+  {
+    "id": "TL",
+    "name": "Timor-Leste",
+    "slug": "timor-leste",
+    "iso2": "TL",
+    "iso3": "TLS",
+    "numericCode": "626",
+    "emoji": "🇹🇱",
+    "flag": {
+      "svg": "https://flagcdn.com/tl.svg",
+      "png": "https://flagcdn.com/w320/tl.png"
+    },
+    "value": "TL",
+    "label": "🇹🇱 Timor-Leste",
+    "searchText": "Timor-Leste TL TLS 626"
+  },
+  {
+    "id": "TG",
+    "name": "Togo",
+    "slug": "togo",
+    "iso2": "TG",
+    "iso3": "TGO",
+    "numericCode": "768",
+    "emoji": "🇹🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/tg.svg",
+      "png": "https://flagcdn.com/w320/tg.png"
+    },
+    "value": "TG",
+    "label": "🇹🇬 Togo",
+    "searchText": "Togo TG TGO 768"
+  },
+  {
+    "id": "TK",
+    "name": "Tokelau",
+    "slug": "tokelau",
+    "iso2": "TK",
+    "iso3": "TKL",
+    "numericCode": "772",
+    "emoji": "🇹🇰",
+    "flag": {
+      "svg": "https://flagcdn.com/tk.svg",
+      "png": "https://flagcdn.com/w320/tk.png"
+    },
+    "value": "TK",
+    "label": "🇹🇰 Tokelau",
+    "searchText": "Tokelau TK TKL 772"
+  },
+  {
+    "id": "TO",
+    "name": "Tonga",
+    "slug": "tonga",
+    "iso2": "TO",
+    "iso3": "TON",
+    "numericCode": "776",
+    "emoji": "🇹🇴",
+    "flag": {
+      "svg": "https://flagcdn.com/to.svg",
+      "png": "https://flagcdn.com/w320/to.png"
+    },
+    "value": "TO",
+    "label": "🇹🇴 Tonga",
+    "searchText": "Tonga TO TON 776"
+  },
+  {
+    "id": "TT",
+    "name": "Trinidad and Tobago",
+    "slug": "trinidad-and-tobago",
+    "iso2": "TT",
+    "iso3": "TTO",
+    "numericCode": "780",
+    "emoji": "🇹🇹",
+    "flag": {
+      "svg": "https://flagcdn.com/tt.svg",
+      "png": "https://flagcdn.com/w320/tt.png"
+    },
+    "value": "TT",
+    "label": "🇹🇹 Trinidad and Tobago",
+    "searchText": "Trinidad and Tobago TT TTO 780"
+  },
+  {
+    "id": "TN",
+    "name": "Tunisia",
+    "slug": "tunisia",
+    "iso2": "TN",
+    "iso3": "TUN",
+    "numericCode": "788",
+    "emoji": "🇹🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/tn.svg",
+      "png": "https://flagcdn.com/w320/tn.png"
+    },
+    "value": "TN",
+    "label": "🇹🇳 Tunisia",
+    "searchText": "Tunisia TN TUN 788"
+  },
+  {
+    "id": "TR",
+    "name": "Turkey",
+    "slug": "turkey",
+    "iso2": "TR",
+    "iso3": "TUR",
+    "numericCode": "792",
+    "emoji": "🇹🇷",
+    "flag": {
+      "svg": "https://flagcdn.com/tr.svg",
+      "png": "https://flagcdn.com/w320/tr.png"
+    },
+    "value": "TR",
+    "label": "🇹🇷 Turkey",
+    "searchText": "Turkey TR TUR 792"
+  },
+  {
+    "id": "TM",
+    "name": "Turkmenistan",
+    "slug": "turkmenistan",
+    "iso2": "TM",
+    "iso3": "TKM",
+    "numericCode": "795",
+    "emoji": "🇹🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/tm.svg",
+      "png": "https://flagcdn.com/w320/tm.png"
+    },
+    "value": "TM",
+    "label": "🇹🇲 Turkmenistan",
+    "searchText": "Turkmenistan TM TKM 795"
+  },
+  {
+    "id": "TC",
+    "name": "Turks and Caicos Islands (the)",
+    "slug": "turks-and-caicos-islands-the",
+    "iso2": "TC",
+    "iso3": "TCA",
+    "numericCode": "796",
+    "emoji": "🇹🇨",
+    "flag": {
+      "svg": "https://flagcdn.com/tc.svg",
+      "png": "https://flagcdn.com/w320/tc.png"
+    },
+    "value": "TC",
+    "label": "🇹🇨 Turks and Caicos Islands (the)",
+    "searchText": "Turks and Caicos Islands (the) TC TCA 796"
+  },
+  {
+    "id": "TV",
+    "name": "Tuvalu",
+    "slug": "tuvalu",
+    "iso2": "TV",
+    "iso3": "TUV",
+    "numericCode": "798",
+    "emoji": "🇹🇻",
+    "flag": {
+      "svg": "https://flagcdn.com/tv.svg",
+      "png": "https://flagcdn.com/w320/tv.png"
+    },
+    "value": "TV",
+    "label": "🇹🇻 Tuvalu",
+    "searchText": "Tuvalu TV TUV 798"
+  },
+  {
+    "id": "UG",
+    "name": "Uganda",
+    "slug": "uganda",
+    "iso2": "UG",
+    "iso3": "UGA",
+    "numericCode": "800",
+    "emoji": "🇺🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/ug.svg",
+      "png": "https://flagcdn.com/w320/ug.png"
+    },
+    "value": "UG",
+    "label": "🇺🇬 Uganda",
+    "searchText": "Uganda UG UGA 800"
+  },
+  {
+    "id": "UA",
+    "name": "Ukraine",
+    "slug": "ukraine",
+    "iso2": "UA",
+    "iso3": "UKR",
+    "numericCode": "804",
+    "emoji": "🇺🇦",
+    "flag": {
+      "svg": "https://flagcdn.com/ua.svg",
+      "png": "https://flagcdn.com/w320/ua.png"
+    },
+    "value": "UA",
+    "label": "🇺🇦 Ukraine",
+    "searchText": "Ukraine UA UKR 804"
+  },
+  {
+    "id": "AE",
+    "name": "United Arab Emirates (the)",
+    "slug": "united-arab-emirates-the",
+    "iso2": "AE",
+    "iso3": "ARE",
+    "numericCode": "784",
+    "emoji": "🇦🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/ae.svg",
+      "png": "https://flagcdn.com/w320/ae.png"
+    },
+    "value": "AE",
+    "label": "🇦🇪 United Arab Emirates (the)",
+    "searchText": "United Arab Emirates (the) AE ARE 784"
+  },
+  {
+    "id": "GB",
+    "name": "United Kingdom of Great Britain and Northern Ireland (the)",
+    "slug": "united-kingdom-of-great-britain-and-northern-ireland-the",
+    "iso2": "GB",
+    "iso3": "GBR",
+    "numericCode": "826",
+    "emoji": "🇬🇧",
+    "flag": {
+      "svg": "https://flagcdn.com/gb.svg",
+      "png": "https://flagcdn.com/w320/gb.png"
+    },
+    "value": "GB",
+    "label": "🇬🇧 United Kingdom of Great Britain and Northern Ireland (the)",
+    "searchText": "United Kingdom of Great Britain and Northern Ireland (the) GB GBR 826"
+  },
+  {
+    "id": "UM",
+    "name": "United States Minor Outlying Islands (the)",
+    "slug": "united-states-minor-outlying-islands-the",
+    "iso2": "UM",
+    "iso3": "UMI",
+    "numericCode": "581",
+    "emoji": "🇺🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/um.svg",
+      "png": "https://flagcdn.com/w320/um.png"
+    },
+    "value": "UM",
+    "label": "🇺🇲 United States Minor Outlying Islands (the)",
+    "searchText": "United States Minor Outlying Islands (the) UM UMI 581"
+  },
+  {
+    "id": "US",
+    "name": "United States of America (the)",
+    "slug": "united-states-of-america-the",
+    "iso2": "US",
+    "iso3": "USA",
+    "numericCode": "840",
+    "emoji": "🇺🇸",
+    "flag": {
+      "svg": "https://flagcdn.com/us.svg",
+      "png": "https://flagcdn.com/w320/us.png"
+    },
+    "value": "US",
+    "label": "🇺🇸 United States of America (the)",
+    "searchText": "United States of America (the) US USA 840"
+  },
+  {
+    "id": "UY",
+    "name": "Uruguay",
+    "slug": "uruguay",
+    "iso2": "UY",
+    "iso3": "URY",
+    "numericCode": "858",
+    "emoji": "🇺🇾",
+    "flag": {
+      "svg": "https://flagcdn.com/uy.svg",
+      "png": "https://flagcdn.com/w320/uy.png"
+    },
+    "value": "UY",
+    "label": "🇺🇾 Uruguay",
+    "searchText": "Uruguay UY URY 858"
+  },
+  {
+    "id": "UZ",
+    "name": "Uzbekistan",
+    "slug": "uzbekistan",
+    "iso2": "UZ",
+    "iso3": "UZB",
+    "numericCode": "860",
+    "emoji": "🇺🇿",
+    "flag": {
+      "svg": "https://flagcdn.com/uz.svg",
+      "png": "https://flagcdn.com/w320/uz.png"
+    },
+    "value": "UZ",
+    "label": "🇺🇿 Uzbekistan",
+    "searchText": "Uzbekistan UZ UZB 860"
+  },
+  {
+    "id": "VU",
+    "name": "Vanuatu",
+    "slug": "vanuatu",
+    "iso2": "VU",
+    "iso3": "VUT",
+    "numericCode": "548",
+    "emoji": "🇻🇺",
+    "flag": {
+      "svg": "https://flagcdn.com/vu.svg",
+      "png": "https://flagcdn.com/w320/vu.png"
+    },
+    "value": "VU",
+    "label": "🇻🇺 Vanuatu",
+    "searchText": "Vanuatu VU VUT 548"
+  },
+  {
+    "id": "VE",
+    "name": "Venezuela (Bolivarian Republic of)",
+    "slug": "venezuela-bolivarian-republic-of",
+    "iso2": "VE",
+    "iso3": "VEN",
+    "numericCode": "862",
+    "emoji": "🇻🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/ve.svg",
+      "png": "https://flagcdn.com/w320/ve.png"
+    },
+    "value": "VE",
+    "label": "🇻🇪 Venezuela (Bolivarian Republic of)",
+    "searchText": "Venezuela (Bolivarian Republic of) VE VEN 862"
+  },
+  {
+    "id": "VN",
+    "name": "Viet Nam",
+    "slug": "viet-nam",
+    "iso2": "VN",
+    "iso3": "VNM",
+    "numericCode": "704",
+    "emoji": "🇻🇳",
+    "flag": {
+      "svg": "https://flagcdn.com/vn.svg",
+      "png": "https://flagcdn.com/w320/vn.png"
+    },
+    "value": "VN",
+    "label": "🇻🇳 Viet Nam",
+    "searchText": "Viet Nam VN VNM 704"
+  },
+  {
+    "id": "VG",
+    "name": "Virgin Islands (British)",
+    "slug": "virgin-islands-british",
+    "iso2": "VG",
+    "iso3": "VGB",
+    "numericCode": "092",
+    "emoji": "🇻🇬",
+    "flag": {
+      "svg": "https://flagcdn.com/vg.svg",
+      "png": "https://flagcdn.com/w320/vg.png"
+    },
+    "value": "VG",
+    "label": "🇻🇬 Virgin Islands (British)",
+    "searchText": "Virgin Islands (British) VG VGB 092"
+  },
+  {
+    "id": "VI",
+    "name": "Virgin Islands (U.S.)",
+    "slug": "virgin-islands-u-s",
+    "iso2": "VI",
+    "iso3": "VIR",
+    "numericCode": "850",
+    "emoji": "🇻🇮",
+    "flag": {
+      "svg": "https://flagcdn.com/vi.svg",
+      "png": "https://flagcdn.com/w320/vi.png"
+    },
+    "value": "VI",
+    "label": "🇻🇮 Virgin Islands (U.S.)",
+    "searchText": "Virgin Islands (U.S.) VI VIR 850"
+  },
+  {
+    "id": "WF",
+    "name": "Wallis and Futuna",
+    "slug": "wallis-and-futuna",
+    "iso2": "WF",
+    "iso3": "WLF",
+    "numericCode": "876",
+    "emoji": "🇼🇫",
+    "flag": {
+      "svg": "https://flagcdn.com/wf.svg",
+      "png": "https://flagcdn.com/w320/wf.png"
+    },
+    "value": "WF",
+    "label": "🇼🇫 Wallis and Futuna",
+    "searchText": "Wallis and Futuna WF WLF 876"
+  },
+  {
+    "id": "EH",
+    "name": "Western Sahara",
+    "slug": "western-sahara",
+    "iso2": "EH",
+    "iso3": "ESH",
+    "numericCode": "732",
+    "emoji": "🇪🇭",
+    "flag": {
+      "svg": "https://flagcdn.com/eh.svg",
+      "png": "https://flagcdn.com/w320/eh.png"
+    },
+    "value": "EH",
+    "label": "🇪🇭 Western Sahara",
+    "searchText": "Western Sahara EH ESH 732"
+  },
+  {
+    "id": "YE",
+    "name": "Yemen",
+    "slug": "yemen",
+    "iso2": "YE",
+    "iso3": "YEM",
+    "numericCode": "887",
+    "emoji": "🇾🇪",
+    "flag": {
+      "svg": "https://flagcdn.com/ye.svg",
+      "png": "https://flagcdn.com/w320/ye.png"
+    },
+    "value": "YE",
+    "label": "🇾🇪 Yemen",
+    "searchText": "Yemen YE YEM 887"
+  },
+  {
+    "id": "ZM",
+    "name": "Zambia",
+    "slug": "zambia",
+    "iso2": "ZM",
+    "iso3": "ZMB",
+    "numericCode": "894",
+    "emoji": "🇿🇲",
+    "flag": {
+      "svg": "https://flagcdn.com/zm.svg",
+      "png": "https://flagcdn.com/w320/zm.png"
+    },
+    "value": "ZM",
+    "label": "🇿🇲 Zambia",
+    "searchText": "Zambia ZM ZMB 894"
+  },
+  {
+    "id": "ZW",
+    "name": "Zimbabwe",
+    "slug": "zimbabwe",
+    "iso2": "ZW",
+    "iso3": "ZWE",
+    "numericCode": "716",
+    "emoji": "🇿🇼",
+    "flag": {
+      "svg": "https://flagcdn.com/zw.svg",
+      "png": "https://flagcdn.com/w320/zw.png"
+    },
+    "value": "ZW",
+    "label": "🇿🇼 Zimbabwe",
+    "searchText": "Zimbabwe ZW ZWE 716"
+  },
+  {
+    "id": "AX",
+    "name": "Åland Islands",
+    "slug": "aland-islands",
+    "iso2": "AX",
+    "iso3": "ALA",
+    "numericCode": "248",
+    "emoji": "🇦🇽",
+    "flag": {
+      "svg": "https://flagcdn.com/ax.svg",
+      "png": "https://flagcdn.com/w320/ax.png"
+    },
+    "value": "AX",
+    "label": "🇦🇽 Åland Islands",
+    "searchText": "Åland Islands AX ALA 248"
+  }
+]

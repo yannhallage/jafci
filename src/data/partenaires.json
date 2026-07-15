@@ -1,0 +1,39 @@
+{
+    "tutelles": [
+        "Ministère de la Santé, de l'Hygiène Publique et de la Couverture Maladie Universelle",
+        "Ministère de l'Enseignement Supérieur et de la Recherche Scientifique"
+    ],
+    "organisateurs": ["GRAM", "SICARD", "ASCAOC"],
+    "niveaux": [
+        {
+            "id": 1,
+            "title": "Partenaires Platine",
+            "items": ["Logo à recevoir"]
+        },
+        {
+            "id": 2,
+            "title": "Partenaires Or",
+            "items": ["Logo à recevoir"]
+        },
+        {
+            "id": 3,
+            "title": "Partenaires Argent",
+            "items": ["Logo à recevoir"]
+        },
+        {
+            "id": 4,
+            "title": "Partenaires Bronze",
+            "items": ["Logo à recevoir"]
+        }
+    ],
+    "devenirPartenaire": {
+        "title": "Associez votre organisation à l'excellence de la cardiologie interventionnelle africaine",
+        "excerpt": "Les JAFCI 2026 offrent aux laboratoires, industriels et institutions un espace de visibilité privilégié auprès de la communauté cardiologique francophone africaine. Plusieurs formules de partenariat sont proposées, de la présence dans l'espace d'exposition au parrainage de sessions scientifiques.",
+        "cta": "Pour recevoir le dossier de partenariat, contactez le Comité d'Organisation à l'adresse infos@gram.ci."
+    },
+    "presse": {
+        "title": "Espace presse",
+        "excerpt": "Journalistes et professionnels des médias, retrouvez ici l'ensemble des ressources utiles à la couverture des JAFCI 2026 : communiqués de presse, dossier de presse, visuels officiels et accréditations.",
+        "cta": "Pour toute demande d'accréditation ou d'interview, contactez-nous à l'adresse infos@gram.ci."
+    }
+}

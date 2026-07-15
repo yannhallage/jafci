@@ -5,6 +5,7 @@ import HomeData from "../../../data/home.json";
 import Testimonial from "../../../components/testimonial";
 
 SwiperCore.use([Navigation]);
+
 const TestimonialContainer = () => {
     const swiperOption = {
         slidesPerView: 1,
@@ -14,7 +15,7 @@ const TestimonialContainer = () => {
         effect: "fade",
         fadeEffect: { crossFade: true },
         autoplay: {
-            delay: 2500,
+            delay: 4000,
             disableOnInteraction: true,
         },
         navigation: {
@@ -22,11 +23,12 @@ const TestimonialContainer = () => {
             prevEl: ".testimonial-slider-container .swiper-button-prev",
         },
     };
+
     return (
         <section
-            className="testimonial-area testimonial-default-area testimonial-bg-img bg-img"
+            className="testimonial-area testimonial-default-area testimonial-bg-img bg-img testimonial-jafci"
             style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/img/photos/testimonial-bg1.jpg)`,
+                backgroundImage: `url(${process.env.PUBLIC_URL}/img/photos/testimonial-bg-coeur.png)`,
             }}
         >
             <div className="container">
@@ -34,8 +36,8 @@ const TestimonialContainer = () => {
                     <div className="col-lg-12">
                         <SectionTitle
                             classOption="text-center"
-                            subTitle="Testimonial"
-                            title="<span>Trusted</span> From Clients"
+                            subTitle="Mot du Président"
+                            title="<span>Engagement</span> &amp; vision"
                         />
                     </div>
                 </div>
@@ -50,16 +52,11 @@ const TestimonialContainer = () => {
                             {...swiperOption}
                         >
                             {HomeData[5].testimonial &&
-                                HomeData[5].testimonial.map((single, key) => {
-                                    return (
-                                        <SwiperSlide key={key}>
-                                            <Testimonial
-                                                key={key}
-                                                data={single}
-                                            />
-                                        </SwiperSlide>
-                                    );
-                                })}
+                                HomeData[5].testimonial.map((single, key) => (
+                                    <SwiperSlide key={key}>
+                                        <Testimonial data={single} />
+                                    </SwiperSlide>
+                                ))}
                             <div className="swiper-button-next"></div>
                             <div className="swiper-button-prev"></div>
                         </Swiper>

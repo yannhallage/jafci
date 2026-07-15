@@ -25,7 +25,7 @@ const BlogTag = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Hope – Blog Tag" />
+                <SEO title="JAFCI 2026 – Tag" />
                 <div className="wrapper">
                     <Header />
                     <div className="main-content site-wrapper-reveal">

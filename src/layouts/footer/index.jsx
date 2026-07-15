@@ -13,28 +13,29 @@ const Footer = () => {
                             <div className="about-widget">
                                 <Logo
                                     classOption="footer-logo"
-                                    image={`${process.env.PUBLIC_URL}/img/logo-dark.png`}
+                                    image="/img/logo-dark.png"
                                 />
                                 <p className="mb-0">
-                                    Sed elit quam, iaculis sed semper sit amet
-                                    udin vitae nibh at magna akal semperFusce.
+                                    Journées Africaines de Cardiologie
+                                    Interventionnelle — 4ème édition, 10–12
+                                    septembre 2026, Noom Hôtel, Abidjan.
                                 </p>
                                 <ul className="widget-contact-info">
                                     <li className="info-address">
                                         <i className="icofont-location-pin"></i>
-                                        69 Halsey St, New York, Ny 10002, United
-                                        States.
+                                        Noom Hôtel, Plateau, Abidjan, Côte
+                                        d&apos;Ivoire
                                     </li>
                                     <li className="info-mail">
                                         <i className="icofont-email"></i>
-                                        <a href="mailto://hello@yourdomain.com">
-                                            hello@yourdomain.com
+                                        <a href="mailto:infos@gram.ci">
+                                            infos@gram.ci
                                         </a>
                                     </li>
                                     <li className="info-phone">
                                         <i className="icofont-ui-call"></i>
-                                        <a href="tel://(0091)8547632521">
-                                            (0091) 8547 632521
+                                        <a href="tel:+2250749800376">
+                                            (+225) 07 49 800 376
                                         </a>
                                     </li>
                                 </ul>
@@ -44,39 +45,43 @@ const Footer = () => {
                     <div className="col-sm-6 col-md-6 offset-md-1 col-lg-3 offset-lg-0 col-xl-3 d-lg-none d-xl-block">
                         <div className="widget-item d-inline-block">
                             <h4 className="widget-title line-bottom">
-                                Popular Tags
+                                Navigation
                             </h4>
                             <div className="widget-tags">
                                 <ul>
                                     <li>
-                                        <Link to="/">Amazing</Link>
+                                        <Link to="/congres">Le Congrès</Link>
                                     </li>
                                     <li>
-                                        <Link to="/">Envato</Link>
+                                        <Link to="/programme">Programme</Link>
                                     </li>
                                     <li>
-                                        <Link to="/">Themes</Link>
+                                        <Link to="/partenaires">
+                                            Partenaires
+                                        </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">Clean</Link>
+                                        <Link to="/blog">Blog</Link>
                                     </li>
                                     <li>
-                                        <Link to="/">Wordpress</Link>
+                                        <Link to="/inscription">
+                                            Inscription
+                                        </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">Creative</Link>
+                                        <a
+                                            href="https://www.gram.ci"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            GRAM
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/">Mutilpurpose</Link>
+                                        <span>SICARD</span>
                                     </li>
                                     <li>
-                                        <Link to="/">Retina Ready</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Twitter</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Responsive</Link>
+                                        <span>ASCAOC</span>
                                     </li>
                                 </ul>
                             </div>
@@ -85,45 +90,45 @@ const Footer = () => {
                     <div className="col-sm-6 col-md-5 col-lg-4 col-xl-3">
                         <div className="widget-item">
                             <h4 className="widget-title line-bottom">
-                                Recent Posts
+                                Accès rapides
                             </h4>
                             <nav className="widget-posts">
                                 <ul className="posts-item">
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/inscription">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Lorem Ispum dolor sit amet putilor
+                                            S&apos;inscrire aux JAFCI 2026
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/programme">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Medical is all about quality.
+                                            Consulter le programme
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/congres">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Is your website user friendly ?
+                                            Découvrir le congrès
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/partenaires">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Ai offer weekly updates &amp; more.
+                                            Devenir partenaire
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/blog">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Customer should love your web.
+                                            Actualités &amp; articles
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <a href="mailto:infos@gram.ci">
                                             <i className="icon icofont-rounded-double-right"></i>
-                                            Your site smooth and stunning.
-                                        </Link>
+                                            Contact presse
+                                        </a>
                                     </li>
                                 </ul>
                             </nav>
@@ -136,8 +141,8 @@ const Footer = () => {
                             </h4>
                             <div className="widget-newsletter">
                                 <p>
-                                    Sign up for our mailing list to get latest
-                                    updates and offers.
+                                    Recevez les actualités des JAFCI et les
+                                    informations d&apos;inscription.
                                 </p>
                                 <Newsletter mailchimpUrl="//devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" />
                             </div>
@@ -147,24 +152,20 @@ const Footer = () => {
                                     icon="icofont-twitter"
                                 />
                                 <SocialIcon
-                                    path="https://myaccount.google.com/"
-                                    icon="icofont-google-plus"
-                                />
-                                <SocialIcon
-                                    path="https://www.pinterest.com/"
-                                    icon="icofont-pinterest"
-                                />
-                                <SocialIcon
-                                    path="https://rss.com/"
-                                    icon="icofont-rss"
+                                    path="https://www.linkedin.com/"
+                                    icon="icofont-linkedin"
                                 />
                                 <SocialIcon
                                     path="https://www.facebook.com/"
                                     icon="icofont-facebook"
                                 />
                                 <SocialIcon
-                                    path="https://dribbble.com/"
-                                    icon="icofont-dribbble"
+                                    path="https://www.instagram.com/"
+                                    icon="icofont-instagram"
+                                />
+                                <SocialIcon
+                                    path="https://www.youtube.com/"
+                                    icon="icofont-youtube-play"
                                 />
                             </div>
                         </div>
@@ -177,17 +178,12 @@ const Footer = () => {
                         <div className="col-sm-12">
                             <div className="widget-copyright">
                                 <p>
-                                    &copy; 2021{" "}
-                                    <span className="text-uppercase">hope</span>
-                                    . Made with{" "}
-                                    <i className="icofont-heart-alt"></i> by{" "}
-                                    <a
-                                        target="_blank"
-                                        href="https://www.hasthemes.com"
-                                        rel="noreferrer"
-                                    >
-                                        HasThemes
-                                    </a>
+                                    &copy; 2026{" "}
+                                    <span className="text-uppercase">
+                                        JAFCI
+                                    </span>
+                                    . Organisé par GRAM · SICARD · ASCAOC.
+                                    Conception Acredi Group.
                                 </p>
                             </div>
                         </div>

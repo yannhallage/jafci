@@ -11,8 +11,8 @@ const ServiceContainer = () => {
                     <div className="col-lg-12">
                         <SectionTitle
                             classOption="text-center"
-                            subTitle="Our services"
-                            title="<span>Best Solution</span> For Your Health"
+                            subTitle="Chronogramme provisoire"
+                            title="<span>Programme</span> des trois journées"
                         />
                     </div>
                 </div>

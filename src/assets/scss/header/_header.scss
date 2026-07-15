@@ -50,6 +50,16 @@
 .header-middle {
     padding-top: 15px;
     padding-bottom: 15px;
+
+    .header-logo {
+        img,
+        .sticky-img {
+            max-height: 72px;
+            width: auto;
+            max-width: 160px;
+            object-fit: contain;
+        }
+    }
 }
 
 .media-wrap {
