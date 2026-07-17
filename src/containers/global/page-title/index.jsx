@@ -3,11 +3,12 @@ import PageTitle from "../../../components/page-title";
 import PropTypes from "prop-types";
 
 const PageTitleContainer = ({ subTitle, title, image }) => {
-    const publicUrl = process.env.PUBLIC_URL;
+    const publicUrl = image;
     return (
         <div
             className="page-title-area bg-img bg-img-top"
-            style={{ backgroundImage: `url(${publicUrl}/${image})` }}
+            style={{ backgroundImage: `url(${publicUrl}` }}
+            // style={{ backgroundImage: `url(${publicUrl}/${image})` }}
         >
             <div className="container">
                 <div className="row">

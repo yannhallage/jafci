@@ -95,16 +95,16 @@ const AboutContainer = () => {
                                                 « {president.quote} »
                                             </p>
                                         </blockquote>
-                                        <p className="text-muted mb-0">
+                                        {/* <p className="text-muted mb-0">
                                             <em>{president.note}</em>
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div
-                            className="service-list-content"
+                            className="service-list-content mt-5"
                             data-aos="fade-up"
                             data-aos-duration="1200"
                             id="historique"

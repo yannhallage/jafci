@@ -18,7 +18,8 @@ const CongresPage = () => {
                     <Header />
                     <div className="main-content site-wrapper-reveal">
                         <PageTitleContainer
-                            image="img/photos/coeur-reseau.png"
+                            image="img/jafci-congres.jpg"
+                            // image="img/photos/coeur-reseau.png"
                             subTitle="4ème édition · Abidjan"
                             title="Le <span>Congrès</span>"
                         />

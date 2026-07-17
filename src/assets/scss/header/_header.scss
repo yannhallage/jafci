@@ -54,10 +54,18 @@
     .header-logo {
         img,
         .sticky-img {
-            max-height: 72px;
+            max-height: 100px;
             width: auto;
-            max-width: 160px;
+            max-width: 220px;
             object-fit: contain;
+        }
+
+        @include max-screen(991) {
+            img,
+            .sticky-img {
+                max-height: 80px;
+                max-width: 180px;
+            }
         }
     }
 }
@@ -177,18 +185,47 @@
 
 // header-bottom
 
+.header-bottom {
+    .header-logo-nav {
+        flex-shrink: 0;
+
+        img,
+        .sticky-img {
+            max-height: 56px;
+            max-width: 130px;
+            width: auto;
+            object-fit: contain;
+            display: block;
+        }
+    }
+
+    .book-now-btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .menu-label-short {
+        display: none;
+    }
+
+    .menu-label-full {
+        display: inline;
+    }
+}
+
 // main-menu
 
 .main-menu {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
     li {
         position: relative;
+        flex-shrink: 0;
 
         & + li {
-            margin-left: 35px;
+            margin-left: 22px;
         }
 
         &:hover {
@@ -213,10 +250,11 @@
         font-family: "Sarabun", sans-serif;
         display: block;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 13px;
         color: #fff;
         text-transform: uppercase;
-        padding: 15px 5px;
+        padding: 15px 2px;
+        white-space: nowrap;
 
         &::before {
             position: absolute;
@@ -274,7 +312,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    padding: 15px 0px;
+    padding: 8px 0;
     background: #fff;
     opacity: 0;
     visibility: hidden;
@@ -283,6 +321,48 @@
 
     .main-menu-link {
         color: #000;
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    .main-menu {
+        flex-wrap: nowrap;
+
+        li + li {
+            margin-left: 14px;
+        }
+    }
+
+    .menu-label-full {
+        display: none;
+    }
+
+    .menu-label-short {
+        display: inline;
+    }
+
+    .header-logo-nav {
+        margin-right: 12px !important;
+
+        img,
+        .sticky-img {
+            max-height: 44px;
+            max-width: 100px;
+            width: auto;
+            object-fit: contain;
+            display: block;
+        }
+    }
+
+    .book-now-btn {
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+
+    .header-bottom-left {
+        min-width: 0;
+        flex: 1 1 auto;
+        overflow: hidden;
     }
 }
 

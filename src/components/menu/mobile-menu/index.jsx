@@ -5,13 +5,19 @@ import SocialIcon from "../../social-icon";
 const MobileMenu = ({ show, onClose }) => {
     return (
         <div
-            className={`offcanvas offcanvas-mobile-menu ${
-                show ? "offcanvas-open" : ""
-            }`}
+            className={`jafci-offcanvas ${show ? "jafci-offcanvas-open" : ""}`}
+            role="dialog"
+            aria-modal="true"
+            aria-hidden={!show}
         >
             <div className="inner">
                 <div className="border-bottom mb-3 pb-3 text-end">
-                    <button className="offcanvas-close" onClick={onClose}>
+                    <button
+                        type="button"
+                        className="offcanvas-close"
+                        onClick={onClose}
+                        aria-label="Fermer le menu"
+                    >
                         ×
                     </button>
                 </div>

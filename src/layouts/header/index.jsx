@@ -15,18 +15,32 @@ const Header = () => {
     };
     const [scroll, setScroll] = useState(0);
     const [headerTop, setHeaderTop] = useState(0);
+
     useEffect(() => {
         const header = document.querySelector(".sticky-header");
-        setHeaderTop(header.offsetTop);
+        if (header) {
+            setHeaderTop(header.offsetTop);
+        }
+        const handleScroll = () => {
+            setScroll(window.scrollY);
+        };
         window.addEventListener("scroll", handleScroll);
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
 
-    const handleScroll = ({}) => {
-        setScroll(window.scrollY);
-    };
+    useEffect(() => {
+        if (ofcanvasShow) {
+            document.body.classList.add("jafci-offcanvas-open");
+        } else {
+            document.body.classList.remove("jafci-offcanvas-open");
+        }
+        return () => {
+            document.body.classList.remove("jafci-offcanvas-open");
+        };
+    }, [ofcanvasShow]);
+
     return (
         <Fragment>
             <header className="header">
@@ -78,7 +92,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className={`header-middle mobile-sticky`}>
+                <div className="header-middle mobile-sticky">
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
@@ -106,8 +120,11 @@ const Header = () => {
                                     />
                                     <div className="mobile-menu-toggle d-lg-none">
                                         <button
+                                            type="button"
                                             onClick={onCanvasHandler}
                                             className="offcanvas-toggle"
+                                            aria-label="Ouvrir le menu"
+                                            aria-expanded={ofcanvasShow}
                                         >
                                             <svg viewBox="0 0 800 600">
                                                 <path
@@ -136,7 +153,7 @@ const Header = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="d-flex flex-wrap align-items-center justify-content-between">
+                                <div className="d-flex flex-nowrap align-items-center justify-content-between">
                                     <MainMenu />
                                     <Button
                                         path="/inscription"
@@ -157,8 +174,13 @@ const Header = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="d-flex flex-wrap align-items-center justify-content-between">
-                                    <MainMenu />
+                                <div className="d-flex flex-nowrap align-items-center justify-content-between">
+                                    <div className="d-flex flex-nowrap align-items-center header-bottom-left">
+                                        <div className="header-logo header-logo-nav me-3">
+                                            <Logo image="/img/logo.png" />
+                                        </div>
+                                        <MainMenu />
+                                    </div>
                                     <Button
                                         path="/inscription"
                                         classOption="book-now-btn"
@@ -170,7 +192,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            <MenuOverlay show={ofcanvasShow} />
+            <MenuOverlay show={ofcanvasShow} onClick={onCanvasHandler} />
             <MobileMenu show={ofcanvasShow} onClose={onCanvasHandler} />
         </Fragment>
     );

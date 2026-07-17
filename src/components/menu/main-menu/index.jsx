@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const MainMenu = () => {
     return (
-        <nav>
+        <nav className="main-menu-nav">
             <ul className="main-menu">
                 <li>
                     <NavLink
@@ -30,7 +30,10 @@ const MainMenu = () => {
                         activeClassName="active"
                         to={process.env.PUBLIC_URL + "/programme"}
                     >
-                        Programme &amp; Intervenants
+                        <span className="menu-label-full">
+                            Programme &amp; Intervenants
+                        </span>
+                        <span className="menu-label-short">Programme</span>
                     </NavLink>
                 </li>
                 <li>
@@ -39,7 +42,10 @@ const MainMenu = () => {
                         activeClassName="active"
                         to={process.env.PUBLIC_URL + "/partenaires"}
                     >
-                        Partenaires &amp; Presse
+                        <span className="menu-label-full">
+                            Partenaires &amp; Presse
+                        </span>
+                        <span className="menu-label-short">Partenaires</span>
                     </NavLink>
                 </li>
                 <li>
@@ -57,7 +63,10 @@ const MainMenu = () => {
                         activeClassName="active"
                         to={process.env.PUBLIC_URL + "/inscription"}
                     >
-                        Inscription &amp; Contacts
+                        <span className="menu-label-full">
+                            Inscription &amp; Contacts
+                        </span>
+                        <span className="menu-label-short">Inscription</span>
                     </NavLink>
                 </li>
             </ul>
