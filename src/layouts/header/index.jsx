@@ -56,19 +56,19 @@ const Header = () => {
                             </div>
                             <div className="col">
                                 <ul className="social-links text-end">
-                                    <li>
+                                    {/* <li>
                                         <SocialIcon
                                             path="https://twitter.com/"
                                             icon="icofont-twitter"
                                         />
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <SocialIcon
                                             path="https://www.facebook.com/"
                                             icon="icofont-facebook"
                                         />
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <SocialIcon
                                             path="https://www.linkedin.com/"
                                             icon="icofont-linkedin"
@@ -79,7 +79,7 @@ const Header = () => {
                                             path="https://www.instagram.com/"
                                             icon="icofont-instagram"
                                         />
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <SocialIcon
                                             path="https://www.youtube.com/"

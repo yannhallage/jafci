@@ -34,12 +34,12 @@ const Intro = ({ data }) => {
                             />
                             <Button
                                 path={primary.path}
-                                classOption="btn btn-danger me-3 animated delay1"
+                                classOption="btn btn-theme me-3 animated delay1"
                                 text={primary.text}
                             />
                             <Button
                                 path={secondary.path}
-                                classOption="btn btn-outline-secondary animated delay2"
+                                classOption="btn btn-outline-light animated delay2"
                                 text={secondary.text}
                             />
                         </div>

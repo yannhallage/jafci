@@ -54,7 +54,7 @@
       font-size: 25px;
     }
     span {
-      color: #8f1b1b;
+      color: $theme-color;
       font-weight: $font-weight-bold;
     }
   }
@@ -129,7 +129,7 @@
   }
 }
 
-/* Bandeau CTA photo + texte surligné (fond thème) */
+/* Bandeau CTA photo + texte surlignÃ© (fond thÃ¨me) */
 .cta-photo-banner {
   position: relative;
   background-color: transparent !important;
@@ -250,8 +250,8 @@
 /*-------- Button Style Css --------*/
 
 .btn-theme {
-  background-color: #8f1b1b;
-  border-color: #8f1b1b;
+  background-color: $theme-color;
+  border-color: $theme-color;
   border-radius: 0;
   color: $white;
   display: inline-block;
@@ -275,8 +275,8 @@
 
   &:hover,
   &:focus {
-    background-color: #8f1b1b;
-    border-color: #8f1b1b;
+    background-color: $theme-color3;
+    border-color: $theme-color3;
     color: $white;
   }
 
@@ -1568,6 +1568,44 @@
 
 .text-theme-color {
   color: $theme-color !important;
+}
+
+/* Bootstrap danger → or JAFCI (plus de rouge) */
+:root {
+  --bs-danger: #{$theme-color};
+  --bs-danger-rgb: 201, 137, 13;
+  --bs-link-color: #{$theme-color};
+  --bs-link-hover-color: #{$theme-color3};
+}
+
+.btn-danger,
+.bg-danger,
+.text-bg-danger {
+  --bs-btn-bg: #{$theme-color};
+  --bs-btn-border-color: #{$theme-color};
+  --bs-btn-hover-bg: #{$theme-color3};
+  --bs-btn-hover-border-color: #{$theme-color3};
+  --bs-btn-active-bg: #{$theme-color3};
+  --bs-btn-active-border-color: #{$theme-color3};
+  --bs-btn-disabled-bg: #{$theme-color};
+  --bs-btn-disabled-border-color: #{$theme-color};
+  background-color: $theme-color !important;
+  border-color: $theme-color !important;
+}
+
+.text-danger {
+  color: $theme-color !important;
+}
+
+.btn-outline-danger {
+  --bs-btn-color: #{$theme-color};
+  --bs-btn-border-color: #{$theme-color};
+  --bs-btn-hover-bg: #{$theme-color};
+  --bs-btn-hover-border-color: #{$theme-color};
+  --bs-btn-active-bg: #{$theme-color};
+  --bs-btn-active-border-color: #{$theme-color};
+  --bs-btn-disabled-color: #{$theme-color};
+  --bs-btn-disabled-border-color: #{$theme-color};
 }
 
 .text-theme-color2 {

@@ -92,6 +92,12 @@ const MobileMenu = ({ show, onClose }) => {
                         </li>
                         <li>
                             <SocialIcon
+                                path="https://www.youtube.com/"
+                                icon="icofont-youtube-play"
+                            />
+                        </li>
+                        {/* <li>
+                            <SocialIcon
                                 path="https://www.linkedin.com/"
                                 icon="icofont-linkedin"
                             />
@@ -101,7 +107,7 @@ const MobileMenu = ({ show, onClose }) => {
                                 path="https://twitter.com/"
                                 icon="icofont-twitter"
                             />
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 

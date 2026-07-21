@@ -82,7 +82,7 @@
         font-size: 30px;
       }
       span {
-        color: #c8eaea;
+        color: rgba($white, 0.85);
         font-weight: $font-weight-light;
       }
     }
@@ -100,8 +100,16 @@
       color: $white;
       font-size: 16px;
       letter-spacing: 0;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        color: $theme-color4;
+        text-decoration: underline;
+      }
+
       span {
-        color: #99cccc;
+        color: rgba($white, 0.75);
       }
     }
   }
@@ -115,7 +123,7 @@
       letter-spacing: -0.15px;
       margin-bottom: 42px;
       h6 {
-        color: #99cccc;
+        color: rgba($white, 0.75);
         font-size: 16px;
         font-weight: $font-weight-normal;
         margin-bottom: 9px;
@@ -125,6 +133,17 @@
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 0;
+
+        a {
+          color: $white;
+          text-decoration: none;
+
+          &:hover,
+          &:focus {
+            color: $theme-color4;
+            text-decoration: underline;
+          }
+        }
       }
       &.style-two {
         margin-bottom: 50px;
@@ -137,13 +156,13 @@
           text-transform: uppercase;
         }
         p {
-          font-size: 48px;
-          line-height: 1;
+          font-size: 32px;
+          line-height: 1.2;
           @media #{$lg-device} {
-            font-size: 36px;
+            font-size: 28px;
           }
           @media #{$xxs-device} {
-            font-size: 30px;
+            font-size: 22px;
           }
         }
       }

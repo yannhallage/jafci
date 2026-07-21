@@ -93,14 +93,16 @@
 }
 
 .btn-danger {
-  background: #6d0101;
-  border-color: #6d0101;
+  background: $theme-color;
+  border-color: $theme-color;
+  color: #fff;
   &:focus {
     box-shadow: none !important;
   }
   &:hover {
-    background: #000;
-    border-color: #000;
+    background: $theme-color3;
+    border-color: $theme-color3;
+    color: #fff;
   }
 }
 
