@@ -68,7 +68,7 @@
     p{
       margin-top: 10px;
       text-align: left;
-      color: red;
+      color: $theme-color3;
     }
     textarea {
       background-color: transparent;
@@ -135,7 +135,7 @@
 .appointment-form-style1 {
   position: relative;
   z-index: 2;
-  border: 1px solid #6d0101;
+  border: 1px solid $theme-color3;
   background-color: $white;
   box-shadow: 0px 50px 120px 0px rgba(68, 89, 89, 0.15);
   margin: 0 auto;
@@ -190,7 +190,7 @@
       }
     }
     p{
-      color: red;
+      color: $theme-color3;
     }
     textarea {
       border: 1px solid #d9d9d9;

@@ -1,5 +1,5 @@
 /******************************** 
- offcanvas menu style (JAFCI — évite le conflit Bootstrap .offcanvas)
+ offcanvas menu style (JAFCI â€” Ã©vite le conflit Bootstrap .offcanvas)
  ********************************/
 body {
   &.jafci-offcanvas-open {
@@ -72,7 +72,7 @@ body {
     text-indent: 0;
 
     &:hover {
-      color: #6d0101;
+      color: $theme-color;
     }
   }
 
@@ -99,7 +99,7 @@ body {
 
         &:hover,
         &.active {
-          color: #6d0101;
+          color: $theme-color;
         }
       }
     }
@@ -128,12 +128,12 @@ body {
 .offcanvas-social {
   a {
     color: $color-white;
-    background: #6d0101;
+    background: $theme-color;
 
     &:hover {
       background: transparent;
-      color: #6d0101;
-      border-color: #6d0101 !important;
+      color: $theme-color;
+      border-color: $theme-color !important;
     }
   }
 }

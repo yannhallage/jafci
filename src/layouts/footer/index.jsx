@@ -147,22 +147,22 @@ const Footer = () => {
                                 <Newsletter mailchimpUrl="//devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" />
                             </div>
                             <div className="widget-social-icons">
-                                <SocialIcon
+                                {/* <SocialIcon
                                     path="https://twitter.com/"
                                     icon="icofont-twitter"
                                 />
                                 <SocialIcon
                                     path="https://www.linkedin.com/"
                                     icon="icofont-linkedin"
-                                />
+                                /> */}
                                 <SocialIcon
                                     path="https://www.facebook.com/"
                                     icon="icofont-facebook"
                                 />
-                                <SocialIcon
+                                {/* <SocialIcon
                                     path="https://www.instagram.com/"
                                     icon="icofont-instagram"
-                                />
+                                /> */}
                                 <SocialIcon
                                     path="https://www.youtube.com/"
                                     icon="icofont-youtube-play"

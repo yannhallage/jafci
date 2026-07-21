@@ -1,5 +1,5 @@
 .header {
-    background: #8f1b1b;
+    background: #0D213D;
 }
 
 // header top
@@ -7,7 +7,7 @@
 .header-top {
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #9d3a3a;
+    border-bottom: 1px solid #1a3558;
 
     p {
         font-family: "Sarabun", sans-serif;
@@ -170,11 +170,11 @@
     color: #fff;
     text-transform: uppercase;
     padding: 15px 30px;
-    background: #6d0101;
+    background: $theme-color;
     display: inline-block;
 
     &:hover {
-        background: #000;
+        background: $theme-color3;
         color: #fff;
     }
 
@@ -376,7 +376,7 @@
         li {
             .main-menu-link {
                 &:hover {
-                    color: #6d0101;
+                    color: $theme-color;
                 }
 
                 &::before {
@@ -385,7 +385,7 @@
                     left: 0;
                     width: 0%;
                     height: 2px;
-                    background: #6d0101;
+                    background: $theme-color;
                     content: "";
                     transition: all 0.3s;
                 }
@@ -394,7 +394,7 @@
             &.active,
             &:hover {
                 .main-menu-link {
-                    color: #6d0101;
+                    color: $theme-color;
 
                     &::before {
                         width: 100%;
