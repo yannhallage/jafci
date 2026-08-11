@@ -6,7 +6,7 @@ const CallToAction = () => {
         <div
             className="divider-area bg-img cta-photo-banner"
             style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/img/photos/stethoscope-tension.png)`,
+                backgroundImage: `url(${process.env.PUBLIC_URL}/img/WKE00855.jpg)`,
             }}
         >
             <div className="container">

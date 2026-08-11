@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 import { slugify } from "../../utils";
 
 const BlogGrid = ({ data }) => {
+    const imagePath = (data.media.gridImage || "").replace(/^\.\//, "/");
+    const imageSrc = /^https?:\/\//i.test(imagePath)
+        ? imagePath
+        : `${process.env.PUBLIC_URL}${
+              imagePath.startsWith("/") ? "" : "/"
+          }${imagePath}`;
+
     const cate = data.categories.map((value, i) => {
         return (
             <Link
@@ -19,10 +26,7 @@ const BlogGrid = ({ data }) => {
         <div className="post-item">
             <div className="thumb">
                 <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>
-                    <img
-                        src={`${process.env.PUBLIC_URL}/${data.media.gridImage}`}
-                        alt="hope-Blog"
-                    />
+                    <img src={imageSrc} alt={data.title} />
                 </Link>
             </div>
             <div className="content">

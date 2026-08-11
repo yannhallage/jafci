@@ -28,7 +28,7 @@ const TestimonialContainer = () => {
         <section
             className="testimonial-area testimonial-default-area testimonial-bg-img bg-img testimonial-jafci"
             style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/img/photos/testimonial-bg-coeur.png)`,
+                backgroundImage: `url(${process.env.PUBLIC_URL}/img/WKE00821.jpg)`,
             }}
         >
             <div className="container">

@@ -6,6 +6,13 @@ import { slugify } from "../../utils";
 import BlogData from "../../data/blog.json";
 
 const BlogDetailsWrap = ({ data }) => {
+    const largePath = (data.media.largeImage || "").replace(/^\.\//, "/");
+    const largeSrc = /^https?:\/\//i.test(largePath)
+        ? largePath
+        : `${process.env.PUBLIC_URL}${
+              largePath.startsWith("/") ? "" : "/"
+          }${largePath}`;
+
     const cate = data.categories.map((value, i) => {
         return (
             <Link
@@ -22,10 +29,7 @@ const BlogDetailsWrap = ({ data }) => {
         <div className="blog-details-wrpa">
             <div className="content">
                 <h2 className="title">{data.title}</h2>
-                <img
-                    src={`${process.env.PUBLIC_URL}/${data.media.largeImage}`}
-                    alt="hope-Blog"
-                />
+                <img src={largeSrc} alt={data.title} />
                 <div className="meta">
                     {cate}
                     <span>-</span>

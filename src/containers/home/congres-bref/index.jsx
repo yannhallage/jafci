@@ -18,8 +18,8 @@ const CongresBrefContainer = () => {
                         <div className="gallery-item">
                             <div className="thumb">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/img/photos/stethoscope-tension.png`}
-                                    alt="Prévention cardiovasculaire — stéthoscope et tensiomètre"
+                                    src={`${process.env.PUBLIC_URL}/img/WKE00821.jpg`}
+                                    alt="Session scientifique JAFCI — salle de conférence"
                                     style={{
                                         width: "100%",
                                         height: "auto",

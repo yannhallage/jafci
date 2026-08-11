@@ -18,7 +18,7 @@ const ProgrammePage = () => {
                     <Header />
                     <div className="main-content site-wrapper-reveal">
                         <PageTitleContainer
-                            image="img/photos/moniteur-philips.png"
+                            image="img/WKE00821.jpg"
                             subTitle="10, 11 et 12 septembre 2026"
                             title="Programme &amp; <span>Intervenants</span>"
                         />

@@ -44,8 +44,8 @@ const MedicalFeatureContainer = () => {
                     >
                         <div className="feature-side-image text-center">
                             <img
-                                src={`${process.env.PUBLIC_URL}/img/photos/coeur-reseau.png`}
-                                alt="Innovations en cardiologie — JAFCI"
+                                src={`${process.env.PUBLIC_URL}/img/WKE00793.jpg`}
+                                alt="Public attentif lors d'une session JAFCI"
                                 className="img-fluid"
                             />
                         </div>

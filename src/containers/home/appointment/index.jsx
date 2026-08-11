@@ -12,12 +12,13 @@ const AppointmentContainer = () => {
                             data-aos="fade-right"
                         >
                             <img
-                                src={`${process.env.PUBLIC_URL}/img/photos/coeur-geste.png`}
-                                alt="Engagement pour la santé du cœur"
+                                src={`${process.env.PUBLIC_URL}/img/WKE00851.jpg`}
+                                alt="Accueil et inscription — bureau JAFCI"
+                                className="img-fluid"
                                 style={{
-                                    maxWidth: "320px",
                                     width: "100%",
                                     height: "auto",
+                                    display: "block",
                                 }}
                             />
                         </div>

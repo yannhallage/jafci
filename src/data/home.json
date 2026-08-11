@@ -25,7 +25,7 @@
         "slider": [
             {
                 "id": 1,
-                "backgroundImage": "https://orangered-dunlin-201757.hostingersite.com/wp-content/uploads/2022/01/sinformer.jpg",
+                "backgroundImage": "./img/WKE00821.jpg",
                 "subTitle": "4ème édition",
                 "title": "Journées Africaines de <span>Cardiologie</span><span class='d-block'>Interventionnelle</span>",
                 "primaryBtn": { "text": "S'inscrire", "path": "/inscription" },
@@ -33,7 +33,7 @@
             },
             {
                 "id": 2,
-                "backgroundImage": "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "backgroundImage": "./img/WKE00855.jpg",
                 "subTitle": "Innovations en cardiologie interventionnelle en Afrique",
                 "title": "10, 11 et 12 septembre 2026<span class='d-block'><span>Noom Hôtel, Abidjan</span></span>",
                 "primaryBtn": { "text": "S'inscrire", "path": "/inscription" },
@@ -41,7 +41,7 @@
             },
             {
                 "id": 3,
-                "backgroundImage": "https://s.rfi.fr/media/display/0813e68e-ec95-11f0-8045-005056a97e36/w:1024/p:16x9/coeur-maladies-cardiovasculaires-afrique-pr%C3%A9vention.jpg",
+                "backgroundImage": "./img/WKE00793.jpg",
                 "subTitle": "Prévention & santé cardiovasculaire",
                 "title": "Ensemble contre les <span>maladies</span><span class='d-block'>cardiovasculaires</span>",
                 "primaryBtn": { "text": "S'inscrire", "path": "/inscription" },

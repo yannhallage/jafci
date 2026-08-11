@@ -3,14 +3,18 @@ import PropTypes from "prop-types";
 import { slugify } from "../../utils";
 
 const BlogList = ({ data }) => {
+    const thumbSrc = /^https?:\/\//i.test(data.media.smallImage)
+        ? data.media.smallImage
+        : `${process.env.PUBLIC_URL}${data.media.smallImage.replace(
+              /^\./,
+              ""
+          )}`;
+
     return (
         <div className="post-item">
             <div className="thumb">
                 <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>
-                    <img
-                        src={`${process.env.PUBLIC_URL}/${data.media.smallImage}`}
-                        alt="hope-Blog"
-                    />
+                    <img src={thumbSrc} alt={data.title} />
                 </Link>
             </div>
             <div className="content">
@@ -30,7 +34,7 @@ const BlogList = ({ data }) => {
                     >
                         {data.date}
                     </Link>
-                    <span>by</span>
+                    <span>par</span>
                     <Link
                         className="author"
                         to={
