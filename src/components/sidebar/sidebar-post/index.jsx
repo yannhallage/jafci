@@ -6,13 +6,20 @@ const SidebarPost = ({ data }) => {
         <div className="widget-blog-post">
             <ul>
                 {data.map((single, i) => {
+                    const imagePath = (single.media.rcImage || "").replace(
+                        /^\.\//,
+                        "/"
+                    );
+                    const imageSrc = /^https?:\/\//i.test(imagePath)
+                        ? imagePath
+                        : `${process.env.PUBLIC_URL}${
+                              imagePath.startsWith("/") ? "" : "/"
+                          }${imagePath}`;
+
                     return (
                         <li key={i}>
                             <div className="thumb">
-                                <img
-                                    src={`${process.env.PUBLIC_URL}/${single.media.rcImage}`}
-                                    alt="hope-Blog"
-                                />
+                                <img src={imageSrc} alt={single.title} />
                             </div>
                             <div className="content">
                                 <Link

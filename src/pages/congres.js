@@ -18,8 +18,7 @@ const CongresPage = () => {
                     <Header />
                     <div className="main-content site-wrapper-reveal">
                         <PageTitleContainer
-                            image="https://www.aip.ci/wp-content/uploads/2024/11/JAFCI.jpg"
-                            // image="img/photos/coeur-reseau.png"
+                            image="img/WKE00855.jpg"
                             subTitle="4ème édition · Abidjan"
                             title="Le <span>Congrès</span>"
                         />

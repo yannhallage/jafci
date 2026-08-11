@@ -2,106 +2,105 @@
     {
         "id": 1,
         "media": {
-            "rcImage": "./img/blog/s01.jpg",
-            "smallImage": "./img/blog/01.jpg",
-            "gridImage": "img/blog/r01.jpg",
-            "mediumImage": "./img/blog/m01.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "rcImage": "/img/cardio-chirurgie.png",
+            "smallImage": "/img/cardio-chirurgie.png",
+            "gridImage": "img/cardio-chirurgie.png",
+            "mediumImage": "/img/cardio-chirurgie.png",
+            "largeImage": "img/cardio-chirurgie.png"
         },
-        "title": "JAFCI 2026 : ce qui vous attend pour cette quatrième édition",
+        "title": "Cardiologie interventionnelle : soigner le cœur autrement",
         "author": "Comité JAFCI",
         "date": "15 juin 2026",
-        "categories": ["Actualités JAFCI"],
-        "tags": ["JAFCI", "Abidjan", "Congrès", "2026"],
+        "categories": ["Cardiologie"],
+        "tags": ["Cardiologie", "Interventionnelle", "Cœur", "JAFCI"],
         "body": [
-            "<p>Les Journées Africaines de Cardiologie Interventionnelle reviennent à Abidjan du 10 au 12 septembre 2026, au Noom Hôtel. Pour cette quatrième édition, le thème retenu — <strong>Innovations en cardiologie interventionnelle en Afrique</strong> — place la technologie et le transfert de compétences au cœur des échanges.</p>",
-            "<img src='/img/blog/post-detail-02.jpg' alt='JAFCI 2026' />",
-            "<h4>Trois journées scientifiques</h4>",
-            "<p>Au programme : interventions en salles de cathétérisme avec retransmission live, conférences, symposiums, ateliers, panels d'experts, ainsi qu'une journée dédiée au dépistage et à la prévention grand public.</p>",
-            "<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>«</span> Depuis 2018, les JAFCI incarnent un moment unique de réflexion et de progrès dans la lutte contre les maladies cardiovasculaires.</p></blockquote></div>",
-            "<p>Inscrivez-vous dès maintenant pour rejoindre la communauté de la cardiologie interventionnelle africaine à Abidjan.</p>"
+            "<p>La cardiologie interventionnelle regroupe les techniques mini-invasives qui permettent de diagnostiquer et de traiter les affections cardiovasculaires sans chirurgie à cœur ouvert.</p>",
+            "<img src='/img/cardio-chirurgie.png' alt='Équipe en salle d intervention cardiovasculaire' />",
+            "<h4>Un enjeu majeur en Afrique</h4>",
+            "<p>Face à la hausse des maladies cardiovasculaires, ces procédures offrent un levier essentiel pour réduire la mortalité et améliorer la prise en charge sur le continent.</p>",
+            "<p>Les JAFCI 2026 placent ces innovations au cœur des échanges scientifiques à Abidjan.</p>"
         ]
     },
     {
         "id": 2,
         "media": {
-            "rcImage": "./img/blog/s02.jpg",
-            "smallImage": "./img/blog/02.jpg",
-            "gridImage": "img/blog/r02.jpg",
-            "mediumImage": "./img/blog/m02.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "rcImage": "/img/cardio-cathlab.png",
+            "smallImage": "/img/cardio-cathlab.png",
+            "gridImage": "img/cardio-cathlab.png",
+            "mediumImage": "/img/cardio-cathlab.png",
+            "largeImage": "img/cardio-cathlab.png"
         },
-        "title": "Les premières TAVI de Côte d'Ivoire : un tournant historique",
+        "title": "Salle de cathétérisme : le cœur de la pratique",
         "author": "Comité JAFCI",
         "date": "10 juin 2026",
-        "categories": ["Innovations"],
-        "tags": ["TAVI", "Côte d'Ivoire", "Innovations", "Cardiologie"],
+        "categories": ["Cardiologie"],
+        "tags": ["Cathétérisme", "Imagerie", "Cardiologie", "JAFCI"],
         "body": [
-            "<p>Les premières procédures TAVI (remplacement valvulaire aortique par voie percutanée) réalisées en Côte d'Ivoire marquent un tournant historique pour la cardiologie interventionnelle nationale et régionale.</p>",
-            "<img src='/img/blog/post-detail-02.jpg' alt='TAVI Côte dIvoire' />",
-            "<h4>Une innovation accessible</h4>",
-            "<p>Longtemps réservées à quelques centres dans le monde, ces techniques de pointe deviennent progressivement accessibles en Afrique, portées par des équipes locales formées aux standards internationaux.</p>",
-            "<p>Les JAFCI 2026 offrront un espace privilégié pour partager ces avancées et accélérer le transfert de compétences sur le continent.</p>"
+            "<p>En salle de cathétérisme, cardiologues et techniciens guident les procédures grâce à l’imagerie en temps réel : coronarographie, angioplastie, pose de stents.</p>",
+            "<img src='/img/cardio-cathlab.png' alt='Contrôle d imagerie en salle de cathétérisme' />",
+            "<h4>Transfert de compétences</h4>",
+            "<p>Les JAFCI mettent en lumière ces gestes techniques et accélèrent la formation des équipes africaines aux standards internationaux.</p>"
         ]
     },
     {
         "id": 3,
         "media": {
-            "rcImage": "./img/blog/s03.jpg",
-            "smallImage": "./img/blog/03.jpg",
-            "gridImage": "img/blog/r01.jpg",
-            "mediumImage": "./img/blog/m03.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "rcImage": "/img/WKE00811.jpg",
+            "smallImage": "/img/WKE00811.jpg",
+            "gridImage": "img/WKE00811.jpg",
+            "mediumImage": "/img/WKE00811.jpg",
+            "largeImage": "img/WKE00811.jpg"
         },
-        "title": "Qu'est-ce que la cardiologie interventionnelle ?",
+        "title": "Imagerie cardiaque : voir pour mieux intervenir",
         "author": "Comité JAFCI",
         "date": "1 juin 2026",
-        "categories": ["Prévention"],
-        "tags": ["Pédagogie", "Cardiologie", "Prévention"],
+        "categories": ["Innovations"],
+        "tags": ["Échographie", "Imagerie", "Cardiologie", "Technologies"],
         "body": [
-            "<p>La cardiologie interventionnelle regroupe les techniques mini-invasives permettant de diagnostiquer et de traiter les affections cardiovasculaires sans chirurgie à cœur ouvert.</p>",
-            "<img src='/img/blog/post-detail-02.jpg' alt='Cardiologie interventionnelle' />",
-            "<h4>Un levier de santé publique</h4>",
-            "<p>En Afrique subsaharienne, elle constitue un outil indispensable pour réduire la mortalité cardiovasculaire. Les JAFCI se veulent le creuset du partage d'expériences et de l'évaluation de ces techniques sur le continent.</p>"
+            "<p>Échographes, moniteurs et plateaux techniques : l’imagerie guide chaque décision en cardiologie interventionnelle.</p>",
+            "<img src='/img/WKE00811.jpg' alt='Échographe cardiaque en exposition JAFCI' />",
+            "<h4>Technologies au service du patient</h4>",
+            "<p>À Abidjan, les JAFCI font dialoguer cliniciens et industriels autour des outils qui transforment le diagnostic et le traitement.</p>"
         ]
     },
     {
         "id": 4,
         "media": {
-            "rcImage": "./img/blog/s01.jpg",
-            "smallImage": "./img/blog/03.jpg",
-            "gridImage": "img/blog/r02.jpg",
-            "mediumImage": "./img/blog/m04.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "rcImage": "/img/WKE00788.jpg",
+            "smallImage": "/img/WKE00788.jpg",
+            "gridImage": "img/WKE00788.jpg",
+            "mediumImage": "/img/WKE00788.jpg",
+            "largeImage": "img/WKE00788.jpg"
         },
-        "title": "Innovations 2026 : les techniques qui transforment la cardiologie africaine",
+        "title": "Électrophysiologie et rythmologie : comprendre le rythme cardiaque",
         "author": "Comité JAFCI",
         "date": "20 mai 2026",
-        "categories": ["Innovations"],
-        "tags": ["Innovations", "Afrique", "Techniques"],
+        "categories": ["Cardiologie"],
+        "tags": ["Électrophysiologie", "ECG", "Rythmologie", "JAFCI"],
         "body": [
-            "<p>Nouvelles techniques interventionnelles, structuration de centres régionaux d'excellence, partenariats stratégiques avec les leaders mondiaux du secteur : autant de leviers au cœur du thème JAFCI 2026.</p>",
-            "<p>Cette édition mettra l'accent sur les conditions d'un accès élargi des populations africaines à ces innovations thérapeutiques.</p>"
+            "<p>ECG, cartographie et stimulation : les sessions scientifiques JAFCI explorent les troubles du rythme et les solutions interventionnelles disponibles en Afrique francophone.</p>",
+            "<img src='/img/WKE00788.jpg' alt='Présentation d électrophysiologie cardiaque aux JAFCI' />",
+            "<p>Cas cliniques et données partagés entre experts pour faire progresser la pratique quotidienne.</p>"
         ]
     },
     {
         "id": 5,
         "media": {
-            "rcImage": "./img/blog/s02.jpg",
-            "smallImage": "./img/blog/03.jpg",
-            "gridImage": "img/blog/r01.jpg",
-            "mediumImage": "./img/blog/m05.jpg",
-            "largeImage": "img/blog/post-detail-01.jpg"
+            "rcImage": "/img/WKE00835.jpg",
+            "smallImage": "/img/WKE00835.jpg",
+            "gridImage": "img/WKE00835.jpg",
+            "mediumImage": "/img/WKE00835.jpg",
+            "largeImage": "img/WKE00835.jpg"
         },
-        "title": "Pourquoi participer aux JAFCI ?",
+        "title": "Maladies cardiovasculaires en Afrique : agir ensemble",
         "author": "Comité JAFCI",
         "date": "5 mai 2026",
-        "categories": ["Actualités JAFCI"],
-        "tags": ["Inscription", "JAFCI", "Abidjan"],
+        "categories": ["Prévention"],
+        "tags": ["Prévention", "Santé publique", "Cardiologie", "Afrique"],
         "body": [
-            "<p>Rejoindre les JAFCI, c'est participer au rendez-vous scientifique de référence de la cardiologie interventionnelle africaine : échanges entre praticiens, chercheurs, industriels et étudiants, live cases, ateliers et prévention grand public.</p>",
-            "<p>L'inscription se fait en ligne en quelques minutes. Après validation, vous recevrez une confirmation par courriel avec les modalités pratiques.</p>",
-            "<p><a href='/inscription'>S'inscrire maintenant →</a></p>"
+            "<p>Les maladies cardiovasculaires frappent sans distinction d’âge ni de condition sociale. Prévention, dépistage et accès aux innovations thérapeutiques sont au programme des JAFCI.</p>",
+            "<img src='/img/WKE00835.jpg' alt='Conférence sur la santé cardiovasculaire aux JAFCI' />",
+            "<p>Du 10 au 12 septembre 2026 à Abidjan, rejoignez la communauté engagée pour la santé du cœur.</p>"
         ]
     }
 ]
