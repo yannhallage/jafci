@@ -4,7 +4,7 @@ import Header from "../layouts/header";
 import Footer from "../layouts/footer";
 import PageTitleContainer from "../containers/global/page-title/index.jsx";
 import ProgrammeContainer from "../containers/programme/index.jsx";
-import TeamContainer from "../containers/home/team/index.jsx";
+// import TeamContainer from "../containers/home/team/index.jsx";
 import CallToAction from "../containers/global/call-to-action";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
@@ -23,7 +23,7 @@ const ProgrammePage = () => {
                             title="Programme &amp; <span>Intervenants</span>"
                         />
                         <ProgrammeContainer />
-                        <TeamContainer showCta={false} />
+                        {/* <TeamContainer showCta={false} /> */}
                         <CallToAction />
                     </div>
                     <Footer />
