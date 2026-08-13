@@ -13,7 +13,7 @@ const Footer = () => {
                             <div className="about-widget">
                                 <Logo
                                     classOption="footer-logo"
-                                    image="/img/logo-dark.png"
+                                    image="/img/logo-pied-de-page.png"
                                 />
                                 <p className="mb-0">
                                     Journées Africaines de Cardiologie
