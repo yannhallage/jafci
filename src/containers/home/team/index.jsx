@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper";
 import HomeData from "../../../data/home.json";
@@ -6,7 +7,7 @@ import SectionTitle from "../../../components/section-title";
 import Button from "../../../components/button";
 
 SwiperCore.use([Pagination]);
-const TeamContainer = () => {
+const TeamContainer = ({ showCta = true }) => {
     const swiperOption = {
         loop: true,
         speed: 600,
@@ -66,18 +67,24 @@ const TeamContainer = () => {
                                     );
                                 })}
                         </Swiper>
-                        <div className="text-center mt-4">
-                            <Button
-                                path="/programme"
-                                classOption="btn btn-theme"
-                                text="Tous les intervenants"
-                            />
-                        </div>
+                        {showCta ? (
+                            <div className="text-center mt-4">
+                                <Button
+                                    path="/programme"
+                                    classOption="btn btn-theme"
+                                    text="Tous les intervenants"
+                                />
+                            </div>
+                        ) : null}
                     </div>
                 </div>
             </div>
         </div>
     );
+};
+
+TeamContainer.propTypes = {
+    showCta: PropTypes.bool,
 };
 
 export default TeamContainer;

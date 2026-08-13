@@ -14,12 +14,12 @@
         ],
         "icon": "icofont-heart-beat",
         "title": "Jour 1 — Jeudi 10 septembre 2026",
-        "excerpt": "Interventions en salles de cathétérisme cardiaque (retransmission live)",
-        "categories": ["Jour 1", "Live", "Cathétérisme"],
+        "excerpt": "Cas cliniques, retransmissions live, retours d’expérience et lecture de l’ESC 2026.",
+        "categories": ["Jour 1", "Workshop", "Live"],
         "body": [
-            "<p>Chronogramme provisoire repris de l'édition 2024 — à actualiser dès réception du pré-programme officiel 2026.</p>",
+            "<p>Pré-programme officiel V9 — Workshop du jeudi 10 septembre 2026.</p>",
             "<p><strong>Jeudi 10 septembre 2026</strong></p>",
-            "<ul class='list-style1'><li>Interventions en salles de cathétérisme cardiaque</li><li>Retransmission live des procédures</li><li>Horaires et salles détaillés à confirmer</li></ul>"
+            "<ul class='list-style1'><li>Mot de bienvenue (ICA &amp; GRAM)</li><li>Présentation de cas cliniques et retransmissions live</li><li>Retours d’expérience et lecture de l’ESC 2026</li></ul>"
         ],
         "priceList": []
     },
@@ -32,12 +32,12 @@
         },
         "icon": "icofont-microscope",
         "title": "Jour 2 — Vendredi 11 septembre 2026",
-        "excerpt": "Conférences, symposium, ateliers, panels d'experts, retransmission live",
+        "excerpt": "Ateliers, plénières, panel d’experts, cérémonies et symposiums.",
         "categories": ["Jour 2", "Conférences", "Ateliers"],
         "body": [
-            "<p>Chronogramme provisoire repris de l'édition 2024 — à actualiser dès réception du pré-programme officiel 2026.</p>",
+            "<p>Pré-programme officiel V9 — sessions scientifiques du vendredi 11 septembre 2026.</p>",
             "<p><strong>Vendredi 11 septembre 2026</strong></p>",
-            "<ul class='list-style1'><li>Conférences scientifiques</li><li>Symposium et ateliers</li><li>Panels d'experts</li><li>Retransmission live</li></ul>"
+            "<ul class='list-style1'><li>Ateliers (échocardiographie, urgences, session paramédicale)</li><li>Conférences en plénière et panel d’experts</li><li>Sessions rythmologie, radiologie, imagerie et santé au travail</li><li>Cérémonies d’ouverture et de clôture</li></ul>"
         ],
         "priceList": []
     },
@@ -50,12 +50,12 @@
         },
         "icon": "icofont-users-alt-3",
         "title": "Jour 3 — Samedi 12 septembre 2026",
-        "excerpt": "Dépistage grand public, prévention des AVC et des crises cardiaques",
+        "excerpt": "Dépistages, conférences grand public et prévention des AVC et des crises cardiaques.",
         "categories": ["Jour 3", "Prévention", "Grand public"],
         "body": [
-            "<p>Chronogramme provisoire repris de l'édition 2024 — à actualiser dès réception du pré-programme officiel 2026.</p>",
+            "<p>Pré-programme officiel V9 — journée grand public du samedi 12 septembre 2026.</p>",
             "<p><strong>Samedi 12 septembre 2026</strong></p>",
-            "<ul class='list-style1'><li>Dépistage grand public</li><li>Prévention des AVC</li><li>Prévention des crises cardiaques</li></ul>"
+            "<ul class='list-style1'><li>Dépistages cardiovasculaires</li><li>Conférences grand public</li><li>Prévention des AVC et des crises cardiaques</li></ul>"
         ],
         "priceList": []
     }
