@@ -1,10 +1,20 @@
 import React from "react";
 import PartenairesData from "../../data/partenaires.json";
 import SectionTitle from "../../components/section-title";
+import LogoCarousel from "../../components/logo-carousel";
 
 const PartenairesContainer = () => {
-    const { tutelles, organisateurs, niveaux, devenirPartenaire, presse } =
-        PartenairesData;
+    const {
+        tutelles,
+        organisateurs,
+        // niveaux,
+        logos,
+        devenirPartenaire,
+        presse,
+    } = PartenairesData;
+    const mid = Math.ceil(logos.length / 2);
+    const logosRowOne = logos.slice(0, mid);
+    const logosRowTwo = logos.slice(mid);
 
     return (
         <section className="about-area">
@@ -62,46 +72,62 @@ const PartenairesContainer = () => {
                     </div>
                 </div>
 
-                <div className="row mb-5">
-                    <div className="col-12 mb-3">
-                        <h4 className="title text-center">
-                            Niveaux de partenariat
-                        </h4>
-                    </div>
-                    {niveaux.map((niveau, index) => (
-                        <div
-                            key={niveau.id}
-                            className="col-sm-6 col-lg-3 mb-4"
-                            data-aos="fade-up"
-                            data-aos-duration={1000 + index * 150}
-                        >
-                            <div className="service-item text-center h-100">
-                                <div className="icon">
-                                    <i
-                                        className={
-                                            index === 0
-                                                ? "icofont-badge"
-                                                : index === 1
-                                                ? "icofont-medal"
-                                                : index === 2
-                                                ? "icofont-trophy"
-                                                : "icofont-award"
-                                        }
-                                    ></i>
-                                </div>
-                                <div className="content">
-                                    <h5 className="service-name">
-                                        {niveau.title}
-                                    </h5>
-                                    {niveau.items.map((item, i) => (
-                                        <p key={i} className="mb-0">
-                                            <em>{item}</em>
-                                        </p>
-                                    ))}
+                <div className="partenaires-niveaux">
+                    {/*
+                    <div className="row">
+                        <div className="col-12">
+                            <h4 className="title text-center partenaires-niveaux__title">
+                                Niveaux de partenariat
+                            </h4>
+                        </div>
+                        {niveaux.map((niveau, index) => (
+                            <div
+                                key={niveau.id}
+                                className="col-sm-6 col-lg-3 mb-4"
+                                data-aos="fade-up"
+                                data-aos-duration={1000 + index * 150}
+                            >
+                                <div className="service-item partenaires-niveau-card text-center h-100">
+                                    <div className="icon">
+                                        <i
+                                            className={
+                                                index === 0
+                                                    ? "icofont-badge"
+                                                    : index === 1
+                                                    ? "icofont-medal"
+                                                    : index === 2
+                                                    ? "icofont-trophy"
+                                                    : "icofont-award"
+                                            }
+                                        ></i>
+                                    </div>
+                                    <div className="content">
+                                        <h5 className="service-name">
+                                            {niveau.title}
+                                        </h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
+                    */}
+
+                    <div
+                        className="partenaires-logo-band"
+                        data-aos="fade-up"
+                        data-aos-duration="1100"
+                        aria-label="Logos des partenaires JAFCI 2026"
+                    >
+                        <p className="partenaires-logo-band__label">
+                            Ils accompagnent les JAFCI 2026
+                        </p>
+                        <LogoCarousel logos={logosRowOne} duration="40s" />
+                        <LogoCarousel
+                            logos={logosRowTwo}
+                            reverse
+                            duration="48s"
+                        />
+                    </div>
                 </div>
 
                 <div className="row mb-5" data-aos="fade-up">

@@ -1,0 +1,272 @@
+/*
+-----------------------------------------------------------------------
+  Programme – chronogramme JAFCI
+-----------------------------------------------------------------------
+*/
+
+.programme-area {
+    padding: 125px 0 90px;
+
+    @media #{$lg-device} {
+        padding: 100px 0 80px;
+    }
+
+    @media #{$sm-device} {
+        padding: 80px 0 60px;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+
+    &__note {
+        color: $black-666;
+        font-size: 15px;
+        line-height: 28px;
+        margin: 0 auto 28px;
+        max-width: 720px;
+    }
+
+    .btn-theme {
+        i {
+            margin-left: 10px;
+        }
+    }
+
+    &__footer-cta {
+        margin-top: 50px;
+    }
+}
+
+.programme-day-nav {
+    margin-bottom: 70px;
+
+    .service-item {
+        appearance: none;
+        background: transparent;
+        border-left: 0;
+        border-top: 0;
+        color: inherit;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        text-align: left;
+        width: 100%;
+
+        &:focus-visible {
+            outline: 2px solid $theme-color;
+            outline-offset: -2px;
+        }
+
+        .programme-day-nav__label {
+            color: $black-999;
+            font-size: 12px;
+            letter-spacing: 0.4px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .content p:last-child {
+            margin-bottom: 0;
+        }
+
+        &.is-active {
+            background-color: #f3f3f3;
+
+            &:before {
+                height: 4px;
+            }
+
+            .icon,
+            .service-name {
+                color: $theme-color;
+            }
+        }
+    }
+}
+
+.programme-timeline {
+    position: relative;
+
+    &__header {
+        margin-bottom: 42px;
+        text-align: center;
+
+        p {
+            color: $black-999;
+            font-size: 14px;
+            letter-spacing: 0.3px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 28px;
+            font-weight: $font-weight-light;
+            letter-spacing: -0.5px;
+            margin-bottom: 0;
+
+            @media #{$sm-device} {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+.programme-slot {
+    display: grid;
+    gap: 28px;
+    grid-template-columns: 150px minmax(0, 1fr);
+    margin-bottom: 28px;
+    position: relative;
+
+    @media #{$md-device} {
+        gap: 16px;
+        grid-template-columns: 1fr;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &__time {
+        padding-top: 8px;
+
+        span {
+            background: $theme-color2;
+            color: $white;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: $font-weight-semi-bold;
+            letter-spacing: 0.2px;
+            line-height: 1.4;
+            min-width: 138px;
+            padding: 10px 14px;
+            text-align: center;
+        }
+
+        @media #{$md-device} {
+            padding-top: 0;
+        }
+    }
+}
+
+.programme-card {
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    height: 100%;
+    padding: 28px 30px 24px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+    @media #{$sm-device} {
+        padding: 22px 20px 18px;
+    }
+
+    &:hover {
+        border-color: rgba($theme-color, 0.45);
+        box-shadow: 0 12px 28px rgba(13, 33, 61, 0.08);
+    }
+
+    &__title {
+        color: $black;
+        font-size: 18px;
+        font-weight: $font-weight-semi-bold;
+        letter-spacing: 0;
+        line-height: 1.35;
+        margin-bottom: 12px;
+    }
+
+    &__theme {
+        color: $black-555;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 14px;
+    }
+
+    &__meta {
+        color: $black-666;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 12px;
+
+        span {
+            color: $theme-color;
+            display: block;
+            font-size: 11px;
+            font-weight: $font-weight-semi-bold;
+            letter-spacing: 0.4px;
+            margin-bottom: 2px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__note {
+        border-top: 1px solid #ebebeb;
+        color: $theme-color2;
+        font-size: 13px;
+        font-weight: $font-weight-medium;
+        margin: 16px 0 0;
+        padding-top: 14px;
+    }
+
+    &--break {
+        align-items: center;
+        background: #f8f4ea;
+        border-color: rgba($theme-color, 0.25);
+        display: flex;
+        min-height: 72px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+
+        .programme-card__title {
+            color: $theme-color;
+            font-size: 16px;
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            box-shadow: none;
+        }
+    }
+
+    &--ceremony,
+    &--symposium,
+    &--public {
+        border-left: 4px solid $theme-color;
+    }
+
+    &--ceremony .programme-card__title,
+    &--symposium .programme-card__title {
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+    }
+}
+
+.programme-list,
+.programme-talks {
+    color: $black-666;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 8px 0 0;
+    padding-left: 18px;
+
+    li {
+        margin-bottom: 6px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    strong {
+        color: $black-333;
+        font-weight: $font-weight-semi-bold;
+    }
+}
+
+.programme-talks {
+    padding-left: 20px;
+}

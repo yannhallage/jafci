@@ -1,0 +1,135 @@
+/*
+-----------------------------------------------------------------------
+  Partenaires – Infinite Logo Carousel
+-----------------------------------------------------------------------
+*/
+
+.partenaires-niveaux {
+  margin-bottom: 70px;
+
+  .partenaires-niveaux__title {
+    margin-bottom: 36px;
+  }
+}
+
+.partenaires-niveau-card {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  padding: 36px 20px 28px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+
+  .icon {
+    margin-bottom: 18px;
+  }
+
+  .service-name {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    border-color: rgba($theme-color, 0.45);
+    box-shadow: 0 12px 28px rgba(13, 33, 61, 0.08);
+    transform: translateY(-4px);
+  }
+}
+
+.partenaires-logo-band {
+  margin-top: 0;
+  padding: 8px 0;
+
+  &__label {
+    color: $black-999;
+    font-size: 13px;
+    font-weight: $font-weight-normal;
+    letter-spacing: 0.35px;
+    margin-bottom: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.logo-carousel {
+  --logo-carousel-duration: 42s;
+  margin-bottom: 18px;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
+  );
+  overflow: hidden;
+  width: 100%;
+
+  &__track {
+    align-items: center;
+    animation: partenaires-logo-scroll var(--logo-carousel-duration) linear
+      infinite;
+    display: flex;
+    gap: 48px;
+    width: max-content;
+    will-change: transform;
+  }
+
+  &.is-reverse &__track {
+    animation-direction: reverse;
+  }
+
+  &:hover &__track {
+    animation-play-state: paused;
+  }
+
+  &__item {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    height: 80px;
+    justify-content: center;
+    overflow: visible;
+    padding: 0 8px;
+
+    img {
+      display: block;
+      height: auto;
+      max-height: 72px;
+      max-width: 200px;
+      object-fit: contain;
+      object-position: center;
+      width: auto;
+    }
+  }
+}
+
+@keyframes partenaires-logo-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-carousel__track {
+    animation: none;
+  }
+}
+
+@media #{$sm-device} {
+  .logo-carousel__item {
+    height: 64px;
+
+    img {
+      max-height: 56px;
+      max-width: 160px;
+    }
+  }
+}

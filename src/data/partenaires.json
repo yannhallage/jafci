@@ -7,23 +7,129 @@
     "niveaux": [
         {
             "id": 1,
-            "title": "Partenaires Platine",
-            "items": ["Logo à recevoir"]
+            "title": "Partenaires Platine"
         },
         {
             "id": 2,
-            "title": "Partenaires Or",
-            "items": ["Logo à recevoir"]
+            "title": "Partenaires Or"
         },
         {
             "id": 3,
-            "title": "Partenaires Argent",
-            "items": ["Logo à recevoir"]
+            "title": "Partenaires Argent"
         },
         {
             "id": 4,
-            "title": "Partenaires Bronze",
-            "items": ["Logo à recevoir"]
+            "title": "Partenaires Bronze"
+        }
+    ],
+    "logos": [
+        {
+            "id": 1,
+            "name": "Terumo Interventional Systems",
+            "image": "/img/partenaires/terumo.png",
+            "theme": "dark"
+        },
+        {
+            "id": 2,
+            "name": "Medtronic",
+            "image": "/img/partenaires/medtronic.png",
+            "theme": "dark"
+        },
+        {
+            "id": 3,
+            "name": "General Electric",
+            "image": "/img/partenaires/ge.png",
+            "theme": "dark"
+        },
+        {
+            "id": 4,
+            "name": "CHEHAB-CI Division Médicale",
+            "image": "/img/partenaires/chehab.png",
+            "theme": "light"
+        },
+        {
+            "id": 5,
+            "name": "Intermedic (Jean Farah & Co.)",
+            "image": "/img/partenaires/intermedic.png",
+            "theme": "light"
+        },
+        {
+            "id": 6,
+            "name": "Menarini",
+            "image": "/img/partenaires/menarini.png",
+            "theme": "dark"
+        },
+        {
+            "id": 7,
+            "name": "Orange",
+            "image": "/img/partenaires/orange.png",
+            "theme": "dark"
+        },
+        {
+            "id": 8,
+            "name": "Institut de Cardiologie d'Abidjan",
+            "image": "/img/partenaires/ica.png",
+            "theme": "light"
+        },
+        {
+            "id": 9,
+            "name": "Bayer",
+            "image": "/img/partenaires/bayer.png",
+            "theme": "dark"
+        },
+        {
+            "id": 10,
+            "name": "Servier",
+            "image": "/img/partenaires/servier.png",
+            "theme": "dark"
+        },
+        {
+            "id": 11,
+            "name": "Merck",
+            "image": "/img/partenaires/merck.png",
+            "theme": "light"
+        },
+        {
+            "id": 12,
+            "name": "novaCARDIO",
+            "image": "/img/partenaires/novacardio.png",
+            "theme": "dark"
+        },
+        {
+            "id": 13,
+            "name": "NSIA",
+            "image": "/img/partenaires/nsia.png",
+            "theme": "dark"
+        },
+        {
+            "id": 14,
+            "name": "Balt",
+            "image": "/img/partenaires/balt.png",
+            "theme": "dark"
+        },
+        {
+            "id": 15,
+            "name": "Port Autonome d'Abidjan",
+            "image": "/img/partenaires/paa.png",
+            "theme": "dark"
+        },
+        {
+            "id": 16,
+            "name": "District d'Abidjan",
+            "image": "/img/partenaires/district-abidjan.png",
+            "theme": "dark"
+        },
+        {
+            "id": 17,
+            "name": "Life TV",
+            "image": "/img/partenaires/lifetv.png",
+            "theme": "light"
+        },
+        {
+            "id": 18,
+            "name": "Life Radio 107.7",
+            "image": "/img/partenaires/life-radio.png",
+            "theme": "light"
         }
     ],
     "devenirPartenaire": {

@@ -1,0 +1,337 @@
+{
+    "intro": {
+        "subTitle": "Pré-programme officiel · V9",
+        "title": "<span>Chronogramme</span> des trois journées",
+        "note": "Document de travail officiel des JAFCI 2026. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif."
+    },
+    "pdf": {
+        "href": "/PRE PROGRAMME V9 JAFCI 2026.pdf",
+        "label": "Télécharger le pré-programme (PDF)"
+    },
+    "days": [
+        {
+            "id": "jeudi",
+            "label": "Jour 1",
+            "date": "Jeudi 10 septembre 2026",
+            "tag": "Workshop",
+            "icon": "icofont-heart-beat",
+            "excerpt": "Cas cliniques, retransmissions live, retours d’expérience et lecture de l’ESC 2026.",
+            "slots": [
+                {
+                    "time": "08h00 – 08h15",
+                    "type": "session",
+                    "title": "Mot de bienvenue",
+                    "items": [
+                        "Directeur Général de l’Institut de Cardiologie d’Abidjan",
+                        "Président du GRAM"
+                    ]
+                },
+                {
+                    "time": "08h30 – 10h15",
+                    "type": "session",
+                    "title": "Présentation de cas cliniques",
+                    "moderators": "Maboury D, Yaméogo V, Touré M, Ekou A, N’Goran Y",
+                    "countries": [
+                        { "country": "Burkina Faso", "speaker": "Somé H" },
+                        { "country": "Cameroun", "speaker": "Moulioum A" },
+                        {
+                            "country": "Côte d’Ivoire",
+                            "speaker": "Kouamé I / Avoh A"
+                        },
+                        { "country": "Mali", "speaker": "Sidibé S" },
+                        { "country": "Sénégal", "speaker": "Papa G" },
+                        { "country": "Tchad", "speaker": "Amdan A" }
+                    ]
+                },
+                {
+                    "time": "10h15 – 10h30",
+                    "type": "break",
+                    "title": "Pause-café"
+                },
+                {
+                    "time": "10h30 – 12h15",
+                    "type": "session",
+                    "title": "Présentation de cas cliniques / Retransmissions live",
+                    "moderators": "Kouakam C, Kane Ad, Adoubi A, Pessinaba S, Millogo G",
+                    "countries": [
+                        { "country": "Bénin", "speaker": "Sonou A" },
+                        { "country": "Cameroun", "speaker": "Bekouti J" },
+                        { "country": "Côte d’Ivoire", "speaker": "Kouamé S" },
+                        { "country": "Mauritanie", "speaker": "Camara S" }
+                    ]
+                },
+                {
+                    "time": "12h30 – 13h30",
+                    "type": "break",
+                    "title": "Déjeuner"
+                },
+                {
+                    "time": "14h30 – 16h10",
+                    "type": "session",
+                    "title": "Retours d’expérience",
+                    "moderators": "Touré A, Kane Ab, Camara S, Ikama S, N’Guetta R",
+                    "note": "Retransmissions live / live in the box",
+                    "talks": [
+                        {
+                            "title": "Expérience nigérienne en cardiologie interventionnelle",
+                            "speaker": "Mamane S"
+                        },
+                        {
+                            "title": "Pace-maker sans sonde : premiers cas sénégalais et perspectives",
+                            "speaker": "Kane Ad"
+                        },
+                        {
+                            "title": "Expérience d’un centre nigérian de cardiologie interventionnelle",
+                            "speaker": "Edafe E"
+                        },
+                        {
+                            "title": "Expérience togolaise en rythmologie interventionnelle",
+                            "speaker": "Pessinaba S"
+                        }
+                    ]
+                },
+                {
+                    "time": "16h15 – 16h30",
+                    "type": "break",
+                    "title": "Pause-café"
+                },
+                {
+                    "time": "16h30 – 17h15",
+                    "type": "session",
+                    "title": "Retour sur l’ESC 2026",
+                    "moderators": "Kouakam C, Maboury D, Bekouti J, Sonou A, Ahmad A",
+                    "talks": [
+                        {
+                            "title": "Points forts en rythmologie interventionnelle",
+                            "speaker": "N’Djessan JJ"
+                        },
+                        {
+                            "title": "Points forts en cardiologie interventionnelle",
+                            "speaker": "Yao H"
+                        }
+                    ]
+                },
+                {
+                    "time": "17h15 – 18h15",
+                    "type": "ceremony",
+                    "title": "Réunion du Groupe de travail Cardiologie interventionnelle de l’ASCAOC"
+                }
+            ]
+        },
+        {
+            "id": "vendredi",
+            "label": "Jour 2",
+            "date": "Vendredi 11 septembre 2026",
+            "tag": "Sessions scientifiques",
+            "icon": "icofont-microscope",
+            "excerpt": "Ateliers, plénières, panel d’experts, cérémonies et symposiums.",
+            "slots": [
+                {
+                    "time": "08h00 – 09h10",
+                    "type": "parallel",
+                    "sessions": [
+                        {
+                            "title": "Atelier échocardiographie",
+                            "speakers": ["Niamkey T"]
+                        },
+                        {
+                            "title": "Atelier urgences cardiovasculaires",
+                            "speakers": ["Ekou A", "Yao H"]
+                        },
+                        {
+                            "title": "Session paramédicale",
+                            "speakers": ["Zoro Bi L", "Boka B"]
+                        }
+                    ]
+                },
+                {
+                    "time": "09h30 – 10h30",
+                    "type": "session",
+                    "title": "Conférences en plénière",
+                    "theme": "Trois innovations susceptibles de transformer la cardiologie interventionnelle africaine",
+                    "moderators": "Kramoh E, Touré A, Kane Abdoul, Addad F, Edafe E",
+                    "talks": [
+                        {
+                            "title": "TAVI et interventions structurelles : comment sélectionner les patients africains ? vs TAVI en Afrique : de la première nationale à la filière durable",
+                            "speaker": "Tchetche D / R. N’Guetta"
+                        },
+                        {
+                            "title": "Ablation de la FA en Afrique subsaharienne : quel avenir ? Cryoablation ou électroporation ?",
+                            "speaker": "P. Defaye"
+                        },
+                        {
+                            "title": "Intelligence artificielle, télé-expertise et téléproctoring des interventions",
+                            "speaker": "Adoubi A"
+                        }
+                    ]
+                },
+                {
+                    "time": "10h35 – 11h35",
+                    "type": "session",
+                    "title": "Panel d’experts",
+                    "theme": "Comment financer le développement de l’activité de cardiologie interventionnelle en Afrique",
+                    "speakers": [
+                        "Adoubi A",
+                        "Kane Abdoul",
+                        "Camara S",
+                        "Yaméogo V",
+                        "Représentant DGCMU",
+                        "Représentant de la CNAM",
+                        "Patrick Emmienne"
+                    ]
+                },
+                {
+                    "time": "11h40 – 12h25",
+                    "type": "ceremony",
+                    "title": "Cérémonie d’ouverture"
+                },
+                {
+                    "time": "12h30 – 13h30",
+                    "type": "break",
+                    "title": "Déjeuner"
+                },
+                {
+                    "time": "14h00 – 15h00",
+                    "type": "session",
+                    "title": "Session commune rythmologie et cardiologie interventionnelle",
+                    "theme": "Scène de méninges en salle de cathétérisme cardiaque",
+                    "moderators": "N’Guetta R, Defaye P, Kane Ad, Ikama MS",
+                    "talks": [
+                        {
+                            "title": "Fermetures de FOP et de l’auricule gauche : quelles indications réalistes en Afrique ?",
+                            "speaker": "Montalescot G"
+                        },
+                        {
+                            "title": "Thrombose coronaire : et si c’était la lipoprotéine(a) la coupable ?",
+                            "speaker": "Addad F"
+                        },
+                        {
+                            "title": "Le DAI en contexte de cardiopathie ischémique. Pour qui ? Et après ?",
+                            "speaker": "Kouakam C"
+                        }
+                    ]
+                },
+                {
+                    "time": "15h05 – 16h05",
+                    "type": "session",
+                    "title": "Session radiologie interventionnelle",
+                    "theme": "Du cœur au cerveau et aux artères périphériques",
+                    "moderators": "Diabaté A, Amani A, Zunon-Kipré Y, Aké T",
+                    "talks": [
+                        {
+                            "title": "AVC ischémique aigu : reconnaître le candidat à la thrombolyse ou à la thrombectomie",
+                            "speaker": "Kouamé Assouan AE"
+                        },
+                        {
+                            "title": "Quelles innovations dans la prise en charge interventionnelle des AVC hémorragiques ?",
+                            "speaker": "Tokpa A"
+                        },
+                        {
+                            "title": "Traitement interventionnel en cancérologie : chez qui, pourquoi et comment dans les pays à ressources limitées ?",
+                            "speaker": "Ahoury J"
+                        },
+                        {
+                            "title": "Traitement endovasculaire des dissections aortiques : jusqu’où peut-on aller en Afrique ?",
+                            "speaker": "Ghassani A"
+                        }
+                    ]
+                },
+                {
+                    "time": "16h05 – 16h35",
+                    "type": "symposium",
+                    "title": "Symposium Soleil"
+                },
+                {
+                    "time": "16h35 – 16h50",
+                    "type": "break",
+                    "title": "Pause-café et visite de stands"
+                },
+                {
+                    "time": "16h55 – 17h25",
+                    "type": "symposium",
+                    "title": "Symposium Lumière"
+                },
+                {
+                    "time": "17h30 – 18h30",
+                    "type": "parallel",
+                    "sessions": [
+                        {
+                            "title": "Session imagerie multimodale",
+                            "theme": "Voir mieux pour intervenir mieux",
+                            "moderators": "N’Zi P, Touré A, Koutouan A, Bamba Kamagaté D",
+                            "talks": [
+                                {
+                                    "title": "Échocardiographie transœsophagienne au service des procédures structurelles",
+                                    "speaker": "Niamkey T"
+                                },
+                                {
+                                    "title": "Apports du scanner cardiaque en cardiologie interventionnelle",
+                                    "speaker": "Angoran I"
+                                },
+                                {
+                                    "title": "IRM cardiaque : quand demander et pour quoi faire en cardiologie interventionnelle ?",
+                                    "speaker": "N’Cho-Mottoh MP"
+                                },
+                                {
+                                    "title": "Scintigraphie myocardique : quelle utilité en pratique cardiologique ?",
+                                    "speaker": "N’Go N"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Session santé au travail et maladies cardiovasculaires",
+                            "theme": "La vie d’après",
+                            "moderators": "Konin C, Koffi D, Ouegnin W, Traoré F, N’Drin E",
+                            "talks": [
+                                {
+                                    "title": "Réinsertion professionnelle après un accident cardiovasculaire",
+                                    "speaker": "Ekou A"
+                                },
+                                {
+                                    "title": "Aspects législatifs et réglementaires de la réinsertion professionnelle",
+                                    "speaker": "Kouassi M"
+                                },
+                                {
+                                    "title": "Quelles démarches auprès de la CNPS ?",
+                                    "speaker": "Représentant CNPS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "time": "18h30 – 19h00",
+                    "type": "ceremony",
+                    "title": "Cérémonie de clôture : Déclaration d’Abidjan"
+                },
+                {
+                    "time": "19h00",
+                    "type": "break",
+                    "title": "Cocktail et visite de stands"
+                }
+            ]
+        },
+        {
+            "id": "samedi",
+            "label": "Jour 3",
+            "date": "Samedi 12 septembre 2026",
+            "tag": "Grand public",
+            "icon": "icofont-users-alt-3",
+            "excerpt": "Dépistages, conférences grand public et prévention des AVC et des crises cardiaques.",
+            "slots": [
+                {
+                    "time": "08h00 – 12h00",
+                    "type": "public",
+                    "title": "Dépistages et conférences grand public",
+                    "theme": "Prévention des AVC et des crises cardiaques",
+                    "items": [
+                        "Dépistages cardiovasculaires ouverts au public",
+                        "Conférences de sensibilisation",
+                        "Prévention des accidents vasculaires cérébraux",
+                        "Prévention des crises cardiaques"
+                    ]
+                }
+            ]
+        }
+    ]
+}
