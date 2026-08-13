@@ -5,7 +5,8 @@
 */
 
 .footer-area {
-  color: $body-color;
+  background-color: #000;
+  color: #c8c8c8;
   padding: 125px 0 0;
   @media #{$lg-device} {
     padding: 90px 0 0;
@@ -27,6 +28,7 @@
     }
   }
   .widget-title {
+    color: $white;
     font-size: 18px;
     font-weight: $font-weight-bold;
     letter-spacing: -0.522px;
@@ -58,14 +60,16 @@
       margin-bottom: 65px;
     }
     .footer-logo {
-      display: inline-block;
-      margin-bottom: 50px;
+      display: block;
+      margin-bottom: 28px;
 
       img {
-        max-height: 80px;
-        width: auto;
-        max-width: 180px;
+        display: block;
+        height: auto;
+        max-height: 92px;
+        max-width: 100%;
         object-fit: contain;
+        width: auto;
       }
 
       @media (max-width: 767px) {
@@ -80,12 +84,12 @@
     margin-top: -6px;
     .posts-item {
       li {
-        border-bottom: 1px solid #e1e1e1;
+        border-bottom: 1px solid #2a2a2a;
         margin-bottom: 9px;
         padding-bottom: 11px;
         a {
           align-items: flex-end;
-          color: $body-color;
+          color: #c8c8c8;
           display: flex;
           letter-spacing: 0;
           @media #{$sm-device} {
@@ -101,7 +105,7 @@
             }
           }
           &:hover {
-            color: $black;
+            color: $white;
           }
         }
         &:last-child {
@@ -113,7 +117,7 @@
   .widget-contact-info {
     padding-top: 25px;
     li {
-      border-top: 1px solid #e1e1e1;
+      border-top: 1px solid #2a2a2a;
       display: flex;
       font-size: 14px;
       line-height: 26px;
@@ -121,7 +125,7 @@
       padding-top: 4px;
       @include transition(0.3s);
       i {
-        color: $black-999;
+        color: #8a8a8a;
         font-size: 20px;
         line-height: 26px;
         position: relative;
@@ -130,7 +134,7 @@
         @include transition(0.3s);
       }
       a {
-        color: $body-color;
+        color: #c8c8c8;
       }
       &:first-child {
         margin-bottom: 13px;
@@ -167,7 +171,7 @@
     }
   }
   .widget-newsletter {
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid #2a2a2a;
     margin-top: -7px;
     padding-bottom: 41px;
     @media #{$xs-device} {
@@ -217,8 +221,25 @@
             font-size: 22px;
           }
           &:hover {
-            background-color: $black;
-            border-color: $black;
+            background-color: $theme-color3;
+            border-color: $theme-color3;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  .widget-tags {
+    ul {
+      li {
+        color: #8a8a8a;
+
+        a {
+          background-color: #161616;
+          color: #c8c8c8;
+
+          &:hover {
+            background-color: $theme-color;
             color: $white;
           }
         }
@@ -230,7 +251,7 @@
     margin-left: -1px;
     margin-top: 14px;
     a {
-      color: $black-999;
+      color: #b0b0b0;
       display: inline-block;
       font-size: 18px;
       margin-right: 13.84px;
@@ -257,7 +278,7 @@
       margin-top: 70px;
     }
     &:before {
-      border-top: 1px solid #e5e5e5;
+      border-top: 1px solid #2a2a2a;
       content: "";
       left: 50%;
       max-width: 1170px;
@@ -268,7 +289,7 @@
     }
     .widget-copyright {
       p {
-        color: $black-999;
+        color: #8a8a8a;
         letter-spacing: 0;
         padding-top: 0;
         span {
@@ -281,7 +302,7 @@
           margin: 0 5px;
         }
         a {
-          color: $black;
+          color: $white;
           font-weight: $font-weight-medium;
         }
       }
