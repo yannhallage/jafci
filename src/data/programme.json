@@ -2,7 +2,12 @@
     "intro": {
         "subTitle": "Pré-programme officiel · V9",
         "title": "<span>Chronogramme</span> des trois journées",
-        "note": "Document de travail officiel des JAFCI 2026. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif."
+        "note": "Reconstitution fidèle du pré-programme officiel V9. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif.",
+        "stats": [
+            { "value": "3", "label": "journées" },
+            { "value": "20", "label": "créneaux" },
+            { "value": "10–12 sept.", "label": "Abidjan 2026" }
+        ]
     },
     "pdf": {
         "href": "/PRE PROGRAMME V9 JAFCI 2026.pdf",
@@ -32,15 +37,36 @@
                     "title": "Présentation de cas cliniques",
                     "moderators": "Maboury D, Yaméogo V, Touré M, Ekou A, N’Goran Y",
                     "countries": [
-                        { "country": "Burkina Faso", "speaker": "Somé H" },
-                        { "country": "Cameroun", "speaker": "Moulioum A" },
+                        {
+                            "country": "Burkina Faso",
+                            "iso2": "bf",
+                            "speaker": "Somé H"
+                        },
+                        {
+                            "country": "Cameroun",
+                            "iso2": "cm",
+                            "speaker": "Moulioum A"
+                        },
                         {
                             "country": "Côte d’Ivoire",
+                            "iso2": "ci",
                             "speaker": "Kouamé I / Avoh A"
                         },
-                        { "country": "Mali", "speaker": "Sidibé S" },
-                        { "country": "Sénégal", "speaker": "Papa G" },
-                        { "country": "Tchad", "speaker": "Amdan A" }
+                        {
+                            "country": "Mali",
+                            "iso2": "ml",
+                            "speaker": "Sidibé S"
+                        },
+                        {
+                            "country": "Sénégal",
+                            "iso2": "sn",
+                            "speaker": "Papa G"
+                        },
+                        {
+                            "country": "Tchad",
+                            "iso2": "td",
+                            "speaker": "Amdan A"
+                        }
                     ]
                 },
                 {
@@ -52,12 +78,29 @@
                     "time": "10h30 – 12h15",
                     "type": "session",
                     "title": "Présentation de cas cliniques / Retransmissions live",
+                    "badges": ["Live"],
                     "moderators": "Kouakam C, Kane Ad, Adoubi A, Pessinaba S, Millogo G",
                     "countries": [
-                        { "country": "Bénin", "speaker": "Sonou A" },
-                        { "country": "Cameroun", "speaker": "Bekouti J" },
-                        { "country": "Côte d’Ivoire", "speaker": "Kouamé S" },
-                        { "country": "Mauritanie", "speaker": "Camara S" }
+                        {
+                            "country": "Bénin",
+                            "iso2": "bj",
+                            "speaker": "Sonou A"
+                        },
+                        {
+                            "country": "Cameroun",
+                            "iso2": "cm",
+                            "speaker": "Bekouti J"
+                        },
+                        {
+                            "country": "Côte d’Ivoire",
+                            "iso2": "ci",
+                            "speaker": "Kouamé S"
+                        },
+                        {
+                            "country": "Mauritanie",
+                            "iso2": "mr",
+                            "speaker": "Camara S"
+                        }
                     ]
                 },
                 {
@@ -69,6 +112,7 @@
                     "time": "14h30 – 16h10",
                     "type": "session",
                     "title": "Retours d’expérience",
+                    "badges": ["Live"],
                     "moderators": "Touré A, Kane Ab, Camara S, Ikama S, N’Guetta R",
                     "note": "Retransmissions live / live in the box",
                     "talks": [
@@ -132,14 +176,17 @@
                     "sessions": [
                         {
                             "title": "Atelier échocardiographie",
+                            "kind": "atelier",
                             "speakers": ["Niamkey T"]
                         },
                         {
                             "title": "Atelier urgences cardiovasculaires",
+                            "kind": "atelier",
                             "speakers": ["Ekou A", "Yao H"]
                         },
                         {
                             "title": "Session paramédicale",
+                            "kind": "paramedical",
                             "speakers": ["Zoro Bi L", "Boka B"]
                         }
                     ]
@@ -152,8 +199,13 @@
                     "moderators": "Kramoh E, Touré A, Kane Abdoul, Addad F, Edafe E",
                     "talks": [
                         {
-                            "title": "TAVI et interventions structurelles : comment sélectionner les patients africains ? vs TAVI en Afrique : de la première nationale à la filière durable",
-                            "speaker": "Tchetche D / R. N’Guetta"
+                            "title": "TAVI et interventions structurelles : comment sélectionner les patients africains ?",
+                            "speaker": "Tchetche D",
+                            "debate": "vs"
+                        },
+                        {
+                            "title": "TAVI en Afrique : de la première nationale à la filière durable",
+                            "speaker": "R. N’Guetta"
                         },
                         {
                             "title": "Ablation de la FA en Afrique subsaharienne : quel avenir ? Cryoablation ou électroporation ?",
@@ -257,6 +309,7 @@
                     "sessions": [
                         {
                             "title": "Session imagerie multimodale",
+                            "kind": "imagerie",
                             "theme": "Voir mieux pour intervenir mieux",
                             "moderators": "N’Zi P, Touré A, Koutouan A, Bamba Kamagaté D",
                             "talks": [
@@ -280,6 +333,7 @@
                         },
                         {
                             "title": "Session santé au travail et maladies cardiovasculaires",
+                            "kind": "sante-travail",
                             "theme": "La vie d’après",
                             "moderators": "Konin C, Koffi D, Ouegnin W, Traoré F, N’Drin E",
                             "talks": [

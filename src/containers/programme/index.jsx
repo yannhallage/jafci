@@ -22,6 +22,10 @@ const ProgrammeContainer = () => {
         } else {
             window.location.hash = id;
         }
+        const panel = document.getElementById(`programme-${id}`);
+        if (panel) {
+            panel.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
     };
 
     const currentDay = days[activeDay];
@@ -41,64 +45,71 @@ const ProgrammeContainer = () => {
                 </div>
 
                 <div
-                    className="row mb-5"
+                    className="programme-intro"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                 >
-                    <div className="col-lg-10 mx-auto text-center">
-                        <p className="programme-area__note">{intro.note}</p>
-                        <a
-                            className="btn btn-theme"
-                            href={pdfHref}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            {pdf.label}
-                            <i className="icofont-download"></i>
-                        </a>
-                    </div>
+                    <p className="programme-area__note">{intro.note}</p>
+                    {intro.stats ? (
+                        <ul className="programme-stats">
+                            {intro.stats.map((stat) => (
+                                <li key={stat.label}>
+                                    <strong>{stat.value}</strong>
+                                    <span>{stat.label}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    ) : null}
+                    <a
+                        className="btn btn-theme"
+                        href={pdfHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {pdf.label}
+                        <i className="icofont-download"></i>
+                    </a>
                 </div>
 
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div
-                            className="row service-style2 programme-day-nav"
-                            data-aos="fade-up"
-                            data-aos-duration="1100"
-                            role="tablist"
-                        >
-                            {days.map((day, index) => {
-                                const isActive = index === activeDay;
-                                return (
-                                    <button
-                                        key={day.id}
-                                        type="button"
-                                        className={`col-sm-6 col-md-6 col-lg-4 service-item ${
-                                            isActive ? "is-active" : ""
-                                        }`}
-                                        role="tab"
-                                        aria-selected={isActive}
-                                        aria-controls={`programme-${day.id}`}
-                                        id={`tab-${day.id}`}
-                                        onClick={() => selectDay(index, day.id)}
-                                    >
-                                        <div className="icon">
-                                            <i className={day.icon}></i>
-                                        </div>
-                                        <div className="content">
-                                            <p className="programme-day-nav__label">
-                                                {day.label} · {day.tag}
-                                            </p>
-                                            <h5 className="service-name">
-                                                {day.date}
-                                            </h5>
-                                            <p>{day.excerpt}</p>
-                                        </div>
-                                    </button>
-                                );
-                            })}
-                        </div>
-                    </div>
+                <div
+                    className="programme-days"
+                    data-aos="fade-up"
+                    data-aos-duration="1100"
+                    role="tablist"
+                >
+                    {days.map((day, index) => {
+                        const isActive = index === activeDay;
+                        const num = String(index + 1).padStart(2, "0");
+                        return (
+                            <button
+                                key={day.id}
+                                type="button"
+                                className={`programme-days__tab${
+                                    isActive ? " is-active" : ""
+                                }`}
+                                role="tab"
+                                aria-selected={isActive}
+                                aria-controls={`programme-${day.id}`}
+                                id={`tab-${day.id}`}
+                                onClick={() => selectDay(index, day.id)}
+                            >
+                                <span className="programme-days__index">
+                                    {num}
+                                </span>
+                                <span className="programme-days__copy">
+                                    <span className="programme-days__label">
+                                        {day.label} · {day.tag}
+                                    </span>
+                                    <span className="programme-days__date">
+                                        {day.date}
+                                    </span>
+                                    <span className="programme-days__excerpt">
+                                        {day.excerpt}
+                                    </span>
+                                </span>
+                            </button>
+                        );
+                    })}
                 </div>
 
                 <div
