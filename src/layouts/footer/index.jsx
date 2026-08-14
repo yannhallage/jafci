@@ -1,7 +1,8 @@
 import SocialIcon from "../../components/social-icon";
-import { Link } from "react-router-dom";
 import Newsletter from "../../components/newsletter";
 import Logo from "../../components/logo";
+
+const href = (path) => process.env.PUBLIC_URL + path;
 
 const Footer = () => {
     return (
@@ -50,23 +51,27 @@ const Footer = () => {
                             <div className="widget-tags">
                                 <ul>
                                     <li>
-                                        <Link to="/congres">Le Congrès</Link>
+                                        <a href={href("/congres")}>
+                                            Le Congrès
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/programme">Programme</Link>
+                                        <a href={href("/programme")}>
+                                            Programme
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/partenaires">
+                                        <a href={href("/partenaires")}>
                                             Partenaires
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Blog</Link>
+                                        <a href={href("/blog")}>Blog</a>
                                     </li>
                                     <li>
-                                        <Link to="/inscription">
+                                        <a href={href("/inscription")}>
                                             Inscription
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
                                         <a
@@ -95,34 +100,34 @@ const Footer = () => {
                             <nav className="widget-posts">
                                 <ul className="posts-item">
                                     <li>
-                                        <Link to="/inscription">
+                                        <a href={href("/inscription")}>
                                             <i className="icon icofont-rounded-double-right"></i>
                                             S&apos;inscrire aux JAFCI 2026
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/programme">
+                                        <a href={href("/programme")}>
                                             <i className="icon icofont-rounded-double-right"></i>
                                             Consulter le programme
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/congres">
+                                        <a href={href("/congres")}>
                                             <i className="icon icofont-rounded-double-right"></i>
                                             Découvrir le congrès
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/partenaires">
+                                        <a href={href("/partenaires")}>
                                             <i className="icon icofont-rounded-double-right"></i>
                                             Devenir partenaire
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/blog">
+                                        <a href={href("/blog")}>
                                             <i className="icon icofont-rounded-double-right"></i>
                                             Actualités &amp; articles
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
                                         <a href="mailto:infos@gram.ci">

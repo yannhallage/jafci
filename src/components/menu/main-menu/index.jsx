@@ -1,73 +1,89 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+
+const homePath = process.env.PUBLIC_URL + "/";
+const pathname = window.location.pathname.replace(/\/$/, "") || "/";
+
+const href = (path) => process.env.PUBLIC_URL + path;
+
+const isActive = (path) => {
+    if (path === "/") {
+        return pathname === "/" || pathname === process.env.PUBLIC_URL;
+    }
+    return pathname === href(path).replace(/\/$/, "");
+};
 
 const MainMenu = () => {
     return (
         <nav className="main-menu-nav">
             <ul className="main-menu">
                 <li>
-                    <NavLink
-                        className="main-menu-link"
-                        activeClassName="active"
-                        exact
-                        to={process.env.PUBLIC_URL + "/"}
+                    <a
+                        className={`main-menu-link${
+                            isActive("/") ? " active" : ""
+                        }`}
+                        href={homePath}
                     >
                         Accueil
-                    </NavLink>
+                    </a>
                 </li>
                 <li>
-                    <NavLink
-                        className="main-menu-link"
-                        activeClassName="active"
-                        to={process.env.PUBLIC_URL + "/congres"}
+                    <a
+                        className={`main-menu-link${
+                            isActive("/congres") ? " active" : ""
+                        }`}
+                        href={href("/congres")}
                     >
                         Le Congrès
-                    </NavLink>
+                    </a>
                 </li>
                 <li>
-                    <NavLink
-                        className="main-menu-link"
-                        activeClassName="active"
-                        to={process.env.PUBLIC_URL + "/programme"}
+                    <a
+                        className={`main-menu-link${
+                            isActive("/programme") ? " active" : ""
+                        }`}
+                        href={href("/programme")}
                     >
                         <span className="menu-label-full">
                             Programme &amp; Intervenants
                         </span>
                         <span className="menu-label-short">Programme</span>
-                    </NavLink>
+                    </a>
                 </li>
                 <li>
-                    <NavLink
-                        className="main-menu-link"
-                        activeClassName="active"
-                        to={process.env.PUBLIC_URL + "/partenaires"}
+                    <a
+                        className={`main-menu-link${
+                            isActive("/partenaires") ? " active" : ""
+                        }`}
+                        href={href("/partenaires")}
                     >
                         <span className="menu-label-full">
                             Partenaires &amp; Presse
                         </span>
                         <span className="menu-label-short">Partenaires</span>
-                    </NavLink>
+                    </a>
                 </li>
                 <li>
-                    <NavLink
-                        className="main-menu-link"
-                        activeClassName="active"
-                        to={process.env.PUBLIC_URL + "/blog"}
+                    <a
+                        className={`main-menu-link${
+                            isActive("/blog") ? " active" : ""
+                        }`}
+                        href={href("/blog")}
                     >
                         Blog
-                    </NavLink>
+                    </a>
                 </li>
                 <li>
-                    <NavLink
-                        className="main-menu-link"
-                        activeClassName="active"
-                        to={process.env.PUBLIC_URL + "/inscription"}
+                    <a
+                        className={`main-menu-link${
+                            isActive("/inscription") ? " active" : ""
+                        }`}
+                        href={href("/inscription")}
                     >
                         <span className="menu-label-full">
                             Inscription &amp; Contacts
                         </span>
                         <span className="menu-label-short">Inscription</span>
-                    </NavLink>
+                    </a>
                 </li>
             </ul>
         </nav>

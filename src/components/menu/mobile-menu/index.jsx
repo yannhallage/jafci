@@ -1,6 +1,15 @@
 import PropTypes from "prop-types";
-import { NavLink } from "react-router-dom";
 import SocialIcon from "../../social-icon";
+
+const href = (path) => process.env.PUBLIC_URL + path;
+const pathname = window.location.pathname.replace(/\/$/, "") || "/";
+
+const isActive = (path) => {
+    if (path === "/") {
+        return pathname === "/" || pathname === process.env.PUBLIC_URL;
+    }
+    return pathname === href(path).replace(/\/$/, "");
+};
 
 const MobileMenu = ({ show, onClose }) => {
     return (
@@ -32,53 +41,58 @@ const MobileMenu = ({ show, onClose }) => {
                 <nav className="offcanvas-menu">
                     <ul>
                         <li>
-                            <NavLink
-                                exact
-                                to={process.env.PUBLIC_URL + "/"}
-                                onClick={onClose}
+                            <a
+                                className={isActive("/") ? "active" : ""}
+                                href={href("/")}
                             >
                                 Accueil
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink
-                                to={process.env.PUBLIC_URL + "/congres"}
-                                onClick={onClose}
+                            <a
+                                className={isActive("/congres") ? "active" : ""}
+                                href={href("/congres")}
                             >
                                 Le Congrès
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink
-                                to={process.env.PUBLIC_URL + "/programme"}
-                                onClick={onClose}
+                            <a
+                                className={
+                                    isActive("/programme") ? "active" : ""
+                                }
+                                href={href("/programme")}
                             >
                                 Programme &amp; Intervenants
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink
-                                to={process.env.PUBLIC_URL + "/partenaires"}
-                                onClick={onClose}
+                            <a
+                                className={
+                                    isActive("/partenaires") ? "active" : ""
+                                }
+                                href={href("/partenaires")}
                             >
                                 Partenaires &amp; Presse
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink
-                                to={process.env.PUBLIC_URL + "/blog"}
-                                onClick={onClose}
+                            <a
+                                className={isActive("/blog") ? "active" : ""}
+                                href={href("/blog")}
                             >
                                 Blog
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink
-                                to={process.env.PUBLIC_URL + "/inscription"}
-                                onClick={onClose}
+                            <a
+                                className={
+                                    isActive("/inscription") ? "active" : ""
+                                }
+                                href={href("/inscription")}
                             >
                                 Inscription &amp; Contacts
-                            </NavLink>
+                            </a>
                         </li>
                     </ul>
                 </nav>
