@@ -1,15 +1,14 @@
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 const Logo = ({ image, classOption }) => {
     return (
-        <Link className={`${classOption}`} to={process.env.PUBLIC_URL + "/"}>
+        <a className={`${classOption}`} href={process.env.PUBLIC_URL + "/"}>
             <img
                 className="sticky-img"
                 src={process.env.PUBLIC_URL + image}
                 alt="JAFCI"
             />
-        </Link>
+        </a>
     );
 };
 
