@@ -98,7 +98,7 @@ const Header = () => {
                             <div className="col-12">
                                 <div className="header-middle-content">
                                     <div className="header-logo">
-                                        <Logo image="/img/logo.png" />
+                                        <Logo image="/img/logo-pied-de-page-clear.png" />
                                     </div>
                                     <ul className="media-wrap d-none d-lg-flex">
                                         {HomeData[0].headerInfo &&
@@ -177,7 +177,7 @@ const Header = () => {
                                 <div className="d-flex flex-nowrap align-items-center justify-content-between">
                                     <div className="d-flex flex-nowrap align-items-center header-bottom-left">
                                         <div className="header-logo header-logo-nav me-3">
-                                            <Logo image="/img/logo.png" />
+                                            <Logo image="/img/logo-pied-de-page-clear.png" />
                                         </div>
                                         <MainMenu />
                                     </div>

@@ -54,17 +54,17 @@
     .header-logo {
         img,
         .sticky-img {
-            max-height: 100px;
+            max-height: 88px;
             width: auto;
-            max-width: 220px;
+            max-width: 340px;
             object-fit: contain;
         }
 
         @include max-screen(991) {
             img,
             .sticky-img {
-                max-height: 80px;
-                max-width: 180px;
+                max-height: 64px;
+                max-width: 240px;
             }
         }
     }
@@ -191,8 +191,8 @@
 
         img,
         .sticky-img {
-            max-height: 80px;
-            max-width: 190px;
+            max-height: 64px;
+            max-width: 280px;
             width: auto;
             object-fit: contain;
             display: block;
@@ -346,8 +346,8 @@
 
         img,
         .sticky-img {
-            max-height: 72px;
-            max-width: 180px;
+            max-height: 56px;
+            max-width: 240px;
             width: auto;
             object-fit: contain;
             display: block;
