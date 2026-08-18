@@ -29,8 +29,8 @@ const Footer = () => {
                                     </li>
                                     <li className="info-mail">
                                         <i className="icofont-email"></i>
-                                        <a href="mailto:infos@gram.ci">
-                                            infos@gram.ci
+                                        <a href="mailto:contact@jafci.org">
+                                            contact@jafci.org
                                         </a>
                                     </li>
                                     <li className="info-phone">
@@ -130,7 +130,7 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="mailto:infos@gram.ci">
+                                        <a href="mailto:contact@jafci.org">
                                             <i className="icon icofont-rounded-double-right"></i>
                                             Contact presse
                                         </a>
@@ -152,24 +152,16 @@ const Footer = () => {
                                 <Newsletter mailchimpUrl="//devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" />
                             </div>
                             <div className="widget-social-icons">
-                                {/* <SocialIcon
-                                    path="https://twitter.com/"
-                                    icon="icofont-twitter"
-                                />
                                 <SocialIcon
-                                    path="https://www.linkedin.com/"
-                                    icon="icofont-linkedin"
-                                /> */}
-                                <SocialIcon
-                                    path="https://www.facebook.com/"
+                                    path="https://www.facebook.com/jafcii"
                                     icon="icofont-facebook"
                                 />
-                                {/* <SocialIcon
-                                    path="https://www.instagram.com/"
-                                    icon="icofont-instagram"
-                                /> */}
                                 <SocialIcon
-                                    path="https://www.youtube.com/"
+                                    path="https://www.linkedin.com/company/135136674/"
+                                    icon="icofont-linkedin"
+                                />
+                                <SocialIcon
+                                    path="https://www.youtube.com/watch?v=oWy7yjvyD_w"
                                     icon="icofont-youtube-play"
                                 />
                             </div>

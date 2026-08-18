@@ -4,6 +4,7 @@ import Header from "../layouts/header";
 import IntroContainer from "../containers/home/intro";
 import HealthFeatureContainer from "../containers/home/health-feature";
 import CongresBrefContainer from "../containers/home/congres-bref";
+import HomeVideoContainer from "../containers/home/video";
 import MedicalFeatureContainer from "../containers/home/medical-feature";
 import AppointmentContainer from "../containers/home/appointment";
 import TeamContainer from "../containers/home/team";
@@ -27,6 +28,7 @@ const HomePage = () => {
                         <IntroContainer />
                         <HealthFeatureContainer />
                         <CongresBrefContainer />
+                        <HomeVideoContainer />
                         <MedicalFeatureContainer />
                         <AppointmentContainer />
                         <TeamContainer />

@@ -64,25 +64,19 @@ const Header = () => {
                                     </li> */}
                                     <li>
                                         <SocialIcon
-                                            path="https://www.facebook.com/"
+                                            path="https://www.facebook.com/jafcii"
                                             icon="icofont-facebook"
                                         />
                                     </li>
-                                    {/* <li>
+                                    <li>
                                         <SocialIcon
-                                            path="https://www.linkedin.com/"
+                                            path="https://www.linkedin.com/company/135136674/"
                                             icon="icofont-linkedin"
                                         />
                                     </li>
                                     <li>
                                         <SocialIcon
-                                            path="https://www.instagram.com/"
-                                            icon="icofont-instagram"
-                                        />
-                                    </li> */}
-                                    <li>
-                                        <SocialIcon
-                                            path="https://www.youtube.com/"
+                                            path="https://www.youtube.com/watch?v=oWy7yjvyD_w"
                                             icon="icofont-play-alt-1"
                                         />
                                     </li>

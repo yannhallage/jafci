@@ -1,16 +1,16 @@
 {
     "intro": {
-        "subTitle": "Pré-programme officiel · V9",
+        "subTitle": "Pré-programme officiel · V10",
         "title": "<span>Chronogramme</span> des trois journées",
-        "note": "Reconstitution fidèle du pré-programme officiel V9. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif.",
+        "note": "Reconstitution fidèle du pré-programme officiel V10. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif.",
         "stats": [
             { "value": "3", "label": "journées" },
-            { "value": "20", "label": "créneaux" },
+            { "value": "22", "label": "créneaux" },
             { "value": "10–12 sept.", "label": "Abidjan 2026" }
         ]
     },
     "pdf": {
-        "href": "/PRE PROGRAMME V9 JAFCI 2026.pdf",
+        "href": "/PRE PROGRAMME V10 JAFCI 2026.pdf",
         "label": "Télécharger le pré-programme (PDF)"
     },
     "days": [
@@ -25,7 +25,7 @@
                 {
                     "time": "08h00 – 08h15",
                     "type": "session",
-                    "title": "Mot de bienvenue",
+                    "title": "Mots de bienvenue",
                     "items": [
                         "Directeur Général de l’Institut de Cardiologie d’Abidjan",
                         "Président du GRAM"
@@ -182,7 +182,7 @@
                         {
                             "title": "Atelier urgences cardiovasculaires",
                             "kind": "atelier",
-                            "speakers": ["Ekou A", "Yao H"]
+                            "speakers": ["Horo K", "Yao H"]
                         },
                         {
                             "title": "Session paramédicale",
@@ -195,20 +195,19 @@
                     "time": "09h30 – 10h30",
                     "type": "session",
                     "title": "Conférences en plénière",
-                    "theme": "Trois innovations susceptibles de transformer la cardiologie interventionnelle africaine",
-                    "moderators": "Kramoh E, Touré A, Kane Abdoul, Addad F, Edafe E",
+                    "theme": "Trois innovations en cardiologie interventionnelle en Afrique",
+                    "moderators": "Kramoh E, Montalescot G, Touré A, Kane Ab, Addad F",
                     "talks": [
                         {
-                            "title": "TAVI et interventions structurelles : comment sélectionner les patients africains ?",
-                            "speaker": "Tchetche D",
-                            "debate": "vs"
+                            "title": "Comment sélectionner les patients en Afrique pour un TAVI ?",
+                            "speaker": "Tchetche D"
                         },
                         {
                             "title": "TAVI en Afrique : de la première nationale à la filière durable",
                             "speaker": "R. N’Guetta"
                         },
                         {
-                            "title": "Ablation de la FA en Afrique subsaharienne : quel avenir ? Cryoablation ou électroporation ?",
+                            "title": "Ablation de la FA en Afrique subsaharienne : quel avenir ?",
                             "speaker": "P. Defaye"
                         },
                         {
@@ -224,12 +223,12 @@
                     "theme": "Comment financer le développement de l’activité de cardiologie interventionnelle en Afrique",
                     "speakers": [
                         "Adoubi A",
-                        "Kane Abdoul",
+                        "Kane Ab",
                         "Camara S",
                         "Yaméogo V",
                         "Représentant DGCMU",
                         "Représentant de la CNAM",
-                        "Patrick Emmienne"
+                        "Patrick Emienne (ONPCI)"
                     ]
                 },
                 {
@@ -247,7 +246,7 @@
                     "type": "session",
                     "title": "Session commune rythmologie et cardiologie interventionnelle",
                     "theme": "Scène de méninges en salle de cathétérisme cardiaque",
-                    "moderators": "N’Guetta R, Defaye P, Kane Ad, Ikama MS",
+                    "moderators": "N’Guetta R, Defaye P, Kane Ad, Ikama MS, Edafe E",
                     "talks": [
                         {
                             "title": "Fermetures de FOP et de l’auricule gauche : quelles indications réalistes en Afrique ?",
@@ -268,7 +267,7 @@
                     "type": "session",
                     "title": "Session radiologie interventionnelle",
                     "theme": "Du cœur au cerveau et aux artères périphériques",
-                    "moderators": "Diabaté A, Amani A, Zunon-Kipré Y, Aké T",
+                    "moderators": "Diabaté A, Amani A, Zunon-Kipré Y, Kouamé J",
                     "talks": [
                         {
                             "title": "AVC ischémique aigu : reconnaître le candidat à la thrombolyse ou à la thrombectomie",
@@ -279,7 +278,7 @@
                             "speaker": "Tokpa A"
                         },
                         {
-                            "title": "Traitement interventionnel en cancérologie : chez qui, pourquoi et comment dans les pays à ressources limitées ?",
+                            "title": "Radiologie interventionnelle et urgences hémorragiques",
                             "speaker": "Ahoury J"
                         },
                         {
@@ -311,7 +310,7 @@
                             "title": "Session imagerie multimodale",
                             "kind": "imagerie",
                             "theme": "Voir mieux pour intervenir mieux",
-                            "moderators": "N’Zi P, Touré A, Koutouan A, Bamba Kamagaté D",
+                            "moderators": "N’Zi P, Touré Ab, Zunon-Kipré E, Bamba Kamagaté D",
                             "talks": [
                                 {
                                     "title": "Échocardiographie transœsophagienne au service des procédures structurelles",
@@ -335,14 +334,14 @@
                             "title": "Session santé au travail et maladies cardiovasculaires",
                             "kind": "sante-travail",
                             "theme": "La vie d’après",
-                            "moderators": "Konin C, Koffi D, Ouegnin W, Traoré F, N’Drin E",
+                            "moderators": "Konin C, Aké T, Koffi D, Traoré F, Klai D",
                             "talks": [
                                 {
-                                    "title": "Réinsertion professionnelle après un accident cardiovasculaire",
+                                    "title": "Réinsertion professionnelle après un accident cardiovasculaire : point de vue du cardiologue",
                                     "speaker": "Ekou A"
                                 },
                                 {
-                                    "title": "Aspects législatifs et réglementaires de la réinsertion professionnelle",
+                                    "title": "Réinsertion professionnelle après un accident cardiovasculaire : quel rôle pour le médecin du travail ?",
                                     "speaker": "Kouassi M"
                                 },
                                 {

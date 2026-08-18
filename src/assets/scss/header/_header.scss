@@ -146,9 +146,10 @@
     color: #000;
     line-height: 1;
     text-transform: uppercase;
+    text-decoration: none;
 
     &:hover {
-        color: #000;
+        color: $theme-color;
     }
 
     @media #{$xl-device} {
@@ -159,7 +160,7 @@
         color: #fff;
 
         &:hover {
-            color: #fff;
+            color: $theme-color;
         }
     }
 }

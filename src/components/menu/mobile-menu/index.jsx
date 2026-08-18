@@ -100,28 +100,22 @@ const MobileMenu = ({ show, onClose }) => {
                     <ul>
                         <li>
                             <SocialIcon
-                                path="https://www.facebook.com/"
+                                path="https://www.facebook.com/jafcii"
                                 icon="icofont-facebook"
                             />
                         </li>
                         <li>
                             <SocialIcon
-                                path="https://www.youtube.com/"
-                                icon="icofont-youtube-play"
-                            />
-                        </li>
-                        {/* <li>
-                            <SocialIcon
-                                path="https://www.linkedin.com/"
+                                path="https://www.linkedin.com/company/135136674/"
                                 icon="icofont-linkedin"
                             />
                         </li>
                         <li>
                             <SocialIcon
-                                path="https://twitter.com/"
-                                icon="icofont-twitter"
+                                path="https://www.youtube.com/watch?v=oWy7yjvyD_w"
+                                icon="icofont-youtube-play"
                             />
-                        </li> */}
+                        </li>
                     </ul>
                 </div>
 
@@ -161,9 +155,9 @@ const MobileMenu = ({ show, onClose }) => {
                             <span className="media-sub-heading">Courriel</span>
                             <a
                                 className="media-heading"
-                                href="mailto:infos@gram.ci"
+                                href="mailto:contact@jafci.org"
                             >
-                                infos@gram.ci
+                                contact@jafci.org
                             </a>
                         </div>
                     </li>
