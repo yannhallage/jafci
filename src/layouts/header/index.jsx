@@ -64,25 +64,19 @@ const Header = () => {
                                     </li> */}
                                     <li>
                                         <SocialIcon
-                                            path="https://www.facebook.com/"
+                                            path="https://www.facebook.com/jafcii"
                                             icon="icofont-facebook"
                                         />
                                     </li>
-                                    {/* <li>
+                                    <li>
                                         <SocialIcon
-                                            path="https://www.linkedin.com/"
+                                            path="https://www.linkedin.com/company/135136674/"
                                             icon="icofont-linkedin"
                                         />
                                     </li>
                                     <li>
                                         <SocialIcon
-                                            path="https://www.instagram.com/"
-                                            icon="icofont-instagram"
-                                        />
-                                    </li> */}
-                                    <li>
-                                        <SocialIcon
-                                            path="https://www.youtube.com/"
+                                            path="https://www.youtube.com/watch?v=oWy7yjvyD_w"
                                             icon="icofont-play-alt-1"
                                         />
                                     </li>
@@ -98,7 +92,7 @@ const Header = () => {
                             <div className="col-12">
                                 <div className="header-middle-content">
                                     <div className="header-logo">
-                                        <Logo image="/img/logo.png" />
+                                        <Logo image="/img/logo-pied-de-page-clear.png" />
                                     </div>
                                     <ul className="media-wrap d-none d-lg-flex">
                                         {HomeData[0].headerInfo &&
@@ -177,7 +171,7 @@ const Header = () => {
                                 <div className="d-flex flex-nowrap align-items-center justify-content-between">
                                     <div className="d-flex flex-nowrap align-items-center header-bottom-left">
                                         <div className="header-logo header-logo-nav me-3">
-                                            <Logo image="/img/logo.png" />
+                                            <Logo image="/img/logo-pied-de-page-clear.png" />
                                         </div>
                                         <MainMenu />
                                     </div>

@@ -12,8 +12,8 @@ const ContactAddress = () => {
                     Comité d&apos;Organisation des JAFCI 2026 · Noom Hôtel,
                     Plateau, Abidjan, Côte d&apos;Ivoire
                 </p>
-                <a href="mailto:infos@gram.ci">
-                    <span>Courriel :</span> infos@gram.ci
+                <a href="mailto:contact@jafci.org">
+                    <span>Courriel :</span> contact@jafci.org
                 </a>
             </div>
             <div className="brand-office">

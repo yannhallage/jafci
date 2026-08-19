@@ -140,8 +140,8 @@ const PartenairesContainer = () => {
                                 <p>{devenirPartenaire.excerpt}</p>
                                 <p className="mb-0">
                                     {devenirPartenaire.cta}{" "}
-                                    <a href="mailto:infos@gram.ci">
-                                        infos@gram.ci
+                                    <a href="mailto:contact@jafci.org">
+                                        contact@jafci.org
                                     </a>
                                 </p>
                             </div>
@@ -157,8 +157,8 @@ const PartenairesContainer = () => {
                                 <p>{presse.excerpt}</p>
                                 <p>
                                     {presse.cta}{" "}
-                                    <a href="mailto:infos@gram.ci">
-                                        infos@gram.ci
+                                    <a href="mailto:contact@jafci.org">
+                                        contact@jafci.org
                                     </a>
                                 </p>
                                 <p className="text-muted mb-0">

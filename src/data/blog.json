@@ -45,11 +45,11 @@
     {
         "id": 3,
         "media": {
-            "rcImage": "/img/WKE00811.jpg",
-            "smallImage": "/img/WKE00811.jpg",
-            "gridImage": "img/WKE00811.jpg",
-            "mediumImage": "/img/WKE00811.jpg",
-            "largeImage": "img/WKE00811.jpg"
+            "rcImage": "/img/consultation-tension.png",
+            "smallImage": "/img/consultation-tension.png",
+            "gridImage": "img/consultation-tension.png",
+            "mediumImage": "/img/consultation-tension.png",
+            "largeImage": "img/consultation-tension.png"
         },
         "title": "Imagerie cardiaque : voir pour mieux intervenir",
         "author": "Comité JAFCI",
@@ -58,7 +58,7 @@
         "tags": ["Échographie", "Imagerie", "Cardiologie", "Technologies"],
         "body": [
             "<p>Échographes, moniteurs et plateaux techniques : l’imagerie guide chaque décision en cardiologie interventionnelle.</p>",
-            "<img src='/img/WKE00811.jpg' alt='Échographe cardiaque en exposition JAFCI' />",
+            "<img src='/img/consultation-tension.png' alt='Consultation cardiovasculaire : mesure de la tension et suivi clinique' />",
             "<h4>Technologies au service du patient</h4>",
             "<p>À Abidjan, les JAFCI font dialoguer cliniciens et industriels autour des outils qui transforment le diagnostic et le traitement.</p>"
         ]

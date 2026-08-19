@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Génère le pré-programme JAFCI 2026 (PDF) à partir de programme.json."""
+"""Génère le pré-programme JAFCI 2026 (PDF) — identité visuelle du site."""
 
 import json
-import os
 from pathlib import Path
 
 import pymupdf
@@ -10,19 +9,19 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 JSON_PATH = ROOT / "src" / "data" / "programme.json"
-OUT_PATH = ROOT / "public" / "PRE PROGRAMME V9 JAFCI 2026.pdf"
+OUT_PATH = ROOT / "public" / "PRE PROGRAMME V10 JAFCI 2026.pdf"
 ASSETS = Path(__file__).resolve().parent / "assets"
-LOGO = ASSETS / "logo-footer-clear.png"
 FONTS = Path(r"C:\Windows\Fonts")
 
 W, H = 595.32, 841.92
-ML, MR = 32.0, 32.0
-HEADER_H = 70.0
-FOOTER_H = 58.0
-TIME_W = 74.0
-GAP = 10.0
+ML, MR = 28.0, 28.0
+HEADER_H = 64.0
+FOOTER_H = 52.0
+TIME_W = 86.0
+GAP = 12.0
 CONTENT_X = ML + TIME_W + GAP
 CONTENT_W = W - MR - CONTENT_X
+RADIUS = 0.12
 
 NAVY = (13 / 255, 33 / 255, 61 / 255)
 GOLD = (201 / 255, 137 / 255, 13 / 255)
@@ -30,35 +29,33 @@ GOLD_DK = (166 / 255, 112 / 255, 10 / 255)
 CREAM = (248 / 255, 244 / 255, 234 / 255)
 SOFT = (247 / 255, 248 / 255, 250 / 255)
 WHITE = (1, 1, 1)
-TEXT = (0.18, 0.18, 0.2)
-MUTED = (0.42, 0.42, 0.45)
-LINE = (0.90, 0.90, 0.91)
-
-TYPE_LABEL = {
-    "session": "Session",
-    "break": "Pause",
-    "ceremony": "Cérémonie",
-    "symposium": "Symposium",
-    "parallel": "En parallèle",
-    "public": "Grand public",
-}
-KIND_LABEL = {
-    "atelier": "Atelier",
-    "paramedical": "Paramédical",
-    "imagerie": "Imagerie",
-    "sante-travail": "Santé au travail",
-}
+INK = (0.14, 0.16, 0.20)
+MUTED = (0.40, 0.41, 0.44)
+LINE = (0.88, 0.88, 0.89)
 
 
-def make_transparent(src, dest, thresh=30):
+def font_path(*names):
+    for name in names:
+        path = FONTS / name
+        if path.exists():
+            return str(path)
+    raise FileNotFoundError(names)
+
+
+def prepare_png(src, dest, thresh=None, max_w=720):
     im = Image.open(src).convert("RGBA")
-    px = im.load()
-    for y in range(im.height):
-        for x in range(im.width):
-            r, g, b, a = px[x, y]
-            if r < thresh and g < thresh and b < thresh:
-                px[x, y] = (r, g, b, 0)
-    im.save(dest)
+    if thresh is not None:
+        px = im.load()
+        for y in range(im.height):
+            for x in range(im.width):
+                r, g, b, a = px[x, y]
+                if r <= thresh and g <= thresh and b <= thresh:
+                    px[x, y] = (r, g, b, 0)
+    if im.width > max_w:
+        ratio = max_w / im.width
+        im = im.resize((max_w, max(1, int(im.height * ratio))), Image.Resampling.LANCZOS)
+    dest.parent.mkdir(exist_ok=True)
+    im.save(dest, format="PNG", optimize=True)
 
 
 def wrap(font, text, size, width):
@@ -94,18 +91,49 @@ class Builder:
     def __init__(self, data):
         self.data = data
         self.doc = pymupdf.open()
-        self.pages = []
         self.page = None
         self.y = 0
-        self.font = pymupdf.Font(fontfile=str(FONTS / "segoeui.ttf"))
-        self.bold = pymupdf.Font(fontfile=str(FONTS / "segoeuib.ttf"))
-        self.italic = pymupdf.Font(fontfile=str(FONTS / "segoeuii.ttf"))
+        self.font = pymupdf.Font(fontfile=font_path("calibri.ttf", "segoeui.ttf"))
+        self.bold = pymupdf.Font(fontfile=font_path("calibrib.ttf", "segoeuib.ttf"))
+        self.italic = pymupdf.Font(fontfile=font_path("calibrii.ttf", "segoeuii.ttf"))
+        self.logo_header = ASSETS / "logo-header.png"
+        self.logo_cover = ROOT / "public" / "img" / "logo-dark.png"
 
-    def new_page(self):
+    def rrect(self, rect, fill, stroke=None, width=0.6, radius=RADIUS):
+        self.page.draw_rect(
+            rect,
+            color=stroke,
+            fill=fill,
+            width=0 if stroke is None else width,
+            radius=radius,
+        )
+
+    def write(self, x, y, text, font, size, color, width=None, align="left"):
+        s = str(text)
+        tw = pymupdf.TextWriter(self.page.rect, color=color)
+        w = font.text_length(s, size)
+        if align == "center" and width is not None:
+            x = x + (width - w) / 2
+        elif align == "right" and width is not None:
+            x = x + width - w
+        tw.append((x, y), s, font=font, fontsize=size)
+        tw.write_text(self.page)
+
+    def block(self, x, y, text, font, size, color, width, leading=None, align="left"):
+        leading = leading or size * 1.28
+        lines = wrap(font, text, size, width)
+        for line in lines:
+            self.write(x, y, line, font, size, color, width, align)
+            y += leading
+        return y, len(lines)
+
+    def new_page(self, header=True):
         self.page = self.doc.new_page(width=W, height=H)
-        self.pages.append(self.page)
-        self.draw_header()
-        self.y = HEADER_H + 14
+        if header:
+            self.draw_header()
+            self.y = HEADER_H + 14
+        else:
+            self.y = 36
 
     def ensure(self, height):
         if self.page is None:
@@ -113,230 +141,183 @@ class Builder:
         if self.y + height > H - FOOTER_H - 8:
             self.new_page()
 
-    def text(self, x, y, s, font, size, color, width=None):
-        tw = pymupdf.TextWriter(self.page.rect, color=color)
-        tw.append((x, y), s, font=font, fontsize=size)
-        tw.write_text(self.page)
-        return y
-
-    def block(self, x, y, text, font, size, color, width, leading=None):
-        leading = leading or size * 1.32
-        lines = wrap(font, text, size, width)
-        for line in lines:
-            self.text(x, y, line, font, size, color)
-            y += leading
-        return y, len(lines)
-
     def draw_header(self):
         p = self.page
         p.draw_rect(pymupdf.Rect(0, 0, W, HEADER_H), color=None, fill=NAVY, width=0)
         p.draw_rect(
-            pymupdf.Rect(0, HEADER_H - 3, W, HEADER_H),
+            pymupdf.Rect(0, HEADER_H - 3.2, W, HEADER_H),
             color=None,
             fill=GOLD,
             width=0,
         )
-        if LOGO.exists():
-            p.insert_image(pymupdf.Rect(28, 10, 210, 60), filename=str(LOGO))
-        self._write(
-            p,
-            318,
-            26,
-            "PRÉ-PROGRAMME OFFICIEL  ·  V9",
-            self.bold,
-            9,
-            GOLD,
-            W - 36 - 318,
-            align="right",
-        )
-        self._write(
-            p,
-            318,
-            42,
+        if self.logo_header.exists():
+            p.insert_image(
+                pymupdf.Rect(22, 8, 228, 56),
+                filename=str(self.logo_header),
+                keep_proportion=True,
+            )
+        self.write(250, 24, "PRÉ-PROGRAMME", self.bold, 10, GOLD, W - 36 - 250, "right")
+        self.write(
+            250,
+            40,
             "10 – 12 septembre 2026  ·  Noom Hôtel, Abidjan",
             self.font,
-            8,
+            8.2,
             WHITE,
-            W - 36 - 318,
-            align="right",
+            W - 36 - 250,
+            "right",
         )
-        self._write(
-            p,
-            318,
-            56,
+        self.write(
+            250,
+            54,
             "Journées Africaines de Cardiologie Interventionnelle",
             self.font,
-            7.5,
-            (0.82, 0.86, 0.92),
-            W - 36 - 318,
-            align="right",
+            7.4,
+            (0.78, 0.84, 0.90),
+            W - 36 - 250,
+            "right",
         )
 
-    def _write(self, page, x, y, s, font, size, color, width, align="left"):
-        tw = pymupdf.TextWriter(page.rect, color=color)
-        w = font.text_length(s, size)
-        if align == "right":
-            x = x + width - w
-        elif align == "center":
-            x = x + (width - w) / 2
-        tw.append((x, y), s, font=font, fontsize=size)
-        tw.write_text(page)
+    def draw_cover(self):
+        self.new_page(header=False)
+        p = self.page
+        p.draw_rect(pymupdf.Rect(0, 0, W, H), color=None, fill=NAVY, width=0)
+        p.draw_rect(pymupdf.Rect(0, 0, W, 6), color=None, fill=GOLD, width=0)
+        p.draw_rect(pymupdf.Rect(0, H - 92, W, H), color=None, fill=CREAM, width=0)
+        p.draw_rect(pymupdf.Rect(0, H - 92, W, H - 89), color=None, fill=GOLD, width=0)
 
-    def draw_footers(self):
+        if self.logo_header.exists():
+            p.insert_image(
+                pymupdf.Rect(70, 78, 525, 210),
+                filename=str(self.logo_header),
+                keep_proportion=True,
+            )
+
+        self.write(ML, 250, "PRÉ-PROGRAMME", self.bold, 22, GOLD, W - ML - MR, "center")
+
+        p.draw_rect(
+            pymupdf.Rect(W / 2 - 36, 272, W / 2 + 36, 275),
+            color=None,
+            fill=GOLD,
+            width=0,
+        )
+
+        self.write(
+            ML,
+            322,
+            "10 – 12 septembre 2026",
+            self.bold,
+            16,
+            WHITE,
+            W - ML - MR,
+            "center",
+        )
+        self.write(
+            ML,
+            346,
+            "Noom Hôtel, Abidjan  ·  Côte d’Ivoire",
+            self.font,
+            12,
+            (0.82, 0.86, 0.90),
+            W - ML - MR,
+            "center",
+        )
+
+        chips = [
+            ("JOUR 1", "Jeudi 10 sept.", "Workshop"),
+            ("JOUR 2", "Vendredi 11 sept.", "Sessions scientifiques"),
+            ("JOUR 3", "Samedi 12 sept.", "Grand public"),
+        ]
+        chip_w = 164
+        gap = 12
+        total = chip_w * 3 + gap * 2
+        x0 = (W - total) / 2
+        y0 = 420
+        for i, (num, date, tag) in enumerate(chips):
+            x = x0 + i * (chip_w + gap)
+            rect = pymupdf.Rect(x, y0, x + chip_w, y0 + 78)
+            self.rrect(rect, (18 / 255, 40 / 255, 70 / 255), GOLD, 0.8, 0.08)
+            self.write(x, y0 + 22, num, self.bold, 8, GOLD, chip_w, "center")
+            self.write(x, y0 + 42, date, self.bold, 10, WHITE, chip_w, "center")
+            self.write(x, y0 + 60, tag, self.font, 8, (0.78, 0.84, 0.90), chip_w, "center")
+
+        self.write(
+            ML,
+            545,
+            "Les horaires, titres de sessions et intervenants pourront encore",
+            self.font,
+            9,
+            (0.70, 0.75, 0.80),
+            W - ML - MR,
+            "center",
+        )
+        self.write(
+            ML,
+            560,
+            "évoluer jusqu’au programme définitif.",
+            self.font,
+            9,
+            (0.70, 0.75, 0.80),
+            W - ML - MR,
+            "center",
+        )
+
         partners = [
-            ASSETS / "gram.png",
+            ASSETS / "gram-clear.png",
             ASSETS / "sicard.png",
             ASSETS / "ascaoc.png",
             ASSETS / "ica-50.png",
         ]
-        n = self.doc.page_count
-        for i in range(n):
-            page = self.doc[i]
-            page.draw_rect(
-                pymupdf.Rect(0, H - FOOTER_H, W, H),
-                color=None,
-                fill=(0.97, 0.97, 0.975),
-                width=0,
+        x = 48
+        for path in partners:
+            if not path.exists():
+                continue
+            p.insert_image(
+                pymupdf.Rect(x, H - 78, x + 90, H - 22),
+                filename=str(path),
+                keep_proportion=True,
             )
-            page.draw_rect(
-                pymupdf.Rect(0, H - FOOTER_H, W, H - FOOTER_H + 1.5),
-                color=None,
-                fill=GOLD,
-                width=0,
-            )
-            x = 28
-            for path in partners:
-                if not path.exists():
-                    continue
-                page.insert_image(
-                    pymupdf.Rect(x, H - 50, x + 78, H - 10),
-                    filename=str(path),
-                )
-                x += 86
-            label = f"{i + 1} / {n}"
-            tw = pymupdf.TextWriter(page.rect, color=NAVY)
-            tw.append(
-                (W - 48 - self.bold.text_length(label, 9), H - 24),
-                label,
-                font=self.bold,
-                fontsize=9,
-            )
-            tw.write_text(page)
-
-    def day_banner(self, day, index):
-        h = 36
-        self.ensure(h + 10)
-        r = pymupdf.Rect(ML, self.y, W - MR, self.y + h)
-        self.page.draw_rect(r, color=None, fill=NAVY, width=0)
-        self.page.draw_rect(
-            pymupdf.Rect(ML, self.y, ML + 5, self.y + h),
-            color=None,
-            fill=GOLD,
-            width=0,
-        )
-        num = f"JOUR {index + 1}"
-        self.text(ML + 16, self.y + 14, num, self.bold, 8, GOLD)
-        self.text(
-            ML + 16,
-            self.y + 28,
-            f"{day['date'].upper()}  ·  {day['tag'].upper()}",
-            self.bold,
-            10,
-            WHITE,
-        )
-        self.y += h + 12
+            x += 108
 
     def time_pill(self, y, time, kind):
         fill, fg = NAVY, WHITE
         if kind == "break":
             fill, fg = CREAM, GOLD_DK
-        elif kind == "ceremony":
+        elif kind in ("ceremony", "symposium"):
             fill, fg = GOLD, NAVY
-        elif kind == "symposium":
-            fill, fg = GOLD, NAVY
-        rect = pymupdf.Rect(ML, y, ML + TIME_W, y + 16)
-        self.page.draw_rect(rect, color=None, fill=fill, width=0)
-        tw = pymupdf.TextWriter(self.page.rect, color=fg)
-        s = time
-        size = 7 if len(s) > 14 else 7.4
-        w = self.bold.text_length(s, size)
-        tw.append(
-            (ML + (TIME_W - w) / 2, y + 11.2),
-            s,
-            font=self.bold,
-            fontsize=size,
-        )
-        tw.write_text(self.page)
-
-    def badge(self, x, y, label, fill, fg):
-        pad = 4
-        bw = self.bold.text_length(label, 6.2) + pad * 2
-        bh = 11
-        self.page.draw_rect(
-            pymupdf.Rect(x, y, x + bw, y + bh),
-            color=None,
-            fill=fill,
-            width=0,
-        )
-        self.text(x + pad, y + 8.4, label, self.bold, 6.2, fg)
-        return bw
-
-    def title_size(self, width, variant):
-        if variant == "parallel" and width < 200:
-            return 8.4
-        return 10
+        rect = pymupdf.Rect(ML, y, ML + TIME_W, y + 18)
+        self.rrect(rect, fill, None, 0, 0.28)
+        size = 7.1 if len(time) > 14 else 7.6
+        self.write(ML, y + 12.6, time, self.bold, size, fg, TIME_W, "center")
 
     def measure_session(self, session, width, variant):
         if variant == "break":
-            return 28
-        pad = 9
-        inner = width - pad * 2
-        narrow = variant == "parallel" and width < 200
-        tsize = self.title_size(width, variant)
-        title_w = inner if narrow else max(inner - 82, inner * 0.55)
-        h = pad
-        h += 12 * max(1, len(wrap(self.bold, session["title"], tsize, title_w)))
-        if narrow:
-            h += 14
+            return 30
+        pad, inner = 10, width - 20
+        tsize = 9 if width < 190 else 11
+        h = pad + 14 * max(1, len(wrap(self.bold, session["title"], tsize, inner)))
         if session.get("theme"):
-            h += 4 + 11 * max(
-                1, len(wrap(self.italic, session["theme"], 7.8, inner))
-            )
+            h += 4 + 12 * max(1, len(wrap(self.italic, session["theme"], 8.2, inner)))
         if session.get("moderators"):
-            h += 16 + 11 * max(
-                1, len(wrap(self.font, session["moderators"], 8, inner))
-            )
+            h += 15 + 11.5 * max(1, len(wrap(self.font, session["moderators"], 8.2, inner)))
         if session.get("speakers"):
-            txt = " · ".join(session["speakers"])
-            h += 16 + 11 * max(1, len(wrap(self.font, txt, 8, inner)))
+            h += 15 + 11.5 * max(1, len(wrap(self.font, " · ".join(session["speakers"]), 8.2, inner)))
         countries = session.get("countries") or []
         if countries:
-            cols = 1 if narrow else 2
-            rows = (len(countries) + cols - 1) // cols
-            h += 6 + rows * 16
-        talks = session.get("talks") or []
-        if talks:
-            h += 6
-            for talk in talks:
-                t_w = inner - 22
-                h += 3 + 10.5 * max(
-                    1, len(wrap(self.font, talk["title"], 8, t_w))
-                )
-                if talk.get("speaker"):
-                    h += 10
-                if talk.get("debate") == "vs":
-                    h += 12
-        items = session.get("items") or []
-        if items:
-            h += 4 + 12 * len(items)
+            cols = 1 if width < 210 else 2
+            h += 8 + ((len(countries) + cols - 1) // cols) * 16
+        for talk in session.get("talks") or []:
+            h += 4 + 11.2 * max(1, len(wrap(self.font, talk["title"], 8.2, inner - 18)))
+            if talk.get("speaker"):
+                h += 10
+        for item in session.get("items") or []:
+            h += 3 + 11.2 * max(1, len(wrap(self.font, item, 8.2, inner - 12)))
         if session.get("note"):
             h += 16
-        h += pad + 4
-        return max(h, 34)
+        return max(h + pad + 6, 36)
 
-    def draw_session(self, x, y, session, width, variant):
-        h = self.measure_session(session, width, variant)
-        rect = pymupdf.Rect(x, y, x + width, y + h)
+    def draw_session(self, x, y, session, width, variant, height=None):
+        h = height or self.measure_session(session, width, variant)
         fill = WHITE
         accent = None
         if variant == "break":
@@ -344,182 +325,86 @@ class Builder:
         elif variant == "ceremony":
             fill = NAVY
         elif variant == "symposium":
-            fill = (0.99, 0.95, 0.86)
+            fill = CREAM
             accent = GOLD
         elif variant == "public":
             fill = CREAM
             accent = GOLD
         elif variant == "parallel":
             fill = SOFT
-        self.page.draw_rect(rect, color=LINE, fill=fill, width=0.4)
+        self.rrect(pymupdf.Rect(x, y, x + width, y + h), fill, LINE, 0.5, 0.08)
         if accent:
             self.page.draw_rect(
-                pymupdf.Rect(x, y, x + 3.2, y + h),
+                pymupdf.Rect(x, y, x + 3.4, y + h),
                 color=None,
                 fill=accent,
                 width=0,
             )
 
-        pad = 9
-        cx = x + pad
-        inner = width - pad * 2
-        cy = y + pad + 10
-        title_color = WHITE if variant == "ceremony" else NAVY
-        body_color = (0.85, 0.88, 0.92) if variant == "ceremony" else MUTED
-        text_color = WHITE if variant == "ceremony" else TEXT
-        narrow = variant == "parallel" and width < 200
-        tsize = self.title_size(width, variant)
-
         if variant == "break":
-            self._write(
-                self.page,
-                x,
-                y + 18,
-                session["title"].upper(),
-                self.bold,
-                9.5,
-                GOLD_DK,
-                width,
-                align="center",
-            )
+            self.write(x, y + h / 2 + 4, session["title"].upper(), self.bold, 10, GOLD_DK, width, "center")
             return h
 
-        label = KIND_LABEL.get(session.get("kind")) or TYPE_LABEL.get(
-            variant, "Session"
-        )
-        badges = [label] + list(session.get("badges") or [])
+        pad = 10
+        cx, inner = x + pad, width - pad * 2
+        cy = y + pad + 11
+        title_color = WHITE if variant == "ceremony" else NAVY
+        body = (0.82, 0.86, 0.90) if variant == "ceremony" else MUTED
+        text_c = WHITE if variant == "ceremony" else INK
+        tsize = 9 if width < 190 else 11
 
-        def paint_badges(bx, by):
-            for b in reversed(badges):
-                if b == "Live":
-                    fill_b, fg_b = GOLD, WHITE
-                else:
-                    fill_b = (
-                        (0.12, 0.22, 0.36) if variant != "ceremony" else GOLD
-                    )
-                    fg_b = WHITE if variant != "ceremony" else NAVY
-                bw = self.bold.text_length(b.upper(), 6.2) + 8
-                bx -= bw
-                self.badge(bx, by, b.upper(), fill_b, fg_b)
-                bx -= 4
-
-        title_w = inner if narrow else max(inner - 82, inner * 0.55)
-        ny, _ = self.block(
-            cx, cy, session["title"], self.bold, tsize, title_color, title_w, 12
-        )
-        if narrow:
-            paint_badges(x + width - pad, ny + 2)
-            cy = ny + 16
-        else:
-            paint_badges(x + width - pad, y + pad)
-            cy = max(ny, y + pad + 16) + 4
+        live = "Live" in (session.get("badges") or [])
+        title_w = inner - (36 if live and width > 200 else 0)
+        cy, _ = self.block(cx, cy, session["title"], self.bold, tsize, title_color, title_w, 13)
+        if live:
+            bw = self.bold.text_length("LIVE", 6.4) + 10
+            bx = x + width - pad - bw
+            self.rrect(pymupdf.Rect(bx, y + pad, bx + bw, y + pad + 12), GOLD, None, 0, 0.3)
+            self.write(bx, y + pad + 9.2, "LIVE", self.bold, 6.4, WHITE, bw, "center")
+        cy += 3
 
         if session.get("theme"):
-            cy, _ = self.block(
-                cx,
-                cy,
-                session["theme"],
-                self.italic,
-                8,
-                GOLD_DK if variant != "ceremony" else GOLD,
-                inner,
-                11,
-            )
-            cy += 2
-
-        if session.get("moderators"):
-            self.text(cx, cy, "MODÉRATEURS", self.bold, 6.4, GOLD)
-            cy += 11
-            cy, _ = self.block(
-                cx, cy, session["moderators"], self.font, 8, body_color, inner, 11
-            )
+            gold = GOLD if variant == "ceremony" else GOLD_DK
+            cy, _ = self.block(cx, cy, session["theme"], self.italic, 8.2, gold, inner, 11.5)
             cy += 3
-
+        if session.get("moderators"):
+            self.write(cx, cy, "MODÉRATEURS", self.bold, 6.4, GOLD)
+            cy += 12
+            cy, _ = self.block(cx, cy, session["moderators"], self.font, 8.2, body, inner, 11.5)
+            cy += 3
         if session.get("speakers"):
-            self.text(cx, cy, "INTERVENANTS", self.bold, 6.4, GOLD)
-            cy += 11
-            cy, _ = self.block(
-                cx,
-                cy,
-                " · ".join(session["speakers"]),
-                self.font,
-                8,
-                body_color,
-                inner,
-                11,
-            )
+            self.write(cx, cy, "INTERVENANTS", self.bold, 6.4, GOLD)
+            cy += 12
+            cy, _ = self.block(cx, cy, " · ".join(session["speakers"]), self.font, 8.2, body, inner, 11.5)
             cy += 3
 
         countries = session.get("countries") or []
         if countries:
-            col_w = (inner - 6) / 2
+            cols = 1 if width < 210 else 2
+            col_w = inner if cols == 1 else (inner - 8) / 2
             for i, item in enumerate(countries):
-                col = i % 2
-                row = i // 2
-                ix = cx + col * (col_w + 6)
+                col, row = i % cols, i // cols
+                ix = cx + col * (col_w + 8)
                 iy = cy + row * 16
-                self.page.draw_rect(
-                    pymupdf.Rect(ix, iy - 8, ix + col_w, iy + 6),
-                    color=None,
-                    fill=(0.96, 0.96, 0.97) if variant != "ceremony" else (0.1, 0.18, 0.3),
-                    width=0,
-                )
-                label_c = f"{item['country']}  —  {item.get('speaker', '')}"
-                self.block(ix + 4, iy, label_c, self.font, 7.4, text_color, col_w - 8, 10)
-            cy += ((len(countries) + 1) // 2) * 16 + 4
+                chip = (0.12, 0.20, 0.32) if variant == "ceremony" else (0.96, 0.96, 0.97)
+                self.page.draw_rect(pymupdf.Rect(ix, iy - 8, ix + col_w, iy + 6), color=None, fill=chip, width=0)
+                self.block(ix + 5, iy, f"{item['country']}  —  {item.get('speaker', '')}", self.font, 7.5, text_c, col_w - 8, 10)
+            cy += ((len(countries) + cols - 1) // cols) * 16 + 4
 
-        talks = session.get("talks") or []
-        if talks:
-            num = 0
-            for talk in talks:
-                num += 1
-                nlab = f"{num:02d}"
-                self.text(cx, cy, nlab, self.bold, 7.5, GOLD)
-                t_w = inner - 22
-                ny, nlines = self.block(
-                    cx + 20, cy, talk["title"], self.font, 8, text_color, t_w, 10.5
-                )
-                cy = ny
-                if talk.get("speaker"):
-                    self.text(
-                        cx + 20,
-                        cy,
-                        talk["speaker"],
-                        self.bold,
-                        7.6,
-                        GOLD_DK if variant != "ceremony" else GOLD,
-                    )
-                    cy += 10
-                if talk.get("debate") == "vs":
-                    self._write(
-                        self.page,
-                        cx,
-                        cy,
-                        "VS",
-                        self.bold,
-                        7,
-                        GOLD,
-                        inner,
-                        align="center",
-                    )
-                    cy += 12
-                cy += 3
+        for n, talk in enumerate(session.get("talks") or [], 1):
+            self.write(cx, cy, f"{n:02d}", self.bold, 7.4, GOLD)
+            ny, _ = self.block(cx + 20, cy, talk["title"], self.font, 8.2, text_c, inner - 20, 11.2)
+            cy = ny
+            if talk.get("speaker"):
+                self.write(cx + 20, cy, talk["speaker"], self.bold, 7.8, GOLD if variant == "ceremony" else GOLD_DK)
+                cy += 10
+            cy += 3
 
-        items = session.get("items") or []
-        for item in items:
-            self.text(cx, cy, "–  " + item, self.font, 8, text_color)
-            cy += 12
-
+        for item in session.get("items") or []:
+            cy, _ = self.block(cx, cy, "–  " + item, self.font, 8.2, text_c, inner, 11.2)
         if session.get("note"):
-            self.page.draw_rect(
-                pymupdf.Rect(cx, cy - 2, cx + inner, cy - 1.4),
-                color=None,
-                fill=GOLD,
-                width=0,
-            )
-            cy += 12
-            self.block(cx, cy, session["note"], self.italic, 7.6, GOLD_DK, inner, 10)
-
+            cy += 4
+            self.block(cx, cy, session["note"], self.italic, 7.8, GOLD_DK, inner, 11)
         return h
 
     def draw_slot(self, slot):
@@ -529,19 +414,11 @@ class Builder:
             gap = 8
             col_w = (CONTENT_W - gap * (n - 1)) / n
             heights = [self.measure_session(s, col_w, "parallel") for s in sessions]
-            label_h = 14
-            total = max(heights) + label_h
+            total = max(heights) + 16
             self.ensure(total + 4)
             self.time_pill(self.y + 2, slot["time"], "parallel")
-            self.text(
-                CONTENT_X,
-                self.y + 10,
-                "SESSIONS SIMULTANÉES",
-                self.bold,
-                6.6,
-                GOLD,
-            )
-            y0 = self.y + label_h
+            self.write(CONTENT_X, self.y + 10, "SESSIONS SIMULTANÉES", self.bold, 6.6, GOLD)
+            y0 = self.y + 16
             for i, session in enumerate(sessions):
                 self.draw_session(
                     CONTENT_X + i * (col_w + gap),
@@ -549,47 +426,95 @@ class Builder:
                     session,
                     col_w,
                     "parallel",
+                    height=max(heights),
                 )
-            self.y = y0 + max(heights) + 8
+            self.y = y0 + max(heights) + 10
             return
 
         variant = slot["type"]
         h = self.measure_session(slot, CONTENT_W, variant)
-        self.ensure(h + 2)
+        self.ensure(h + 4)
         self.time_pill(self.y + 2, slot["time"], variant)
         self.draw_session(CONTENT_X, self.y, slot, CONTENT_W, variant)
-        self.y += h + 8
+        self.y += h + 10
+
+    def day_banner(self, day, index):
+        h = 34
+        self.ensure(h + 80)
+        r = pymupdf.Rect(ML, self.y, W - MR, self.y + h)
+        self.rrect(r, NAVY, None, 0, 0.10)
+        self.page.draw_rect(pymupdf.Rect(ML, self.y, ML + 4, self.y + h), color=None, fill=GOLD, width=0)
+        self.write(ML + 14, self.y + 13, f"JOUR {index + 1}", self.bold, 7.6, GOLD)
+        self.write(
+            ML + 14,
+            self.y + 26,
+            f"{day['date'].upper()}   ·   {day['tag'].upper()}",
+            self.bold,
+            10,
+            WHITE,
+        )
+        self.y += h + 12
+
+    def draw_footers(self):
+        partners = [
+            ASSETS / "gram-clear.png",
+            ASSETS / "sicard.png",
+            ASSETS / "ascaoc.png",
+            ASSETS / "ica-50.png",
+        ]
+        n = self.doc.page_count
+        for i in range(n):
+            if i == 0:
+                continue
+            page = self.doc[i]
+            page.draw_rect(pymupdf.Rect(0, H - FOOTER_H, W, H), color=None, fill=(0.97, 0.97, 0.975), width=0)
+            page.draw_rect(pymupdf.Rect(0, H - FOOTER_H, W, H - FOOTER_H + 2), color=None, fill=GOLD, width=0)
+            x = 24
+            for path in partners:
+                if not path.exists():
+                    continue
+                page.insert_image(
+                    pymupdf.Rect(x, H - 44, x + 72, H - 10),
+                    filename=str(path),
+                    keep_proportion=True,
+                )
+                x += 80
+            label = f"{i} / {n - 1}"
+            tw = pymupdf.TextWriter(page.rect, color=NAVY)
+            tw.append((W - 42 - self.bold.text_length(label, 9), H - 22), label, font=self.bold, fontsize=9)
+            tw.write_text(page)
 
     def build(self):
-        days = self.data["days"]
-        for i, day in enumerate(days):
-            if self.page is None:
-                self.new_page()
-            elif self.y > HEADER_H + 20:
-                # keep a bit of air before a new day, else new page
-                if self.y > H - FOOTER_H - 120:
-                    self.new_page()
-                else:
-                    self.y += 6
+        self.doc.set_metadata(
+            {
+                "title": "Pré-programme JAFCI 2026",
+                "author": "JAFCI",
+                "subject": "Journées Africaines de Cardiologie Interventionnelle",
+            }
+        )
+        self.draw_cover()
+        for i, day in enumerate(self.data["days"]):
+            self.new_page()
             self.day_banner(day, i)
             for slot in day["slots"]:
                 self.draw_slot(slot)
         self.draw_footers()
-        self.doc.save(str(OUT_PATH), garbage=4, deflate=True)
+        self.doc.subset_fonts()
+        self.doc.save(str(OUT_PATH), garbage=4, deflate=True, deflate_images=True, deflate_fonts=True)
         self.doc.close()
         return OUT_PATH
 
 
-def prepare_assets():
-    ASSETS.mkdir(exist_ok=True)
-    make_transparent(ROOT / "public" / "img" / "logo-pied-de-page.png", LOGO, 28)
-
-
 def main():
-    prepare_assets()
+    ASSETS.mkdir(exist_ok=True)
+    src_logo = ROOT / "public" / "img" / "logo-pied-de-page.png"
+    if not src_logo.exists():
+        src_logo = ASSETS / "logo-footer-clear.png"
+    prepare_png(src_logo, ASSETS / "logo-header.png", thresh=28, max_w=900)
+    if (ASSETS / "gram.png").exists():
+        prepare_png(ASSETS / "gram.png", ASSETS / "gram-clear.png", thresh=22, max_w=240)
     data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
-    path = Builder(data).build()
-    print(path)
+    print(Builder(data).build())
 
 
 if __name__ == "__main__":
