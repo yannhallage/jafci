@@ -2,7 +2,7 @@
     "intro": {
         "subTitle": "Pré-programme officiel · V10",
         "title": "<span>Chronogramme</span> des trois journées",
-        "note": "Reconstitution fidèle du pré-programme officiel V10. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif.",
+        "note": "Reconstitution fidèle du pré-programme. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif.",
         "stats": [
             { "value": "3", "label": "journées" },
             { "value": "22", "label": "créneaux" },
@@ -10,7 +10,7 @@
         ]
     },
     "pdf": {
-        "href": "/PRE PROGRAMME V10 JAFCI 2026.pdf",
+        "href": "/PRE PROGRAMME V10 JAFCI 2026.pdf?v=14",
         "label": "Télécharger le pré-programme (PDF)"
     },
     "days": [
@@ -220,7 +220,7 @@
                     "time": "10h35 – 11h35",
                     "type": "session",
                     "title": "Panel d’experts",
-                    "theme": "Comment financer le développement de l’activité de cardiologie interventionnelle en Afrique",
+                    "theme": "Comment financer l’accès aux actes de cardiologie interventionnelle en Afrique",
                     "speakers": [
                         "Adoubi A",
                         "Kane Ab",
