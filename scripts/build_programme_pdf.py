@@ -306,12 +306,15 @@ class Builder:
         if countries:
             cols = 1 if width < 210 else 2
             h += 8 + ((len(countries) + cols - 1) // cols) * 16
+        compact = (session.get("title") or "").startswith("Retours")
+        talk_pad = 1 if compact else 4
+        talk_lead = 10.6 if compact else 11.2
         for talk in session.get("talks") or []:
             title = talk.get("title") or ""
             if title:
-                h += 4 + 11.2 * max(1, len(wrap(self.font, title, 8.2, inner - 18)))
+                h += talk_pad + talk_lead * max(1, len(wrap(self.font, title, 8.2, inner - 18)))
             else:
-                h += 4
+                h += talk_pad
             if talk.get("speaker"):
                 h += 10
         for item in session.get("items") or []:
@@ -395,16 +398,19 @@ class Builder:
                 self.block(ix + 5, iy, f"{item['country']}  —  {item.get('speaker', '')}", self.font, 7.5, text_c, col_w - 8, 10)
             cy += ((len(countries) + cols - 1) // cols) * 16 + 4
 
+        compact = (session.get("title") or "").startswith("Retours")
+        talk_lead = 10.6 if compact else 11.2
+        talk_gap = 1 if compact else 3
         for n, talk in enumerate(session.get("talks") or [], 1):
             self.write(cx, cy, f"{n:02d}", self.bold, 7.4, GOLD)
             title = talk.get("title") or ""
             if title:
-                ny, _ = self.block(cx + 20, cy, title, self.font, 8.2, text_c, inner - 20, 11.2)
+                ny, _ = self.block(cx + 20, cy, title, self.font, 8.2, text_c, inner - 20, talk_lead)
                 cy = ny
             if talk.get("speaker"):
                 self.write(cx + 20, cy, talk["speaker"], self.bold, 7.8, GOLD if variant == "ceremony" else GOLD_DK)
                 cy += 10
-            cy += 3
+            cy += talk_gap
 
         for item in session.get("items") or []:
             cy, _ = self.block(cx, cy, "–  " + item, self.font, 8.2, text_c, inner, 11.2)
