@@ -117,6 +117,10 @@
                     "note": "Retransmissions live / live in the box",
                     "talks": [
                         {
+                            "title": "Expérience de la Pascar",
+                            "speaker": "Gamra H"
+                        },
+                        {
                             "title": "Expérience nigérienne en cardiologie interventionnelle",
                             "speaker": "Mamane S"
                         },
@@ -131,9 +135,6 @@
                         {
                             "title": "Expérience togolaise en rythmologie interventionnelle",
                             "speaker": "Pessinaba S"
-                        },
-                        {
-                            "speaker": "Gamra H"
                         }
                     ]
                 },
