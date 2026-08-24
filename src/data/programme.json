@@ -10,7 +10,7 @@
         ]
     },
     "pdf": {
-        "href": "/PRE PROGRAMME V10 JAFCI 2026.pdf?v=14",
+        "href": "/PRE PROGRAMME V10 JAFCI 2026.pdf?v=15",
         "label": "Télécharger le pré-programme (PDF)"
     },
     "days": [
@@ -109,11 +109,11 @@
                     "title": "Déjeuner"
                 },
                 {
-                    "time": "14h30 – 16h10",
+                    "time": "14h30 – 16h15",
                     "type": "session",
                     "title": "Retours d’expérience",
                     "badges": ["Live"],
-                    "moderators": "Touré A, Kane Ab, Camara S, Ikama S, N’Guetta R",
+                    "moderators": "Touré A, Kane Ab, Camara S, Ikama S, N’Guetta R, Gamra H",
                     "note": "Retransmissions live / live in the box",
                     "talks": [
                         {
@@ -131,6 +131,9 @@
                         {
                             "title": "Expérience togolaise en rythmologie interventionnelle",
                             "speaker": "Pessinaba S"
+                        },
+                        {
+                            "speaker": "Gamra H"
                         }
                     ]
                 },

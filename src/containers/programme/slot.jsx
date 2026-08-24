@@ -33,9 +33,11 @@ const TalkList = ({ talks }) => {
                     <li key={index}>
                         <span className="programme-talks__num">{number}</span>
                         <div className="programme-talks__body">
-                            <p className="programme-talks__title">
-                                {talk.title}
-                            </p>
+                            {talk.title ? (
+                                <p className="programme-talks__title">
+                                    {talk.title}
+                                </p>
+                            ) : null}
                             {talk.speaker ? (
                                 <p className="programme-talks__speaker">
                                     {talk.speaker}
