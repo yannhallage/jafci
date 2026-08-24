@@ -307,7 +307,11 @@ class Builder:
             cols = 1 if width < 210 else 2
             h += 8 + ((len(countries) + cols - 1) // cols) * 16
         for talk in session.get("talks") or []:
-            h += 4 + 11.2 * max(1, len(wrap(self.font, talk["title"], 8.2, inner - 18)))
+            title = talk.get("title") or ""
+            if title:
+                h += 4 + 11.2 * max(1, len(wrap(self.font, title, 8.2, inner - 18)))
+            else:
+                h += 4
             if talk.get("speaker"):
                 h += 10
         for item in session.get("items") or []:
@@ -393,8 +397,10 @@ class Builder:
 
         for n, talk in enumerate(session.get("talks") or [], 1):
             self.write(cx, cy, f"{n:02d}", self.bold, 7.4, GOLD)
-            ny, _ = self.block(cx + 20, cy, talk["title"], self.font, 8.2, text_c, inner - 20, 11.2)
-            cy = ny
+            title = talk.get("title") or ""
+            if title:
+                ny, _ = self.block(cx + 20, cy, title, self.font, 8.2, text_c, inner - 20, 11.2)
+                cy = ny
             if talk.get("speaker"):
                 self.write(cx + 20, cy, talk["speaker"], self.bold, 7.8, GOLD if variant == "ceremony" else GOLD_DK)
                 cy += 10
