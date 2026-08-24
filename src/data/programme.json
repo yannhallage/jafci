@@ -10,7 +10,7 @@
         ]
     },
     "pdf": {
-        "href": "/PRE PROGRAMME V10 JAFCI 2026.pdf?v=15",
+        "href": "/PRE PROGRAMME V10 JAFCI 2026.pdf?v=17",
         "label": "Télécharger le pré-programme (PDF)"
     },
     "days": [
@@ -113,7 +113,7 @@
                     "type": "session",
                     "title": "Retours d’expérience",
                     "badges": ["Live"],
-                    "moderators": "Touré A, Kane Ab, Camara S, Ikama S, N’Guetta R, Gamra H",
+                    "moderators": "Gamra H, Touré A, Kane Ab, Camara S, Ikama S, N’Guetta R",
                     "note": "Retransmissions live / live in the box",
                     "talks": [
                         {
