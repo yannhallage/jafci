@@ -1,6 +1,6 @@
 {
     "intro": {
-        "subTitle": "Pré-programme officiel · V10",
+        "subTitle": "Programme officiel · V10",
         "title": "<span>Chronogramme</span> des trois journées",
         "note": "Reconstitution fidèle du pré-programme. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif.",
         "stats": [
@@ -10,8 +10,8 @@
         ]
     },
     "pdf": {
-        "href": "/PRE PROGRAMME V10 JAFCI 2026.pdf?v=17",
-        "label": "Télécharger le pré-programme (PDF)"
+        "href": "/PROGRAMME V10 JAFCI 2026.pdf?v=18",
+        "label": "Télécharger le programme (PDF)"
     },
     "days": [
         {
@@ -26,6 +26,7 @@
                     "time": "08h00 – 08h15",
                     "type": "session",
                     "title": "Mots de bienvenue",
+                    "room": "Amphithéâtre ICA",
                     "items": [
                         "Directeur Général de l’Institut de Cardiologie d’Abidjan",
                         "Président du GRAM"
@@ -35,6 +36,7 @@
                     "time": "08h30 – 10h15",
                     "type": "session",
                     "title": "Présentation de cas cliniques",
+                    "room": "Amphithéâtre ICA",
                     "moderators": "Maboury D, Yaméogo V, Touré M, Ekou A, N’Goran Y",
                     "countries": [
                         {
@@ -78,6 +80,7 @@
                     "time": "10h30 – 12h15",
                     "type": "session",
                     "title": "Présentation de cas cliniques / Retransmissions live",
+                    "room": "Amphithéâtre ICA",
                     "badges": ["Live"],
                     "moderators": "Kouakam C, Kane Ad, Adoubi A, Pessinaba S, Millogo G",
                     "countries": [
@@ -106,12 +109,14 @@
                 {
                     "time": "12h30 – 13h30",
                     "type": "break",
-                    "title": "Déjeuner"
+                    "title": "Déjeuner",
+                    "room": "7e étage"
                 },
                 {
                     "time": "14h30 – 16h15",
                     "type": "session",
                     "title": "Retours d’expérience",
+                    "room": "Amphithéâtre ICA",
                     "badges": ["Live"],
                     "moderators": "Gamra H, Touré A, Kane Ab, Camara S, Ikama S, N’Guetta R",
                     "note": "Retransmissions live / live in the box",
@@ -147,7 +152,8 @@
                     "time": "16h30 – 17h15",
                     "type": "session",
                     "title": "Retour sur l’ESC 2026",
-                    "moderators": "Kouakam C, Maboury D, Bekouti J, Sonou A, Ahmad A",
+                    "room": "Edmond Bertrand",
+                    "moderators": "Kouakam C, Maboury D, Bekouti J, Sonou A, Ahamat A, Lubenga Y",
                     "talks": [
                         {
                             "title": "Points forts en rythmologie interventionnelle",
@@ -181,16 +187,19 @@
                         {
                             "title": "Atelier échocardiographie",
                             "kind": "atelier",
+                            "room": "Houpheit Bougnie 1",
                             "speakers": ["Niamkey T"]
                         },
                         {
                             "title": "Atelier urgences cardiovasculaires",
                             "kind": "atelier",
+                            "room": "Houpheit Bougnie 2",
                             "speakers": ["Horo K", "Yao H"]
                         },
                         {
                             "title": "Session paramédicale",
                             "kind": "paramedical",
+                            "room": "Nelson Mandela",
                             "speakers": ["Zoro Bi L", "Boka B"]
                         }
                     ]
@@ -199,6 +208,7 @@
                     "time": "09h30 – 10h30",
                     "type": "session",
                     "title": "Conférences en plénière",
+                    "room": "Nelson Mandela",
                     "theme": "Trois innovations en cardiologie interventionnelle en Afrique",
                     "moderators": "Kramoh E, Montalescot G, Touré A, Kane Ab, Addad F",
                     "talks": [
@@ -224,6 +234,7 @@
                     "time": "10h35 – 11h35",
                     "type": "session",
                     "title": "Panel d’experts",
+                    "room": "Nelson Mandela",
                     "theme": "Comment financer l’accès aux actes de cardiologie interventionnelle en Afrique",
                     "speakers": [
                         "Adoubi A",
@@ -238,17 +249,20 @@
                 {
                     "time": "11h40 – 12h25",
                     "type": "ceremony",
-                    "title": "Cérémonie d’ouverture"
+                    "title": "Cérémonie d’ouverture",
+                    "room": "Nelson Mandela"
                 },
                 {
                     "time": "12h30 – 13h30",
                     "type": "break",
-                    "title": "Déjeuner"
+                    "title": "Déjeuner",
+                    "room": "7e étage"
                 },
                 {
                     "time": "14h00 – 15h00",
                     "type": "session",
                     "title": "Session commune rythmologie et cardiologie interventionnelle",
+                    "room": "Nelson Mandela",
                     "theme": "Scène de méninges en salle de cathétérisme cardiaque",
                     "moderators": "N’Guetta R, Defaye P, Kane Ad, Ikama MS, Edafe E",
                     "talks": [
@@ -294,7 +308,8 @@
                 {
                     "time": "16h05 – 16h35",
                     "type": "symposium",
-                    "title": "Symposium Soleil"
+                    "title": "Symposium / Siemens",
+                    "room": "Nelson Mandela"
                 },
                 {
                     "time": "16h35 – 16h50",
@@ -304,15 +319,17 @@
                 {
                     "time": "16h55 – 17h25",
                     "type": "symposium",
-                    "title": "Symposium Lumière"
+                    "title": "Symposium Lumière",
+                    "room": "Nelson Mandela"
                 },
                 {
                     "time": "17h30 – 18h30",
                     "type": "parallel",
                     "sessions": [
                         {
-                            "title": "Session imagerie multimodale",
-                            "kind": "imagerie",
+                                "title": "Session imagerie multimodale",
+                                "kind": "imagerie",
+                                "room": "Nelson Mandela",
                             "theme": "Voir mieux pour intervenir mieux",
                             "moderators": "N’Zi P, Touré Ab, Zunon-Kipré E, Bamba Kamagaté D",
                             "talks": [
@@ -335,8 +352,9 @@
                             ]
                         },
                         {
-                            "title": "Session santé au travail et maladies cardiovasculaires",
-                            "kind": "sante-travail",
+                                "title": "Session santé au travail et maladies cardiovasculaires",
+                                "kind": "sante-travail",
+                                "room": "Houpheit Bougnie 1",
                             "theme": "La vie d’après",
                             "moderators": "Konin C, Aké T, Koffi D, Traoré F, Klai D",
                             "talks": [
@@ -359,7 +377,8 @@
                 {
                     "time": "18h30 – 19h00",
                     "type": "ceremony",
-                    "title": "Cérémonie de clôture : Déclaration d’Abidjan"
+                    "title": "Cérémonie de clôture : Déclaration d’Abidjan",
+                    "room": "Nelson Mandela"
                 },
                 {
                     "time": "19h00",

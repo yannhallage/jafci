@@ -322,6 +322,22 @@
         margin-bottom: 16px;
     }
 
+    &__room {
+        align-items: center;
+        color: $theme-color3;
+        display: flex;
+        font-size: 13px;
+        font-weight: $font-weight-semi-bold;
+        gap: 7px;
+        line-height: 1.4;
+        margin-bottom: 14px;
+
+        i {
+            color: $theme-color;
+            font-size: 16px;
+        }
+    }
+
     &__meta {
         color: $black-666;
         font-size: 14px;

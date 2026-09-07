@@ -120,6 +120,12 @@ const SessionCard = ({ session, variant }) => {
             {session.theme ? (
                 <p className="programme-card__theme">{session.theme}</p>
             ) : null}
+            {session.room ? (
+                <p className="programme-card__room">
+                    <i className="icofont-location-pin" aria-hidden="true"></i>
+                    <span> Salle {session.room}</span>
+                </p>
+            ) : null}
             {session.moderators ? (
                 <p className="programme-card__meta">
                     <span>Modérateurs</span>
