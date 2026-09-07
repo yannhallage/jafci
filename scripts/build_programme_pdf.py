@@ -9,7 +9,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 JSON_PATH = ROOT / "src" / "data" / "programme.json"
-OUT_PATH = ROOT / "public" / "PRE PROGRAMME V10 JAFCI 2026.pdf"
+OUT_PATH = ROOT / "public" / "PROGRAMME V10 JAFCI 2026.pdf"
 ASSETS = Path(__file__).resolve().parent / "assets"
 FONTS = Path(r"C:\Windows\Fonts")
 
@@ -97,7 +97,6 @@ class Builder:
         self.bold = pymupdf.Font(fontfile=font_path("calibrib.ttf", "segoeuib.ttf"))
         self.italic = pymupdf.Font(fontfile=font_path("calibrii.ttf", "segoeuii.ttf"))
         self.logo_header = ASSETS / "logo-header.png"
-        self.logo_cover = ROOT / "public" / "img" / "logo-dark.png"
 
     def rrect(self, rect, fill, stroke=None, width=0.6, radius=RADIUS):
         self.page.draw_rect(
@@ -156,7 +155,7 @@ class Builder:
                 filename=str(self.logo_header),
                 keep_proportion=True,
             )
-        self.write(250, 24, "PRÉ-PROGRAMME", self.bold, 10, GOLD, W - 36 - 250, "right")
+        self.write(250, 24, "PROGRAMME", self.bold, 10, GOLD, W - 36 - 250, "right")
         self.write(
             250,
             40,
@@ -193,7 +192,7 @@ class Builder:
                 keep_proportion=True,
             )
 
-        self.write(ML, 250, "PRÉ-PROGRAMME", self.bold, 22, GOLD, W - ML - MR, "center")
+        self.write(ML, 250, "PROGRAMME", self.bold, 22, GOLD, W - ML - MR, "center")
 
         p.draw_rect(
             pymupdf.Rect(W / 2 - 36, 272, W / 2 + 36, 275),
@@ -262,23 +261,6 @@ class Builder:
             "center",
         )
 
-        partners = [
-            ASSETS / "gram-clear.png",
-            ASSETS / "sicard.png",
-            ASSETS / "ascaoc.png",
-            ASSETS / "ica-50.png",
-        ]
-        x = 48
-        for path in partners:
-            if not path.exists():
-                continue
-            p.insert_image(
-                pymupdf.Rect(x, H - 78, x + 90, H - 22),
-                filename=str(path),
-                keep_proportion=True,
-            )
-            x += 108
-
     def time_pill(self, y, time, kind):
         fill, fg = NAVY, WHITE
         if kind == "break":
@@ -292,12 +274,14 @@ class Builder:
 
     def measure_session(self, session, width, variant):
         if variant == "break":
-            return 30
+            return 44 if session.get("room") else 30
         pad, inner = 10, width - 20
         tsize = 9 if width < 190 else 11
         h = pad + 14 * max(1, len(wrap(self.bold, session["title"], tsize, inner)))
         if session.get("theme"):
             h += 4 + 12 * max(1, len(wrap(self.italic, session["theme"], 8.2, inner)))
+        if session.get("room"):
+            h += 15
         if session.get("moderators"):
             h += 15 + 11.5 * max(1, len(wrap(self.font, session["moderators"], 8.2, inner)))
         if session.get("speakers"):
@@ -349,7 +333,9 @@ class Builder:
             )
 
         if variant == "break":
-            self.write(x, y + h / 2 + 4, session["title"].upper(), self.bold, 10, GOLD_DK, width, "center")
+            self.write(x, y + 17, session["title"].upper(), self.bold, 10, GOLD_DK, width, "center")
+            if session.get("room"):
+                self.write(x, y + 33, f"Salle {session['room']}", self.font, 8, GOLD_DK, width, "center")
             return h
 
         pad = 10
@@ -373,6 +359,11 @@ class Builder:
         if session.get("theme"):
             gold = GOLD if variant == "ceremony" else GOLD_DK
             cy, _ = self.block(cx, cy, session["theme"], self.italic, 8.2, gold, inner, 11.5)
+            cy += 3
+        if session.get("room"):
+            self.write(cx, cy, "SALLE", self.bold, 6.4, GOLD)
+            cy += 12
+            cy, _ = self.block(cx, cy, session["room"], self.font, 8.2, body, inner, 11.5)
             cy += 3
         if session.get("moderators"):
             self.write(cx, cy, "MODÉRATEURS", self.bold, 6.4, GOLD)
@@ -468,12 +459,6 @@ class Builder:
         self.y += h + 12
 
     def draw_footers(self):
-        partners = [
-            ASSETS / "gram-clear.png",
-            ASSETS / "sicard.png",
-            ASSETS / "ascaoc.png",
-            ASSETS / "ica-50.png",
-        ]
         n = self.doc.page_count
         for i in range(n):
             if i == 0:
@@ -481,16 +466,6 @@ class Builder:
             page = self.doc[i]
             page.draw_rect(pymupdf.Rect(0, H - FOOTER_H, W, H), color=None, fill=(0.97, 0.97, 0.975), width=0)
             page.draw_rect(pymupdf.Rect(0, H - FOOTER_H, W, H - FOOTER_H + 2), color=None, fill=GOLD, width=0)
-            x = 24
-            for path in partners:
-                if not path.exists():
-                    continue
-                page.insert_image(
-                    pymupdf.Rect(x, H - 44, x + 72, H - 10),
-                    filename=str(path),
-                    keep_proportion=True,
-                )
-                x += 80
             label = f"{i} / {n - 1}"
             tw = pymupdf.TextWriter(page.rect, color=NAVY)
             tw.append((W - 42 - self.bold.text_length(label, 9), H - 22), label, font=self.bold, fontsize=9)
@@ -499,7 +474,7 @@ class Builder:
     def build(self):
         self.doc.set_metadata(
             {
-                "title": "Pré-programme JAFCI 2026",
+                "title": "Programme JAFCI 2026",
                 "author": "JAFCI",
                 "subject": "Journées Africaines de Cardiologie Interventionnelle",
             }
