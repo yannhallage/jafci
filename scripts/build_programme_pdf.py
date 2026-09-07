@@ -126,6 +126,12 @@ class Builder:
             y += leading
         return y, len(lines)
 
+    def room_label(self, room):
+        room = str(room).replace("Houpheit Bougnie", "Houphouët Boigny")
+        if room == "Amphithéâtre ICA" or room.startswith("Salle "):
+            return room
+        return f"Salle {room}"
+
     def new_page(self, header=True):
         self.page = self.doc.new_page(width=W, height=H)
         if header:
@@ -335,7 +341,7 @@ class Builder:
         if variant == "break":
             self.write(x, y + 17, session["title"].upper(), self.bold, 10, GOLD_DK, width, "center")
             if session.get("room"):
-                self.write(x, y + 33, f"Salle {session['room']}", self.font, 8, GOLD_DK, width, "center")
+                self.write(x + 8, y + h - 9, self.room_label(session["room"]), self.font, 7.5, GOLD_DK, width - 16, "right")
             return h
 
         pad = 10
@@ -361,10 +367,7 @@ class Builder:
             cy, _ = self.block(cx, cy, session["theme"], self.italic, 8.2, gold, inner, 11.5)
             cy += 3
         if session.get("room"):
-            self.write(cx, cy, "SALLE", self.bold, 6.4, GOLD)
-            cy += 12
-            cy, _ = self.block(cx, cy, session["room"], self.font, 8.2, body, inner, 11.5)
-            cy += 3
+            self.write(cx, y + h - 9, self.room_label(session["room"]), self.font, 7.5, GOLD if variant == "ceremony" else GOLD_DK, inner, "right")
         if session.get("moderators"):
             self.write(cx, cy, "MODÉRATEURS", self.bold, 6.4, GOLD)
             cy += 12
