@@ -123,7 +123,11 @@ const SessionCard = ({ session, variant }) => {
             {session.room ? (
                 <p className="programme-card__room">
                     <i className="icofont-location-pin" aria-hidden="true"></i>
-                    <span> Salle {session.room}</span>
+                    <span>
+                        {session.room === "Restaurant 7e étage"
+                            ? ` ${session.room}`
+                            : ` Salle ${session.room}`}
+                    </span>
                 </p>
             ) : null}
             {session.moderators ? (

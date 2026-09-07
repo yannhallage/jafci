@@ -1,6 +1,6 @@
 {
     "intro": {
-        "subTitle": "Programme officiel · V10",
+        "subTitle": "Programme officiel",
         "title": "<span>Chronogramme</span> des trois journées",
         "note": "Reconstitution fidèle du pré-programme. Les horaires, titres de sessions et intervenants pourront encore évoluer jusqu’au programme définitif.",
         "stats": [
@@ -10,7 +10,7 @@
         ]
     },
     "pdf": {
-        "href": "/PROGRAMME V10 JAFCI 2026.pdf?v=18",
+        "href": "/PROGRAMME V10 JAFCI 2026.pdf?v=19",
         "label": "Télécharger le programme (PDF)"
     },
     "days": [
@@ -256,7 +256,7 @@
                     "time": "12h30 – 13h30",
                     "type": "break",
                     "title": "Déjeuner",
-                    "room": "7e étage"
+                    "room": "Restaurant 7e étage"
                 },
                 {
                     "time": "14h00 – 15h00",
@@ -308,8 +308,18 @@
                 {
                     "time": "16h05 – 16h35",
                     "type": "symposium",
-                    "title": "Symposium / Siemens",
-                    "room": "Nelson Mandela"
+                    "title": "Symposium ELSMED/SIEMENS",
+                    "room": "Nelson Mandela",
+                    "talks": [
+                        {
+                            "title": "Présentation de la compagnie – le passé et le futur dans le domaine du cathétérisme.",
+                            "speaker": "Jean Rodolphe Kacou (ELSMED)"
+                        },
+                        {
+                            "title": "La place de l’intelligence artificielle dans la salle de cathétérisme.",
+                            "speaker": "Dr. Aimen Seghaier (SIEMENS)"
+                        }
+                    ]
                 },
                 {
                     "time": "16h35 – 16h50",
