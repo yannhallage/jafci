@@ -128,7 +128,7 @@ class Builder:
 
     def room_label(self, room):
         room = str(room).replace("Houpheit Bougnie", "Houphouët Boigny")
-        if room == "Amphithéâtre ICA" or room.startswith("Salle "):
+        if room in ("Amphithéâtre ICA", "Restaurant 7e étage") or room.startswith("Salle "):
             return room
         return f"Salle {room}"
 
